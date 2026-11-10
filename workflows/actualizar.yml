@@ -1,4 +1,4 @@
-name: Actualizar datos del día
+.github/workflows/actualizar.yml: Actualizar datos del día
 
 on:
   schedule:
