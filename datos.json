@@ -1,0 +1,74 @@
+{
+  "actualizado": "2026-11-10T11:45:00-03:00",
+  "dolar": {
+    "oficial": { "compra": 1520, "venta": 1570, "fuente": "Banco Nación" },
+    "blue": { "compra": 1535, "venta": 1555 },
+    "mep": { "venta": 1583.82 },
+    "ccl": { "venta": 1637.43 },
+    "tarjeta": { "venta": 2041 },
+    "mayorista": { "venta": 1545.5 },
+    "fuente": "Ámbito y Diario Mendoza, 10/11/2026"
+  },
+  "riesgoPais": { "valor": 880, "fuente": "JP Morgan vía Infobae, 9/11/2026" },
+  "inflacion": {
+    "ultimoMes": "Septiembre 2026",
+    "mensual": 1.9,
+    "acumuladaAnio": 23.6,
+    "interanual": 33.4,
+    "serie2026": [
+      { "mes": "Ene", "valor": 2.9 },
+      { "mes": "Feb", "valor": 2.9 },
+      { "mes": "Mar", "valor": 3.4 },
+      { "mes": "Abr", "valor": 2.6 },
+      { "mes": "May", "valor": 2.1 },
+      { "mes": "Jun", "valor": 1.9 },
+      { "mes": "Jul", "valor": 2.1 },
+      { "mes": "Ago", "valor": 1.7 },
+      { "mes": "Sep", "valor": 1.9 }
+    ],
+    "proximoDato": "Octubre 2026, el jueves 12 de noviembre",
+    "fuente": "INDEC"
+  },
+  "plazoFijo": {
+    "tnaReferencia": 24,
+    "detalle": "Tasa más alta a 30 días entre los bancos que informan al BCRA (Banco Bica y Banco CMF). Los bancos grandes pagan menos.",
+    "fuente": "calcularsueldo.com.ar, datos al 2/11/2026"
+  },
+  "noticias": [
+    {
+      "titulo": "El riesgo país bajó de los 900 puntos",
+      "resumen": "Después de tocar su nivel más alto en más de un año, el riesgo país cayó cerca de 7% en una jornada buena para los mercados del mundo y quedó alrededor de 880 puntos.",
+      "bolsillo": "Cuando baja el riesgo país, al Gobierno y a las empresas les sale más barato pedir prestado. Eso suele traer algo de calma a los mercados.",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/economia/2026/11/10/el-riesgo-pais-cayo-con-fuerza-en-la-argentina-y-se-espera-una-baja-de-tasas-a-nivel-global/"
+    },
+    {
+      "titulo": "¿Por qué el dólar no se mueve aunque los bonos caigan?",
+      "resumen": "El riesgo país subió mucho en los últimos meses, pero el dólar casi no cambió. Según la Fundación Mediterránea, hay pocos pesos dando vueltas por la política monetaria dura, y eso frena la compra de dólares.",
+      "bolsillo": "Por ahora el dólar está tranquilo, pero los analistas siguen de cerca la deuda que hay que pagar en 2027.",
+      "fuente": "Perfil",
+      "url": "https://www.perfil.com/economia/el-riesgo-pais-llego-a-939-puntos-y-el-dolar-no-se-mueve-que-hay-detras-de-la-calma-cambiaria-a1jUN1R7Eu71"
+    },
+    {
+      "titulo": "El blue sigue por debajo del oficial",
+      "resumen": "Este martes el dólar blue se vende a $1.555, menos que los $1.570 del oficial en el Banco Nación. El MEP está cerca de $1.584.",
+      "bolsillo": "Hoy la diferencia entre los distintos dólares es chica, así que no hay mucha ventaja en comprar uno u otro.",
+      "fuente": "Ámbito",
+      "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cotiza-este-martes-10-noviembre-n6343411"
+    },
+    {
+      "titulo": "El jueves sale la inflación de octubre",
+      "resumen": "El INDEC publica el dato de octubre el jueves 12. Los analistas que consulta el Banco Central esperan alrededor de 1,8%, un poco menos que el 1,9% de septiembre.",
+      "bolsillo": "Si la inflación da menos que la tasa del plazo fijo, el que tiene la plata en el banco le gana a la suba de precios.",
+      "fuente": "Reuters vía GBM",
+      "url": "https://gbm.com/media/noticia/inflacion-argentina-habria-sido-del-18-en-octubre-encuesta-del-banco-central/"
+    },
+    {
+      "titulo": "Plazo fijo: los bancos chicos pagan más",
+      "resumen": "A principios de noviembre, las tasas más altas a 30 días eran de alrededor de 24% anual, en bancos como Bica y CMF. Los bancos más grandes pagan menos.",
+      "bolsillo": "Comparar bancos antes de hacer un plazo fijo puede darte varios miles de pesos más. Probá la calculadora de abajo.",
+      "fuente": "calcularsueldo.com.ar",
+      "url": "https://calcularsueldo.com.ar/?p=16406"
+    }
+  ]
+}

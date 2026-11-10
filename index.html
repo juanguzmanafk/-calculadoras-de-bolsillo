@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculadoras de Bolsillo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout: franja de cotizaciones arriba, noticias del día en grilla, y debajo las calculadoras (entradas a la izquierda, resultados a la derecha) */
+:root {
+  --bg: #eef1f4;
+  --surface: #ffffff;
+  --ink: #14202e;
+  --muted: #5a6878;
+  --line: #d3dae2;
+  --accent: #1f5fd1;
+  --accent-soft: #e3ecfb;
+  --good: #137a4b;
+  --good-soft: #def3e8;
+  --bad: #b3261e;
+  --bad-soft: #fbe3e1;
+  --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-num: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e141b; --surface: #16202b; --ink: #e6edf4; --muted: #95a3b3; --line: #2a3644;
+    --accent: #6fa0ff; --accent-soft: #1c2c45; --good: #4cc98c; --good-soft: #15322a;
+    --bad: #ff8a80; --bad-soft: #3a1d1c; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e141b; --surface: #16202b; --ink: #e6edf4; --muted: #95a3b3; --line: #2a3644;
+  --accent: #6fa0ff; --accent-soft: #1c2c45; --good: #4cc98c; --good-soft: #15322a;
+  --bad: #ff8a80; --bad-soft: #3a1d1c; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.5; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 28px 20px 48px; display: grid; gap: 28px; }
+header { display: grid; gap: 10px; }
+h1 { font-family: var(--font-display); font-weight: 800; font-size: clamp(2rem, 5vw, 2.9rem); line-height: 1.05; margin: 0; letter-spacing: -0.02em; text-wrap: balance; }
+h1 span { color: var(--accent); }
+.lead { margin: 0; color: var(--muted); max-width: 64ch; }
+nav { display: flex; flex-wrap: wrap; gap: 8px; }
+nav a { text-decoration: none; color: var(--accent); background: var(--accent-soft); padding: 6px 12px; border-radius: 999px; font-weight: 500; font-size: .92rem; }
+nav a:hover, nav a:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+a { color: var(--accent); }
+
+/* Franja de cotizaciones */
+.ticker { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; display: grid; gap: 12px; }
+.ticker-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; align-items: baseline; }
+.ticker-head h2 { font-family: var(--font-display); font-weight: 600; font-size: 1.15rem; margin: 0; }
+.stamp { font-size: .85rem; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+.stamp .live { width: 8px; height: 8px; border-radius: 50%; background: var(--good); }
+.quotes { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; }
+.quote { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; display: grid; gap: 2px; }
+.quote .name { font-size: .82rem; color: var(--muted); }
+.quote .price { font-family: var(--font-num); font-weight: 600; font-size: 1.25rem; font-variant-numeric: tabular-nums; }
+.quote .sub { font-size: .76rem; color: var(--muted); font-family: var(--font-num); }
+.ticker-foot { font-size: .78rem; color: var(--muted); }
+
+/* Noticias */
+.news { display: grid; gap: 14px; }
+.section-title { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px; }
+.section-title h2 { font-family: var(--font-display); font-weight: 600; font-size: 1.45rem; margin: 0; }
+.section-title p { margin: 0; color: var(--muted); font-size: .9rem; }
+.news-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 14px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; gap: 8px; align-content: start; }
+.card h3 { margin: 0; font-size: 1.05rem; line-height: 1.3; text-wrap: balance; }
+.card p { margin: 0; font-size: .93rem; }
+.card .pocket { background: var(--accent-soft); border-radius: 8px; padding: 8px 10px; font-size: .88rem; }
+.card .pocket b { color: var(--accent); }
+.card .src { font-size: .82rem; color: var(--muted); }
+
+/* Calculadoras */
+.calc { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 24px; display: grid; gap: 18px; scroll-margin-top: 16px; }
+.calc-head { display: grid; gap: 4px; }
+.calc h2 { font-family: var(--font-display); font-weight: 600; font-size: 1.45rem; margin: 0; text-wrap: balance; }
+.calc-head p { margin: 0; color: var(--muted); max-width: 65ch; }
+.body { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); gap: 24px; align-items: start; }
+@media (max-width: 760px) { .body { grid-template-columns: 1fr; } }
+.inputs { display: grid; gap: 14px; }
+.field { display: grid; gap: 4px; }
+.field label { font-weight: 500; font-size: .93rem; }
+.field small { color: var(--muted); font-size: .8rem; }
+.auto { color: var(--good); font-weight: 600; }
+.input-box { display: flex; align-items: center; border: 1px solid var(--line); border-radius: 9px; background: var(--bg); overflow: hidden; }
+.input-box:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.input-box span { padding: 0 10px; color: var(--muted); font-family: var(--font-num); font-size: .9rem; }
+.input-box input, .input-box select { flex: 1; min-width: 0; border: 0; background: transparent; color: var(--ink); font-family: var(--font-num); font-size: 1rem; padding: 10px 10px; outline: none; font-variant-numeric: tabular-nums; }
+.input-box select { font-family: var(--font-body); cursor: pointer; }
+.results { display: grid; gap: 14px; }
+.verdict { display: flex; align-items: center; gap: 10px; padding: 12px 14px; border-radius: 10px; font-weight: 600; }
+.verdict.good { background: var(--good-soft); color: var(--good); }
+.verdict.bad { background: var(--bad-soft); color: var(--bad); }
+.verdict .dot { width: 10px; height: 10px; border-radius: 50%; background: currentColor; flex: none; }
+.big { display: grid; gap: 2px; }
+.big .lbl { color: var(--muted); font-size: .88rem; }
+.big .val { font-family: var(--font-num); font-weight: 600; font-size: clamp(1.6rem, 4vw, 2.1rem); font-variant-numeric: tabular-nums; line-height: 1.15; overflow-wrap: anywhere; }
+.rows { display: grid; border-top: 1px solid var(--line); }
+.row { display: flex; justify-content: space-between; gap: 12px; padding: 9px 0; border-bottom: 1px solid var(--line); font-size: .95rem; }
+.row span:first-child { color: var(--muted); }
+.row span:last-child { font-family: var(--font-num); font-variant-numeric: tabular-nums; text-align: right; }
+.row.best span:last-child { color: var(--good); font-weight: 600; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+button { font: inherit; font-weight: 500; font-size: .92rem; cursor: pointer; border: 1px solid var(--accent); color: var(--accent); background: transparent; padding: 8px 14px; border-radius: 9px; }
+button:hover { background: var(--accent-soft); }
+button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.copied { color: var(--good); font-size: .88rem; }
+.chart svg { width: 100%; height: auto; display: block; }
+.chart .legend { display: flex; gap: 16px; flex-wrap: wrap; font-size: .82rem; color: var(--muted); margin-top: 6px; }
+.chart .legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.chart-title { font-size: .85rem; color: var(--muted); margin: 0 0 4px; }
+.error { background: var(--bad-soft); color: var(--bad); border-radius: 10px; padding: 12px 14px; font-weight: 500; }
+footer { color: var(--muted); font-size: .85rem; max-width: 72ch; display: grid; gap: 6px; }
+footer p { margin: 0; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Calculadoras <span>de bolsillo</span></h1>
+    <p class="lead">El dólar, la inflación y las noticias de economía del día, explicadas fácil. Las calculadoras ya vienen cargadas con los datos de hoy y se actualizan todas las noches.</p>
+    <nav aria-label="Secciones">
+      <a href="#noticias">Noticias</a>
+      <a href="#dolar">Dólar</a>
+      <a href="#plazo-fijo">Plazo fijo</a>
+      <a href="#sueldo">Sueldo vs inflación</a>
+      <a href="#ahorro">Ahorro mensual</a>
+    </nav>
+  </header>
+
+  <div id="load-error" class="error" hidden>No se pudieron cargar los datos del día. Probá recargar la página.</div>
+
+  <!-- COTIZACIONES -->
+  <section class="ticker" aria-labelledby="t-title">
+    <div class="ticker-head">
+      <h2 id="t-title">Cómo está todo hoy</h2>
+      <span class="stamp"><span class="live"></span><span id="stamp">Cargando…</span></span>
+    </div>
+    <div class="quotes" id="quotes"></div>
+    <div class="ticker-foot" id="ticker-foot"></div>
+  </section>
+
+  <!-- NOTICIAS -->
+  <section class="news" id="noticias">
+    <div class="section-title">
+      <h2>Noticias del día</h2>
+      <p>Lo más importante de economía hoy, con el link a la nota original.</p>
+    </div>
+    <div class="news-grid" id="news-grid"></div>
+  </section>
+
+  <!-- DÓLAR -->
+  <section class="calc" id="dolar">
+    <div class="calc-head">
+      <h2>¿Cuántos dólares me compro con mis pesos?</h2>
+      <p>Poné cuántos pesos tenés y te mostramos cuántos dólares conseguís con cada tipo de dólar, con la cotización de hoy.</p>
+    </div>
+    <div class="body">
+      <div class="inputs">
+        <div class="field">
+          <label for="d-pesos">Pesos que tenés</label>
+          <div class="input-box"><span>$</span><input id="d-pesos" type="text" inputmode="numeric" value="500.000"></div>
+        </div>
+        <div class="field">
+          <label for="d-usd">O al revés: dólares que querés</label>
+          <div class="input-box"><span>US$</span><input id="d-usd" type="text" inputmode="numeric" value="100"></div>
+          <small>Te decimos cuántos pesos necesitás para cada tipo.</small>
+        </div>
+      </div>
+      <div class="results" aria-live="polite">
+        <div class="big"><span class="lbl">Con tus pesos, el que más te rinde es</span><span class="val" id="d-best"></span></div>
+        <div class="rows" id="d-rows"></div>
+        <div class="actions"><button type="button" data-copy="d">Copiar resultado</button><span class="copied" id="d-copied"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLAZO FIJO -->
+  <section class="calc" id="plazo-fijo">
+    <div class="calc-head">
+      <h2>¿Cuánto te da un plazo fijo?</h2>
+      <p>La tasa y la inflación vienen cargadas con los datos más recientes. Cambialas si tu banco te ofrece otra tasa.</p>
+    </div>
+    <div class="body">
+      <div class="inputs">
+        <div class="field">
+          <label for="pf-monto">Monto a invertir</label>
+          <div class="input-box"><span>$</span><input id="pf-monto" type="text" inputmode="numeric" value="1.000.000"></div>
+        </div>
+        <div class="field">
+          <label for="pf-tna">TNA (tasa nominal anual)</label>
+          <div class="input-box"><input id="pf-tna" type="text" inputmode="decimal" value="24"><span>%</span></div>
+          <small id="pf-tna-note"></small>
+        </div>
+        <div class="field">
+          <label for="pf-dias">Plazo</label>
+          <div class="input-box"><input id="pf-dias" type="text" inputmode="numeric" value="30"><span>días</span></div>
+        </div>
+        <div class="field">
+          <label for="pf-inf">Inflación mensual esperada</label>
+          <div class="input-box"><input id="pf-inf" type="text" inputmode="decimal" value="1,9"><span>%</span></div>
+          <small id="pf-inf-note"></small>
+        </div>
+      </div>
+      <div class="results" aria-live="polite">
+        <div class="verdict" id="pf-verdict"><span class="dot"></span><span id="pf-verdict-text"></span></div>
+        <div class="big"><span class="lbl">Cobrás al final</span><span class="val" id="pf-total"></span></div>
+        <div class="rows">
+          <div class="row"><span>Intereses ganados</span><span id="pf-int"></span></div>
+          <div class="row"><span>Tasa del período</span><span id="pf-tper"></span></div>
+          <div class="row"><span>TEA (si renovás todo el año)</span><span id="pf-tea"></span></div>
+          <div class="row"><span>Inflación en el período</span><span id="pf-infper"></span></div>
+          <div class="row"><span>Ganancia real (descontando inflación)</span><span id="pf-real"></span></div>
+          <div class="row"><span>Si en vez de eso comprás dólar MEP</span><span id="pf-mep"></span></div>
+        </div>
+        <div class="actions"><button type="button" data-copy="pf">Copiar resultado</button><span class="copied" id="pf-copied"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUELDO VS INFLACIÓN -->
+  <section class="calc" id="sueldo">
+    <div class="calc-head">
+      <h2>¿Tu sueldo le ganó a la inflación?</h2>
+      <p>Elegí el período y la inflación se carga sola con los datos del INDEC.</p>
+    </div>
+    <div class="body">
+      <div class="inputs">
+        <div class="field">
+          <label for="s-antes">Sueldo al principio del período</label>
+          <div class="input-box"><span>$</span><input id="s-antes" type="text" inputmode="numeric" value="800.000"></div>
+        </div>
+        <div class="field">
+          <label for="s-ahora">Sueldo de ahora</label>
+          <div class="input-box"><span>$</span><input id="s-ahora" type="text" inputmode="numeric" value="1.000.000"></div>
+        </div>
+        <div class="field">
+          <label for="s-periodo">Período</label>
+          <div class="input-box"><select id="s-periodo">
+            <option value="interanual">Últimos 12 meses</option>
+            <option value="anio">En lo que va de 2026</option>
+            <option value="manual">Otro (lo escribo yo)</option>
+          </select></div>
+        </div>
+        <div class="field">
+          <label for="s-inf">Inflación acumulada en ese período</label>
+          <div class="input-box"><input id="s-inf" type="text" inputmode="decimal" value="33,4"><span>%</span></div>
+          <small id="s-inf-note"></small>
+        </div>
+      </div>
+      <div class="results" aria-live="polite">
+        <div class="verdict" id="s-verdict"><span class="dot"></span><span id="s-verdict-text"></span></div>
+        <div class="big"><span class="lbl">Tu poder de compra cambió</span><span class="val" id="s-real"></span></div>
+        <div class="rows">
+          <div class="row"><span>Aumento que recibiste</span><span id="s-aum"></span></div>
+          <div class="row"><span>Sueldo necesario para empatar</span><span id="s-empate"></span></div>
+          <div class="row"><span>Diferencia por mes</span><span id="s-dif"></span></div>
+          <div class="row"><span>Tu sueldo de hoy, en pesos de antes</span><span id="s-pesosantes"></span></div>
+        </div>
+        <div class="chart">
+          <p class="chart-title">Inflación mensual de 2026 (INDEC)</p>
+          <svg id="s-chart" viewBox="0 0 520 170" role="img" aria-label="Gráfico de barras de la inflación mensual de 2026"></svg>
+        </div>
+        <div class="actions"><button type="button" data-copy="s">Copiar resultado</button><span class="copied" id="s-copied"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AHORRO MENSUAL -->
+  <section class="calc" id="ahorro">
+    <div class="calc-head">
+      <h2>¿Cuánto juntás si ahorrás todos los meses?</h2>
+      <p>Poné cuánto separás por mes y por cuánto tiempo. El rendimiento arranca con la tasa de plazo fijo de hoy.</p>
+    </div>
+    <div class="body">
+      <div class="inputs">
+        <div class="field">
+          <label for="a-inicial">Monto inicial</label>
+          <div class="input-box"><span>$</span><input id="a-inicial" type="text" inputmode="numeric" value="0"></div>
+        </div>
+        <div class="field">
+          <label for="a-mes">Ahorro por mes</label>
+          <div class="input-box"><span>$</span><input id="a-mes" type="text" inputmode="numeric" value="50.000"></div>
+        </div>
+        <div class="field">
+          <label for="a-meses">Durante</label>
+          <div class="input-box"><input id="a-meses" type="text" inputmode="numeric" value="24"><span>meses</span></div>
+        </div>
+        <div class="field">
+          <label for="a-tasa">Rendimiento mensual</label>
+          <div class="input-box"><input id="a-tasa" type="text" inputmode="decimal" value="2"><span>%</span></div>
+          <small id="a-tasa-note"></small>
+        </div>
+      </div>
+      <div class="results" aria-live="polite">
+        <div class="big"><span class="lbl">Tendrías al final</span><span class="val" id="a-total"></span></div>
+        <div class="rows">
+          <div class="row"><span>Plata que pusiste vos</span><span id="a-puesto"></span></div>
+          <div class="row"><span>Intereses ganados</span><span id="a-int"></span></div>
+          <div class="row"><span>En dólares MEP de hoy</span><span id="a-usd"></span></div>
+        </div>
+        <div class="chart">
+          <svg id="a-chart" viewBox="0 0 520 220" role="img" aria-label="Gráfico del ahorro acumulado mes a mes"></svg>
+          <div class="legend"><span><i style="background:var(--accent)"></i>Total con intereses</span><span><i style="background:var(--muted)"></i>Lo que pusiste vos</span></div>
+        </div>
+        <div class="actions"><button type="button" data-copy="a">Copiar resultado</button><span class="copied" id="a-copied"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Estas calculadoras son educativas y no son una recomendación de inversión. Los resultados son estimaciones: las tasas y la inflación cambian, y cada banco puede calcular distinto.</p>
+    <p id="sources"></p>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var peso = new Intl.NumberFormat("es-AR", { style: "currency", currency: "ARS", maximumFractionDigits: 0 });
+  var peso2 = new Intl.NumberFormat("es-AR", { style: "currency", currency: "ARS", minimumFractionDigits: 0, maximumFractionDigits: 2 });
+  var usdFmt = new Intl.NumberFormat("es-AR", { style: "currency", currency: "USD", currencyDisplay: "code", maximumFractionDigits: 0 });
+  var pct = function (x) { return (x * 100).toLocaleString("es-AR", { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + "%"; };
+  var signedPct = function (x) { return (x > 0 ? "+" : "") + pct(x); };
+  var plata = function (x) { return peso.format(Math.round(x)); };
+  var dec = function (x) { return String(x).replace(".", ","); };
+  var D = null;
+  var copyText = {};
+
+  // Lee números escritos al estilo argentino: "1.000.000" o "2,5"
+  function num(id) {
+    var s = String($(id).value).trim().replace(/\s/g, "").replace(/\$/g, "");
+    if (s.indexOf(",") >= 0) { s = s.replace(/\./g, "").replace(",", "."); }
+    else if (/^\d{1,3}(\.\d{3})+$/.test(s)) { s = s.replace(/\./g, ""); }
+    var n = parseFloat(s);
+    return isFinite(n) ? n : 0;
+  }
+  function setVerdict(id, good, text) {
+    $(id).className = "verdict " + (good ? "good" : "bad");
+    $(id + "-text").textContent = text;
+  }
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+
+  function fechaLarga(iso) {
+    var d = new Date(iso);
+    if (isNaN(d)) return iso;
+    return d.toLocaleString("es-AR", { weekday: "long", day: "numeric", month: "long", hour: "2-digit", minute: "2-digit", timeZone: "America/Argentina/Buenos_Aires" });
+  }
+
+  // ---------- Pintar datos del día ----------
+  function renderTicker() {
+    $("stamp").textContent = "Actualizado el " + fechaLarga(D.actualizado);
+    var q = [
+      ["Dólar oficial", D.dolar.oficial.venta, "Compra " + peso2.format(D.dolar.oficial.compra)],
+      ["Dólar blue", D.dolar.blue.venta, "Compra " + peso2.format(D.dolar.blue.compra)],
+      ["Dólar MEP", D.dolar.mep.venta, "Bolsa"],
+      ["Dólar CCL", D.dolar.ccl.venta, "Contado con liqui"],
+      ["Dólar tarjeta", D.dolar.tarjeta.venta, "Con impuestos"],
+    ];
+    var box = $("quotes"); box.innerHTML = "";
+    q.forEach(function (x) {
+      var c = el("div", "quote");
+      c.appendChild(el("span", "name", x[0]));
+      c.appendChild(el("span", "price", peso2.format(x[1])));
+      c.appendChild(el("span", "sub", x[2]));
+      box.appendChild(c);
+    });
+    var inf = el("div", "quote");
+    inf.appendChild(el("span", "name", "Inflación " + D.inflacion.ultimoMes.toLowerCase()));
+    inf.appendChild(el("span", "price", dec(D.inflacion.mensual) + "%"));
+    inf.appendChild(el("span", "sub", dec(D.inflacion.interanual) + "% en 12 meses"));
+    box.appendChild(inf);
+    var rp = el("div", "quote");
+    rp.appendChild(el("span", "name", "Riesgo país"));
+    rp.appendChild(el("span", "price", D.riesgoPais.valor.toLocaleString("es-AR")));
+    rp.appendChild(el("span", "sub", "puntos básicos"));
+    box.appendChild(rp);
+    $("ticker-foot").textContent = "Precios de venta. Próximo dato de inflación: " + D.inflacion.proximoDato + ".";
+  }
+
+  function renderNews() {
+    var g = $("news-grid"); g.innerHTML = "";
+    (D.noticias || []).forEach(function (n) {
+      var c = el("article", "card");
+      c.appendChild(el("h3", null, n.titulo));
+      if (n.resumen) c.appendChild(el("p", null, n.resumen));
+      if (n.bolsillo) {
+        var p = el("p", "pocket"); var b = el("b", null, "¿Y a mí qué? "); p.appendChild(b); p.appendChild(document.createTextNode(n.bolsillo));
+        c.appendChild(p);
+      }
+      var s = el("p", "src"); s.appendChild(document.createTextNode("Fuente: "));
+      var a = el("a", null, n.fuente); a.href = n.url; a.rel = "noopener"; a.target = "_blank";
+      s.appendChild(a); c.appendChild(s);
+      g.appendChild(c);
+    });
+  }
+
+  function renderSources() {
+    $("sources").textContent = "Fuentes: dólar, " + D.dolar.fuente + "; inflación, " + D.inflacion.fuente + "; riesgo país, " + D.riesgoPais.fuente + "; plazo fijo, " + D.plazoFijo.fuente + ".";
+  }
+
+  function prefill() {
+    $("pf-tna").value = dec(D.plazoFijo.tnaReferencia);
+    $("pf-tna-note").innerHTML = '<span class="auto">Automático:</span> ';
+    $("pf-tna-note").appendChild(document.createTextNode(D.plazoFijo.detalle));
+    $("pf-inf").value = dec(D.inflacion.mensual);
+    $("pf-inf-note").innerHTML = '<span class="auto">Automático:</span> ';
+    $("pf-inf-note").appendChild(document.createTextNode("último dato del INDEC (" + D.inflacion.ultimoMes + ")."));
+    var tm = Math.round(D.plazoFijo.tnaReferencia / 12 * 100) / 100;
+    $("a-tasa").value = dec(tm);
+    $("a-tasa-note").innerHTML = '<span class="auto">Automático:</span> ';
+    $("a-tasa").dataset.auto = "1";
+    $("a-tasa-note").appendChild(document.createTextNode("la TNA de plazo fijo de hoy (" + dec(D.plazoFijo.tnaReferencia) + "%) dividida 12."));
+    setPeriodo();
+  }
+
+  function setPeriodo() {
+    var v = $("s-periodo").value, note = $("s-inf-note");
+    if (v === "interanual") { $("s-inf").value = dec(D.inflacion.interanual); note.innerHTML = '<span class="auto">Automático:</span> inflación de los últimos 12 meses hasta ' + D.inflacion.ultimoMes.toLowerCase() + "."; }
+    else if (v === "anio") { $("s-inf").value = dec(D.inflacion.acumuladaAnio); note.innerHTML = '<span class="auto">Automático:</span> inflación de enero a ' + D.inflacion.ultimoMes.toLowerCase() + "."; }
+    else { note.textContent = "Escribí la inflación del período que quieras comparar."; }
+  }
+
+  // ---------- Calculadoras ----------
+  function calcD() {
+    var pesos = num("d-pesos"), usd = num("d-usd");
+    var tipos = [["Oficial (Banco Nación)", D.dolar.oficial.venta], ["Blue", D.dolar.blue.venta], ["MEP", D.dolar.mep.venta], ["CCL", D.dolar.ccl.venta], ["Tarjeta", D.dolar.tarjeta.venta]];
+    var best = tipos.reduce(function (a, b) { return b[1] < a[1] ? b : a; });
+    $("d-best").textContent = best[0].split(" ")[0] + ": " + usdFmt.format(Math.floor(pesos / best[1]));
+    var rows = $("d-rows"); rows.innerHTML = "";
+    tipos.forEach(function (t) {
+      var r = el("div", "row" + (t === best ? " best" : ""));
+      r.appendChild(el("span", null, t[0]));
+      r.appendChild(el("span", null, usdFmt.format(Math.floor(pesos / t[1])) + "  ·  " + usd.toLocaleString("es-AR") + " USD = " + plata(usd * t[1])));
+      rows.appendChild(r);
+    });
+    copyText.d = "Con " + plata(pesos) + " hoy me compro " + usdFmt.format(Math.floor(pesos / D.dolar.blue.venta)) + " blue o " + usdFmt.format(Math.floor(pesos / D.dolar.mep.venta)) + " MEP.";
+  }
+
+  function calcPF() {
+    var monto = num("pf-monto"), tna = num("pf-tna") / 100, dias = Math.max(1, num("pf-dias")), inf = num("pf-inf") / 100;
+    var tper = tna * dias / 365;
+    var interes = monto * tper;
+    var total = monto + interes;
+    var tea = Math.pow(1 + tper, 365 / dias) - 1;
+    var infPer = Math.pow(1 + inf, dias / 30) - 1;
+    var real = (1 + tper) / (1 + infPer) - 1;
+    $("pf-total").textContent = plata(total);
+    $("pf-int").textContent = plata(interes);
+    $("pf-tper").textContent = pct(tper);
+    $("pf-tea").textContent = pct(tea);
+    $("pf-infper").textContent = pct(infPer);
+    $("pf-real").textContent = signedPct(real);
+    var mepUsd = monto / D.dolar.mep.venta;
+    var precioEmpate = total / mepUsd;
+    $("pf-mep").textContent = usdFmt.format(Math.floor(mepUsd)) + " (empata si el MEP llega a " + plata(precioEmpate) + ")";
+    var gana = real >= 0;
+    setVerdict("pf-verdict", gana, gana ? "Le ganás a la inflación por " + pct(real) : "Perdés contra la inflación por " + pct(-real));
+    copyText.pf = "Si pongo " + plata(monto) + " en un plazo fijo a " + dias + " días con TNA " + pct(tna) + ", cobro " + plata(total) + " (" + plata(interes) + " de intereses). Ganancia real: " + signedPct(real) + ".";
+  }
+
+  function calcS() {
+    var antes = num("s-antes"), ahora = num("s-ahora"), inf = num("s-inf") / 100;
+    if (antes <= 0) antes = 1;
+    var aum = ahora / antes - 1;
+    var real = (1 + aum) / (1 + inf) - 1;
+    var empate = antes * (1 + inf);
+    var dif = ahora - empate;
+    $("s-real").textContent = signedPct(real);
+    $("s-aum").textContent = signedPct(aum);
+    $("s-empate").textContent = plata(empate);
+    $("s-dif").textContent = (dif >= 0 ? "+" : "−") + plata(Math.abs(dif));
+    $("s-pesosantes").textContent = plata(ahora / (1 + inf));
+    var gana = real >= 0;
+    setVerdict("s-verdict", gana, gana ? "Tu sueldo le ganó a la inflación" : "Tu sueldo perdió contra la inflación");
+    copyText.s = "Mi sueldo subió " + signedPct(aum) + " y la inflación fue " + pct(inf) + ". Mi poder de compra cambió " + signedPct(real) + ".";
+  }
+
+  function drawInfChart() {
+    var s = D.inflacion.serie2026, svg = $("s-chart"), W = 520, H = 170, L = 34, R = 8, T = 18, B = 24;
+    var max = Math.ceil(Math.max.apply(null, s.map(function (x) { return x.valor; })));
+    var bw = (W - L - R) / s.length;
+    var y = function (v) { return T + (H - T - B) * (1 - v / max); };
+    var out = "";
+    for (var g = 0; g <= max; g++) {
+      var yy = y(g).toFixed(1);
+      out += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + yy + '" y2="' + yy + '" stroke="var(--line)"/>';
+      out += '<text x="' + (L - 6) + '" y="' + (+yy + 4) + '" text-anchor="end" font-size="11" fill="var(--muted)" font-family="var(--font-num)">' + g + '%</text>';
+    }
+    s.forEach(function (m, i) {
+      var x = L + i * bw + bw * 0.18, w = bw * 0.64, last = i === s.length - 1;
+      out += '<rect x="' + x.toFixed(1) + '" y="' + y(m.valor).toFixed(1) + '" width="' + w.toFixed(1) + '" height="' + (y(0) - y(m.valor)).toFixed(1) + '" rx="3" fill="var(--accent)" fill-opacity="' + (last ? 1 : 0.45) + '"/>';
+      out += '<text x="' + (x + w / 2).toFixed(1) + '" y="' + (y(m.valor) - 5).toFixed(1) + '" text-anchor="middle" font-size="10.5" fill="var(--ink)" font-family="var(--font-num)">' + dec(m.valor) + '</text>';
+      out += '<text x="' + (x + w / 2).toFixed(1) + '" y="' + (H - 7) + '" text-anchor="middle" font-size="11" fill="var(--muted)">' + m.mes + '</text>';
+    });
+    svg.innerHTML = out;
+  }
+
+  function calcA() {
+    var ini = num("a-inicial"), mes = num("a-mes"), n = Math.min(600, Math.max(1, Math.round(num("a-meses")))), r = num("a-tasa") / 100;
+    var saldo = ini, puesto = ini, serieT = [ini], serieP = [ini];
+    for (var i = 1; i <= n; i++) {
+      saldo = saldo * (1 + r) + mes;
+      puesto += mes;
+      serieT.push(saldo); serieP.push(puesto);
+    }
+    $("a-total").textContent = plata(saldo);
+    $("a-puesto").textContent = plata(puesto);
+    $("a-int").textContent = plata(saldo - puesto);
+    $("a-usd").textContent = usdFmt.format(Math.floor(saldo / D.dolar.mep.venta));
+    drawSavings(serieT, serieP, n);
+    copyText.a = "Ahorrando " + plata(mes) + " por mes durante " + n + " meses al " + pct(r) + " mensual, junto " + plata(saldo) + " (" + plata(puesto) + " puestos por mí y " + plata(saldo - puesto) + " de intereses).";
+  }
+
+  function drawSavings(t, p, n) {
+    var svg = $("a-chart"), W = 520, H = 220, L = 70, R = 12, T = 12, B = 30;
+    var max = Math.max.apply(null, t.concat(p)) || 1;
+    var x = function (i) { return L + (W - L - R) * (i / n); };
+    var y = function (v) { return T + (H - T - B) * (1 - v / max); };
+    var line = function (s) { return s.map(function (v, i) { return (i ? "L" : "M") + x(i).toFixed(1) + " " + y(v).toFixed(1); }).join(" "); };
+    var area = line(t) + " L" + x(n) + " " + y(0) + " L" + x(0) + " " + y(0) + " Z";
+    var compact = new Intl.NumberFormat("es-AR", { notation: "compact", maximumFractionDigits: 1 });
+    var grid = "";
+    for (var g = 0; g <= 4; g++) {
+      var v = max * g / 4, yy = y(v).toFixed(1);
+      grid += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + yy + '" y2="' + yy + '" stroke="var(--line)" stroke-width="1"/>';
+      grid += '<text x="' + (L - 8) + '" y="' + (+yy + 4) + '" text-anchor="end" font-size="11" fill="var(--muted)" font-family="var(--font-num)">$' + compact.format(v) + '</text>';
+    }
+    var xl = '<text x="' + x(0) + '" y="' + (H - 8) + '" font-size="11" fill="var(--muted)" font-family="var(--font-num)">Mes 0</text>' +
+             '<text x="' + x(n) + '" y="' + (H - 8) + '" text-anchor="end" font-size="11" fill="var(--muted)" font-family="var(--font-num)">Mes ' + n + '</text>';
+    svg.innerHTML = grid + xl +
+      '<path d="' + area + '" fill="var(--accent)" fill-opacity="0.14"/>' +
+      '<path d="' + line(p) + '" fill="none" stroke="var(--muted)" stroke-width="2" stroke-dasharray="5 4"/>' +
+      '<path d="' + line(t) + '" fill="none" stroke="var(--accent)" stroke-width="2.5"/>' +
+      '<circle cx="' + x(n) + '" cy="' + y(t[n]) + '" r="4.5" fill="var(--accent)"/>';
+  }
+
+  function all() { calcD(); calcPF(); calcS(); calcA(); }
+
+  function start(data) {
+    D = data;
+    renderTicker(); renderNews(); renderSources(); prefill(); drawInfChart(); all();
+    document.querySelectorAll("input").forEach(function (i) { i.addEventListener("input", all); });
+    $("s-inf").addEventListener("input", function () { $("s-periodo").value = "manual"; setPeriodo(); });
+    $("s-periodo").addEventListener("change", function () { setPeriodo(); all(); });
+    document.querySelectorAll("[data-copy]").forEach(function (b) {
+      b.addEventListener("click", function () {
+        var k = b.getAttribute("data-copy"), msg = $(k + "-copied");
+        try {
+          navigator.clipboard.writeText(copyText[k]).then(function () { msg.textContent = "¡Copiado!"; },
+            function () { msg.textContent = "No se pudo copiar"; });
+        } catch (e) { msg.textContent = "No se pudo copiar"; }
+        setTimeout(function () { msg.textContent = ""; }, 2500);
+      });
+    });
+  }
+
+  fetch("datos.json", { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(start)
+    .catch(function () { $("load-error").hidden = false; $("stamp").textContent = "Sin datos"; });
+})();
+</script>
+</body>
+</html>
