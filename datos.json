@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-11T22:25:38-03:00",
+  "actualizado": "2026-11-12T22:21:05-03:00",
   "dolar": {
     "oficial": {
       "compra": 1520,
@@ -7,26 +7,26 @@
       "fuente": "Banco Nación"
     },
     "blue": {
-      "compra": 1550,
-      "venta": 1570
+      "compra": 1545,
+      "venta": 1565
     },
     "mep": {
-      "venta": 1578.3
+      "venta": 1573.8
     },
     "ccl": {
-      "venta": 1664.9
+      "venta": 1668.4
     },
     "tarjeta": {
       "venta": 2041
     },
     "mayorista": {
-      "venta": 1544
+      "venta": 1545.5
     },
-    "fuente": "dolarapi.com, 11/11/2026"
+    "fuente": "dolarapi.com, 12/11/2026"
   },
   "riesgoPais": {
-    "valor": 860,
-    "fuente": "JP Morgan vía argentinadatos.com, 11/11/2026"
+    "valor": 852,
+    "fuente": "JP Morgan vía argentinadatos.com, 12/11/2026"
   },
   "inflacion": {
     "ultimoMes": "Septiembre 2026",
@@ -75,52 +75,52 @@
     "fuente": "INDEC"
   },
   "plazoFijo": {
-    "tnaReferencia": 24.25,
-    "detalle": "Tasa más alta a 30 días que informan los bancos al BCRA (BANCO DE COMERCIO). Los bancos grandes suelen pagar menos.",
-    "fuente": "BCRA vía argentinadatos.com, 11/11/2026"
+    "tnaReferencia": 24,
+    "detalle": "Tasa más alta a 30 días que informan los bancos al BCRA (BANCO BICA). Los bancos grandes suelen pagar menos.",
+    "fuente": "BCRA vía argentinadatos.com, 12/11/2026"
   },
   "noticias": [
     {
-      "titulo": "El riesgo país de la Argentina volvió a bajar y cerró en 852 puntos básicos",
+      "titulo": "La inflación acelera en Argentina por encima de las expectativas del mercado",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Agencia Noticias Argentinas",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWndETTVTMEpXX1BTOGdybjF3MVdfdEhyeVJZNEVvMnRQNWdlZWxUa2NUUjVYZnlQOEV3SkJRTXdLYWtyOVFteTVOUEYxUDM3VnREMEh2UDJjRTVEQk95elNGOTc1aHdvM3R4MndqZmROMllIRE96ZldfZ3hDc3h2VlNIa0xoQnZ5WktMRFVYdWhNSzNwUVhfM1IxZzNlNzB3UmN4Y1Q5cUJlbjFiT0FWZ3V0UVp2c3puWlhoWEZNUm85am5Ic2JXa3pHMGNTajVpc2RVb3FtNnDSAecBQVVfeXFMUHAwM2NVRktlN1QyeWVPOG92TnVvRndCZUdWNGxpOUNXS1c3b3BLMFNvd1RPNGR6YkNVN1p4YVBpYlFJMGppUHlUZFloLVJ0cUE3OUo3RHkzR0gyWVk0VUtNZGllekZlNDJCM2thOWlNckx1NUdQdHUxTnNqUnRJNGVtbzJIYTU2aUhPNDFDNmNkXzNPM1dhZVEyQ1dSZDZYRGpicTFZYlBjY1dTRnZ4SFZyTGpFME1hNlZVcW9HR3gtbkh3ajlka3hScHRjdHd4VWswNVBrY3hVZWtZZ0pWQkpEYVp3UFBZ?oc=5"
+      "fuente": "EL PAÍS",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeVZ6TDk5bVpfWXY5eTBYcklUWGVzMXVMSlRqVU9ONVZhUWthRFFJY096b1oxV19Eblc1SWhjeUVSOFlvbTY3YkZUMFI0bm92cEtGTWZ6OUFPaktMelYya0h4dl9ZWDVMbTZ2V2YtSTVHc2J1X19GalZNbDJIWHI0R2JhYW1IVVdKVWZyS3BPbU4ySGZyejZvZ215YklhdzJuYmtsWFJTUGF1SHFWRGRWcDdhT05iT19HUEJkTVhn0gHSAUFVX3lxTE5HZXljNGZlMTNvd3VHQ0ZkdVJTcUdCRHlKUGxNb0NqbUlQaGsteThEV1gyd1dpR3ljYzFOTi1TMEppSUVWZWhONlF2aWxyQUtVTnh5M3VZVV9UR3RlUXdSUWFvTFh0MlFYNjVPVkZtRVBHRm9pRWE3bm9BeV9JOEdZUHJ4N2x3WjJGNGZWUjRJRVltUzhpRDJ5UmM0QkZvMkYwaGVYRU1kOG9YeTlnN2puUU9GMzN6RzNsaVRwRVphY2hvazFPenlTcG5ydmhSRTNIUQ?oc=5"
     },
     {
-      "titulo": "El riesgo país volvió a bajar: cerró en 860 puntos básicos",
+      "titulo": "La inflación en octubre fue de 2,2% y acumuló 33,1% en los últimos doce meses",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Comercio y Justicia",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcTBYeFMwSEZjSWV0MnMtaUgzejF5OElaU21MbHdzaS1mUUxBUE1sYms0cG5MSVNKRDh5R1NmM2RabHZUTEJKUXpDaG82aURtc0VlN2xwcm1JZGhvWmltN1VCVDdpdXlKLXBFMGFsQUZQdWd3TFN6TFNYZzdrRXZvb1JtcEJMWmQ5dGVBeEt4NUlDRDZIdHBfcWRwRXllQkk?oc=5"
+      "fuente": "Infobae",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONlZ1a3dhUld2T05TUFlITDB0Z01pZTZqblNOYlBObTQxN0l3ZEM4MXU3eWU5RkdNZEYwZS1aeDBhbm91a1cxVDF5bFFLNm5zeW42eENKLXJtYTViWGEtX0ZHclFOUXBDMHN0dTNOSXpVR2wyNlRnQ3FsYnI2eUdNamJXX1gzTHRna05ybHNZQmUzeGh0Z3lENlpyTFR0dWtQWWxCMkJxNzVSRUtHVDNsaDE4UllmTjhEQmfSAdQBQVVfeXFMT0JZdVF3RjM2dF9VN0hjSFJFQk5WU3htQllweHEweFl5bkhxbkh0S2ZLVE4yOVY3UjJpVDJMSHE0TEI1NERBM0pvMENNTkE3NFBmR2MwOTVOenRFSlQ1R09Ra0ZGY1ZreVVrRW41VjVQUEtuZTdBci1HbGh0bmhadVRZeE1VUDVFV3hBOG5md1VWUjVuZjNNM1VFNzV5Ym9OSjBWcVNpNDViTTRwb2stR25uOUV2X0Yzckh4cUUwOF92UmRmcE5pXzVhR2xGYWNFM203Qm4?oc=5"
     },
     {
-      "titulo": "El riesgo país baja a 852 puntos y suma tres ruedas en caída",
+      "titulo": "Inflación de octubre de 2026: así quedaron los números después del dato del INDEC",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Diario El Norte - San Nicolás",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOT3FZS0FnNFlhRjFhbGhxYXEtSkNmZXVyWm1TY0ZfSWRpMkxZZ3R2TGx1alVsUzRhX3Y2NWxldC1MSTBxSGp2WS1ESHpZVnNnVGhZYnBzRmp6ODhVTWdCSndud1dUTmdKMXk1Mk9SRlNfUVlpLUFpMXFKQlNXWlBQZUt2TF9QYkFFa3NwNmsyWU5mc0Y5?oc=5"
+      "fuente": "TN",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSjhsY3NNQ2hULXlFcnJ1NDhuRDBZYXNSTmYtUm4wcXZnQzNSa1AxOGdXNFlLcDVhOFVqSWd5UlZzd2lTRmlnRzI1aFlrX2MzU09OMGVhR0o2MmtVaTQ0OU1SSmhua3U5NjNDVnd0UnQ5LVFWWi1pdmVsdE9fWWxkcXV4dEtyRUtuZWdfNVRLM3JaNk1WRXlsOXZzT0VXNnRPMEhrNjJZS0FXQTdEeTE1MjNDZnVlUHEwdG9fadIB0AFBVV95cUxNVWFtTmluVk9wVDdtcTRyS25adktCcU9Hdkd6TnJNalpjMGQ2dk5ab1B3X0Z0WFp2RDdXVWMwdzJUVjhiMFA0R09YbjVzTVNGTzNYZC1OSFF0UExqMmhRYm5sYlpnUmE5ZDl0SWh4aXFnODNlTkdEWXhLSFJBQ19MeFFES0lyOFJoaGZnN2hsejcwVjNuZnBjajNJa0dETEk4ZFEtNHc2N2NDUnFrb3dJdHNlZmdTZXR2S1F4QXdBbTN3YUJSQ0NUNVF0c2pEQnpG?oc=5"
     },
     {
-      "titulo": "Baja la tensión con los bonos y alivia al Gobierno para mantener el ancla con el dólar",
+      "titulo": "Inflación argentina rebotó en octubre: 2,2%, según el Indec",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "El Economista - Últimas noticias económicas y financieras",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV0ZzRE9SVjlYNF95MWd2N25ZTGs3clgxUVJKZUc2OF9wbzRKcVhFOFlOZ3dzZjdPamJWOUJmSkl5MmpKaDhzODJZb1RHN0JyM2ZrSU1OLVdWbHlhVV9iUnE0MUJfVldreDg4MXJUVFR6UXBSN3NxOWlRaWpoWVc5T0tSX29VYWFRcF85VkN6bi1FMWhiZDE3QUF2aEhVb0hj0gGmAUFVX3lxTE83bEEtcnBlY0ZfUUV5cmFudFdqNzRLSk1GVXJTMWkwVWlZRHlqalFlTUZ1NjdraDFTMWVpSHgtamt4UTF0SlJXMGlrYWNuWTNmQ1VPWVRadlh2TzdfYW5SeGFjRUhjQmFOVHNJbzY0OFg4c0g3ZncyYTg0T1IwMlpoMkZrQjY2MERmdW92eTU4SGNQSHlPNzdUdkxtaFV3eEV1Y3VoT2c?oc=5"
+      "fuente": "Bloomberg Línea",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTjVKTkpJWTR5YkNnb3BfWVVSZ2xVOE56X0hQVzQwNTljY0NQUnVURnBPQ1lTRnV4em1wMFBvZUFWM2F5YlE0eVJsTE9qUUk5RVhHNzlxSjk4SGpqLThvZnMtMV9BQm5Uem9vSGl0UHVOVlc5VGdzMXpxN0lTWDZrcG5kQ3VVbzdVVHhxVUZBX01FejlLcGhnTXp6bU85N3BMeTBpNjRsanEwc3dEdUdyTdIBxAFBVV95cUxPOGN0WjBQRld3blZMOVo2Y000R29Jd2R0d3daOHRNeHdZSXljN0NqMHA3R1AwajBuRnV4dVBOZU1xVWRiMGxIZ1RmYlBySVJlVWNGdWdwNEVCNEQ1Z2Nod2ZhMFIxY3hHMklkazVoNkttU3FvZUd5cWlKVU44eWhaNC1jV2t3UmxqYTNCZFU3ZzFuZFhJUWl1SWJUcGVicmJhaVBJVnFzakxFUUlhRmtsZ2pYMjZleHNZaXprYk9xVEl0bUhR?oc=5"
     },
     {
-      "titulo": "Bolsa argentina recupera precios, mercado reducido por feriado en EEUU",
+      "titulo": "Inflación de noviembre en Argentina: analistas ven 1,7%",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdTdWbjFyRFhCdU43cjZPTFptbkVQQmlROWlGOEVXOUo3ODlOcjBSdnJFUUNoZWpKM3NKSXItUzl4dGxaYUpCSkRqeGY0OGRzQklDX09UNC12RkRnWE1UYnIxM09iMmcyZEJuYXh4cFR3WGFEZDYxVWxyQ3Q1eE9FSEY2YzcxODc4RWlRRG1OUWVIeUNyanVkNQ?oc=5"
+      "fuente": "El Ecosistema Startup",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ1ZWcmZkUWNRLW50a25DX2F6aFlhRkNldl95d2lxSjJTcGJvVTBxMGtyUmRzbkhQbV9QenZrblR3MVUxRnJDS3ZSeVhDS1FhOUJKVGNJbVVSaVhRMmkwSjRmQ2UtSzR1ZzBWb1FYRE5UT1ZKdGRfS2VNbTRuLVRrQnl3UkJuMzVveFRr?oc=5"
     },
     {
-      "titulo": "RDEco: por qué el riesgo país sigue alto pese a las mejoras en los indicadores económicos de Argentina",
+      "titulo": "Análisis del riesgo país y su impacto en la economía argentina",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Perfil",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNNW0zUDRGV0ZId2JCeXBvOVhXeWJYNVQ2WG5Mc1hWeXNCWE9GQkpWOWJkNTZDNGF4MEUxVzdNVDZXNGwyNWF4djMwZVhkY1dDdWZNOWJvd3otZnlleGI4dGMxb0hvcVQ1Zlh0MGJ0QVpqSDZDcUs2RE4tTjhxX2p6MHZKbW5PNTRKTmRsa01DWGwxU0x0YlVHYU9INlZVY1NiTm1mZXNZdGw4WmhuWVN2dnF4YTNmZnFyUTNNTnpjanh3NTRiampwSGJWeUgxY1A4eXN1RU9HOE14WW5lUkVFeGV3?oc=5"
+      "fuente": "lagacetaonline.com.ar",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOX0NicVU4aExjVllxT2hCc3hVR0hHSlBmdGdSUUVuQ3BGTnNpN3FJN0hwUzd2c0dvaG5nVVVsTkZndllhV3JCeFdScUVuUEZkbDBjenpIRTFCMEFVNDM4elJua0w0c3MxZFRQYWpDWmZzTDl6d0RMRFZJUDkwaXBIZm4zRnVCakdhRmhzUUtYaF9aZndUM3VBeUphMnBsdXJwQkFpRUpVeE44ZmVV?oc=5"
     }
   ]
 }
