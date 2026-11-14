@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-12T22:21:05-03:00",
+  "actualizado": "2026-11-13T22:14:31-03:00",
   "dolar": {
     "oficial": {
       "compra": 1520,
@@ -7,32 +7,32 @@
       "fuente": "Banco Nación"
     },
     "blue": {
-      "compra": 1545,
-      "venta": 1565
+      "compra": 1555,
+      "venta": 1575
     },
     "mep": {
-      "venta": 1573.8
+      "venta": 1580.9
     },
     "ccl": {
-      "venta": 1668.4
+      "venta": 1671.9
     },
     "tarjeta": {
       "venta": 2041
     },
     "mayorista": {
-      "venta": 1545.5
+      "venta": 1543.5
     },
-    "fuente": "dolarapi.com, 12/11/2026"
+    "fuente": "dolarapi.com, 13/11/2026"
   },
   "riesgoPais": {
-    "valor": 852,
-    "fuente": "JP Morgan vía argentinadatos.com, 12/11/2026"
+    "valor": 829,
+    "fuente": "JP Morgan vía argentinadatos.com, 13/11/2026"
   },
   "inflacion": {
-    "ultimoMes": "Septiembre 2026",
-    "mensual": 1.9,
-    "acumuladaAnio": 23.6,
-    "interanual": 33.4,
+    "ultimoMes": "Octubre 2026",
+    "mensual": 2.2,
+    "acumuladaAnio": 26.4,
+    "interanual": 33.1,
     "serie2026": [
       {
         "mes": "Ene",
@@ -69,58 +69,62 @@
       {
         "mes": "Sep",
         "valor": 1.9
+      },
+      {
+        "mes": "Oct",
+        "valor": 2.2
       }
     ],
-    "proximoDato": "Octubre 2026, el jueves 12 de noviembre",
-    "fuente": "INDEC"
+    "proximoDato": "Noviembre 2026, a mediados de diciembre (ver calendario del INDEC)",
+    "fuente": "INDEC vía argentinadatos.com"
   },
   "plazoFijo": {
     "tnaReferencia": 24,
     "detalle": "Tasa más alta a 30 días que informan los bancos al BCRA (BANCO BICA). Los bancos grandes suelen pagar menos.",
-    "fuente": "BCRA vía argentinadatos.com, 12/11/2026"
+    "fuente": "BCRA vía argentinadatos.com, 13/11/2026"
   },
   "noticias": [
     {
-      "titulo": "La inflación acelera en Argentina por encima de las expectativas del mercado",
+      "titulo": "El riesgo país de la Argentina cerró la semana en 830 puntos básicos | 13 de noviembre de 2026",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "EL PAÍS",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeVZ6TDk5bVpfWXY5eTBYcklUWGVzMXVMSlRqVU9ONVZhUWthRFFJY096b1oxV19Eblc1SWhjeUVSOFlvbTY3YkZUMFI0bm92cEtGTWZ6OUFPaktMelYya0h4dl9ZWDVMbTZ2V2YtSTVHc2J1X19GalZNbDJIWHI0R2JhYW1IVVdKVWZyS3BPbU4ySGZyejZvZ215YklhdzJuYmtsWFJTUGF1SHFWRGRWcDdhT05iT19HUEJkTVhn0gHSAUFVX3lxTE5HZXljNGZlMTNvd3VHQ0ZkdVJTcUdCRHlKUGxNb0NqbUlQaGsteThEV1gyd1dpR3ljYzFOTi1TMEppSUVWZWhONlF2aWxyQUtVTnh5M3VZVV9UR3RlUXdSUWFvTFh0MlFYNjVPVkZtRVBHRm9pRWE3bm9BeV9JOEdZUHJ4N2x3WjJGNGZWUjRJRVltUzhpRDJ5UmM0QkZvMkYwaGVYRU1kOG9YeTlnN2puUU9GMzN6RzNsaVRwRVphY2hvazFPenlTcG5ydmhSRTNIUQ?oc=5"
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbG1HN2dvWVZ3MTQtQXVXdUJVbEFIeFlCT0F4RW5WOUpjV3VSRFhGRnJqS29yemJXaFY1b1BHX2lFTEdJSmdkdWUwUlNQSmdIZVk3RlBJWkwxNXdKWHU0ekZZdzFPeWRHdVVhYTlJWkpGTnFTUHo5Z2N3OFFTcDBTZXl3WUVWWjZvdFQ5MWVyX3J6UHZlSGstQnQ3SkUzZGVhQ2lNSDlMVdIBpwFBVV95cUxQbG1HN2dvWVZ3MTQtQXVXdUJVbEFIeFlCT0F4RW5WOUpjV3VSRFhGRnJqS29yemJXaFY1b1BHX2lFTEdJSmdkdWUwUlNQSmdIZVk3RlBJWkwxNXdKWHU0ekZZdzFPeWRHdVVhYTlJWkpGTnFTUHo5Z2N3OFFTcDBTZXl3WUVWWjZvdFQ5MWVyX3J6UHZlSGstQnQ3SkUzZGVhQ2lNSDlMVQ?oc=5"
     },
     {
-      "titulo": "La inflación en octubre fue de 2,2% y acumuló 33,1% en los últimos doce meses",
+      "titulo": "Plazo fijo: cuál es la tasa de interés banco por banco este viernes 13 de noviembre",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Infobae",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONlZ1a3dhUld2T05TUFlITDB0Z01pZTZqblNOYlBObTQxN0l3ZEM4MXU3eWU5RkdNZEYwZS1aeDBhbm91a1cxVDF5bFFLNm5zeW42eENKLXJtYTViWGEtX0ZHclFOUXBDMHN0dTNOSXpVR2wyNlRnQ3FsYnI2eUdNamJXX1gzTHRna05ybHNZQmUzeGh0Z3lENlpyTFR0dWtQWWxCMkJxNzVSRUtHVDNsaDE4UllmTjhEQmfSAdQBQVVfeXFMT0JZdVF3RjM2dF9VN0hjSFJFQk5WU3htQllweHEweFl5bkhxbkh0S2ZLVE4yOVY3UjJpVDJMSHE0TEI1NERBM0pvMENNTkE3NFBmR2MwOTVOenRFSlQ1R09Ra0ZGY1ZreVVrRW41VjVQUEtuZTdBci1HbGh0bmhadVRZeE1VUDVFV3hBOG5md1VWUjVuZjNNM1VFNzV5Ym9OSjBWcVNpNDViTTRwb2stR25uOUV2X0Yzckh4cUUwOF92UmRmcE5pXzVhR2xGYWNFM203Qm4?oc=5"
+      "fuente": "La Nación",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRXMxcUVpUnhjOWM5d2tuaHFfTUFyMFNiLU12Q2xZeUlGeVlpdC0zS2VUR3Y4Q3hsOVFHXzdRVlVlUFpaU3F0OGtHcXR3TEl1bGRkMloxR29lLXo1Q0lhRjU3Y3ZmU01hd3Y3b0dJUzBJV0t6QW00NHlad19KQUxZZmFUYkU4UjVaN3JMdW5wSTlUdGZpVnVIQ2o2VFhPcEloNGR4X3ZobWU5SXlkcVVvOG41bkVPVTdpb3NaeU1OXzI4SnZlak1DZ3Nobkw?oc=5"
     },
     {
-      "titulo": "Inflación de octubre de 2026: así quedaron los números después del dato del INDEC",
+      "titulo": "Plaza financiera argentina mayormente en alza, sorprende data inflacionaria",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "TN",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSjhsY3NNQ2hULXlFcnJ1NDhuRDBZYXNSTmYtUm4wcXZnQzNSa1AxOGdXNFlLcDVhOFVqSWd5UlZzd2lTRmlnRzI1aFlrX2MzU09OMGVhR0o2MmtVaTQ0OU1SSmhua3U5NjNDVnd0UnQ5LVFWWi1pdmVsdE9fWWxkcXV4dEtyRUtuZWdfNVRLM3JaNk1WRXlsOXZzT0VXNnRPMEhrNjJZS0FXQTdEeTE1MjNDZnVlUHEwdG9fadIB0AFBVV95cUxNVWFtTmluVk9wVDdtcTRyS25adktCcU9Hdkd6TnJNalpjMGQ2dk5ab1B3X0Z0WFp2RDdXVWMwdzJUVjhiMFA0R09YbjVzTVNGTzNYZC1OSFF0UExqMmhRYm5sYlpnUmE5ZDl0SWh4aXFnODNlTkdEWXhLSFJBQ19MeFFES0lyOFJoaGZnN2hsejcwVjNuZnBjajNJa0dETEk4ZFEtNHc2N2NDUnFrb3dJdHNlZmdTZXR2S1F4QXdBbTN3YUJSQ0NUNVF0c2pEQnpG?oc=5"
+      "fuente": "Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcTZzSlBHdmNjeEJ4R1lKRTRsdEVhUHlzOUpSY0F4M3dOeHFvRHNoMVpjYzVNZy1HbTVPZE85QkZCOWNCWndQOXgyRTgteGhIOHJBYUtVdW9SQlo3MUpSZ1l2aVB1THB6aGNVMmthamNobFlVM2dRVzhxSC1ZUmxEOWZrelk5ZlRrVERiazlwcklSTldXZ0Z6em5Mdw?oc=5"
     },
     {
-      "titulo": "Inflación argentina rebotó en octubre: 2,2%, según el Indec",
+      "titulo": "Riesgo país hoy 13 de noviembre de 2026",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Bloomberg Línea",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTjVKTkpJWTR5YkNnb3BfWVVSZ2xVOE56X0hQVzQwNTljY0NQUnVURnBPQ1lTRnV4em1wMFBvZUFWM2F5YlE0eVJsTE9qUUk5RVhHNzlxSjk4SGpqLThvZnMtMV9BQm5Uem9vSGl0UHVOVlc5VGdzMXpxN0lTWDZrcG5kQ3VVbzdVVHhxVUZBX01FejlLcGhnTXp6bU85N3BMeTBpNjRsanEwc3dEdUdyTdIBxAFBVV95cUxPOGN0WjBQRld3blZMOVo2Y000R29Jd2R0d3daOHRNeHdZSXljN0NqMHA3R1AwajBuRnV4dVBOZU1xVWRiMGxIZ1RmYlBySVJlVWNGdWdwNEVCNEQ1Z2Nod2ZhMFIxY3hHMklkazVoNkttU3FvZUd5cWlKVU44eWhaNC1jV2t3UmxqYTNCZFU3ZzFuZFhJUWl1SWJUcGVicmJhaVBJVnFzakxFUUlhRmtsZ2pYMjZleHNZaXprYk9xVEl0bUhR?oc=5"
+      "fuente": "Infocampo",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9iTU1FZ0hDbTc3SE1oY3JzSjFzdXBUTG4xSzMwUmlrbS03Q0VFaU1JZ2ZlamZBaDA0XzVReHpJM3RTYzRpQmlnUFVYdXZkdmN3VV9KNlJsZG42Tk9SbGF0ekdSS2M5UWs?oc=5"
     },
     {
-      "titulo": "Inflación de noviembre en Argentina: analistas ven 1,7%",
+      "titulo": "Riesgo país en 830 puntos y fuerte rebote de acciones argentinas",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "El Ecosistema Startup",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ1ZWcmZkUWNRLW50a25DX2F6aFlhRkNldl95d2lxSjJTcGJvVTBxMGtyUmRzbkhQbV9QenZrblR3MVUxRnJDS3ZSeVhDS1FhOUJKVGNJbVVSaVhRMmkwSjRmQ2UtSzR1ZzBWb1FYRE5UT1ZKdGRfS2VNbTRuLVRrQnl3UkJuMzVveFRr?oc=5"
+      "fuente": "Diario El Norte - San Nicolás",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYlU3RWZBWmFucTJIMF8wSFU2Y3BOR1NwTFkwY1RmZFhEMVFKaW1zZWZfLVJHSzQwQmJVZHNTYnBLeWZhMlE2elFtZ0tLeDM4dHp1ZDEwemJBX1hzVVIxekhmLWZZdFdHSUsydHAwRDByV052dVpmbVBiVWxfR1FneEpzU0NWT3ZvMEZNOUJmUkhqa1VXclZnd0t3?oc=5"
     },
     {
-      "titulo": "Análisis del riesgo país y su impacto en la economía argentina",
+      "titulo": "Dólar, inversiones y elecciones: las alertas de la economía argentina para 2027",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "lagacetaonline.com.ar",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOX0NicVU4aExjVllxT2hCc3hVR0hHSlBmdGdSUUVuQ3BGTnNpN3FJN0hwUzd2c0dvaG5nVVVsTkZndllhV3JCeFdScUVuUEZkbDBjenpIRTFCMEFVNDM4elJua0w0c3MxZFRQYWpDWmZzTDl6d0RMRFZJUDkwaXBIZm4zRnVCakdhRmhzUUtYaF9aZndUM3VBeUphMnBsdXJwQkFpRUpVeE44ZmVV?oc=5"
+      "fuente": "MDZ Online",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMWxWcnh1MFF0a3dmSHMwM3BWZm9fakhJWmRXVVZuNVMwb1RUOF9NTXQ4SFZzSzljRndyTUcwUDltRWlMM3dQRVE0SzhYRkpMMXFFbTFTOEluaEp3VXBmWkV1ZGd0eGtldGl4M25uZ1ZpM3ZwVU5vOVhJdWVabmhQZGhLVjg4TVEwMDJGZG9IYnVkd29oSDlnV19WYk13akNicXFPeFJtSkxqQWFjUjVsckxqaXhsRDBmdkpHTGVhZDI2c3dzRmI0bHM0RjU?oc=5"
     }
   ]
 }
