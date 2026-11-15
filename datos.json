@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-13T22:14:31-03:00",
+  "actualizado": "2026-11-14T22:19:57-03:00",
   "dolar": {
     "oficial": {
       "compra": 1520,
@@ -22,11 +22,11 @@
     "mayorista": {
       "venta": 1543.5
     },
-    "fuente": "dolarapi.com, 13/11/2026"
+    "fuente": "dolarapi.com, 14/11/2026"
   },
   "riesgoPais": {
-    "valor": 829,
-    "fuente": "JP Morgan vía argentinadatos.com, 13/11/2026"
+    "valor": 830,
+    "fuente": "JP Morgan vía argentinadatos.com, 14/11/2026"
   },
   "inflacion": {
     "ultimoMes": "Octubre 2026",
@@ -81,50 +81,50 @@
   "plazoFijo": {
     "tnaReferencia": 24,
     "detalle": "Tasa más alta a 30 días que informan los bancos al BCRA (BANCO BICA). Los bancos grandes suelen pagar menos.",
-    "fuente": "BCRA vía argentinadatos.com, 13/11/2026"
+    "fuente": "BCRA vía argentinadatos.com, 14/11/2026"
   },
   "noticias": [
     {
-      "titulo": "El riesgo país de la Argentina cerró la semana en 830 puntos básicos | 13 de noviembre de 2026",
+      "titulo": "Argentina volvió a quedar en el segundo puesto de países con mayor inflación de Latinoamérica",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbG1HN2dvWVZ3MTQtQXVXdUJVbEFIeFlCT0F4RW5WOUpjV3VSRFhGRnJqS29yemJXaFY1b1BHX2lFTEdJSmdkdWUwUlNQSmdIZVk3RlBJWkwxNXdKWHU0ekZZdzFPeWRHdVVhYTlJWkpGTnFTUHo5Z2N3OFFTcDBTZXl3WUVWWjZvdFQ5MWVyX3J6UHZlSGstQnQ3SkUzZGVhQ2lNSDlMVdIBpwFBVV95cUxQbG1HN2dvWVZ3MTQtQXVXdUJVbEFIeFlCT0F4RW5WOUpjV3VSRFhGRnJqS29yemJXaFY1b1BHX2lFTEdJSmdkdWUwUlNQSmdIZVk3RlBJWkwxNXdKWHU0ekZZdzFPeWRHdVVhYTlJWkpGTnFTUHo5Z2N3OFFTcDBTZXl3WUVWWjZvdFQ5MWVyX3J6UHZlSGstQnQ3SkUzZGVhQ2lNSDlMVQ?oc=5"
+      "fuente": "Ambito",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbnpRUzlaY0xjcU1sX3UyYWxtODJvbnJCc3JUTl9hYUtTc25JRzZ3c3E3RW82WDJlS3dHb0VlZzY2UXcwQ3lqeVhGSkZiQVFXcmp1RXJIeEh2cVdhSXk1RVdIcHVXdUc4LUwxdlBzem9vd2tvbjd1eFZiZldSdWVOdERlYlVBU1djN2dIT2VNSURWXzM0bUZoUU1PaW5QT0dIUWdXQkxJZ1lBSWFhYUdZeTJqQlZzSkVJR2pZ0gHAAUFVX3lxTFBNUTVzUzk5V1Bpb0NLR0VkaWdMZGtNc0FISG9IMHhIeUF3QzFmWW1HN2w3WFZfR0JOMVMyS3NHcjVDODdZdUFkZVBmVVFOcklzTGxLMktZNlNBX2V4MGpRbW5LemJqQ2xuSlpGZjAxZVp1SnpEWWNfZGF6dC1lbUJMVWo0RzdpT0MtSGZ6anZ5azQyZVI5THZ2Q3BKZmllRENYSHpYcnA5d1NXS3RSYWw5bklxaWxoblhPOTA1YkVpQg?oc=5"
     },
     {
-      "titulo": "Plazo fijo: cuál es la tasa de interés banco por banco este viernes 13 de noviembre",
+      "titulo": "Argentina volvió a encarecerse en dólares, pero sigue por debajo de la región",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "La Nación",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRXMxcUVpUnhjOWM5d2tuaHFfTUFyMFNiLU12Q2xZeUlGeVlpdC0zS2VUR3Y4Q3hsOVFHXzdRVlVlUFpaU3F0OGtHcXR3TEl1bGRkMloxR29lLXo1Q0lhRjU3Y3ZmU01hd3Y3b0dJUzBJV0t6QW00NHlad19KQUxZZmFUYkU4UjVaN3JMdW5wSTlUdGZpVnVIQ2o2VFhPcEloNGR4X3ZobWU5SXlkcVVvOG41bkVPVTdpb3NaeU1OXzI4SnZlak1DZ3Nobkw?oc=5"
+      "fuente": "Identidad Correntina",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdTF5ejZtc1g5OXVDdGVVeDVXU19fTTExMzJuRzBVbUQ4bHFDM3NpbF94LVBGa2d4Ym9ZRGlGcWdLOUNJNmZmYl81TVgxd19PMm5aS1ktTG9IbjF3SEUycVM1UlB3cFJiX2dld2I2djJ4bHppUzU4M2N3SHdwdnNOREF0M2xQZVNLeC0tUm9xeWlaUFRVQ2Fyb0NHWGlvYW9DR3RNNkI4WVBpOFl1SWs4cGpvdEpxeXVSeDhubXdwWFJtbkprVDByRnlB?oc=5"
     },
     {
-      "titulo": "Plaza financiera argentina mayormente en alza, sorprende data inflacionaria",
+      "titulo": "Ranking de inflación en América Latina: qué lugar ocupó la Argentina tras el dato de octubre",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcTZzSlBHdmNjeEJ4R1lKRTRsdEVhUHlzOUpSY0F4M3dOeHFvRHNoMVpjYzVNZy1HbTVPZE85QkZCOWNCWndQOXgyRTgteGhIOHJBYUtVdW9SQlo3MUpSZ1l2aVB1THB6aGNVMmthamNobFlVM2dRVzhxSC1ZUmxEOWZrelk5ZlRrVERiazlwcklSTldXZ0Z6em5Mdw?oc=5"
+      "fuente": "Mnews",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOc2txMVMzVTlWeFJTLUdJSTdVRXNESWNrbDBTTE5hVTBtbzRwN2xiay01a2hBTzhpMmtrcHVfa0dNbjVsTWZmWjhyRTdVNFRUaXdQdU9tVWVUQzJNTEpkOXEyS2VsNE9HVy1vNzctd3dSSXpSTnNoUXlsNENrODRvODFwWFByc1VqYWJnblIwcnAtQmdvREFKZy1aMmR0MUNMTGVkRkowVTlqMXJOdGJXVnVjWXlYcnNYZGR3djI1VnVtUTYwQ0U4NFRQcm9VSjhWbjdv?oc=5"
     },
     {
-      "titulo": "Riesgo país hoy 13 de noviembre de 2026",
+      "titulo": "La inflación en América Latina: Argentina registró un 2,17% en octubre y volvió a quedar segunda en el ranking regional",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Infocampo",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9iTU1FZ0hDbTc3SE1oY3JzSjFzdXBUTG4xSzMwUmlrbS03Q0VFaU1JZ2ZlamZBaDA0XzVReHpJM3RTYzRpQmlnUFVYdXZkdmN3VV9KNlJsZG42Tk9SbGF0ekdSS2M5UWs?oc=5"
+      "fuente": "La Voz del Interior",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOVDVQejR3ek80bkhDaW0zQjdaa3VtRnZEb1FHTmw2Qzl3Rm85X0Rhb1M2Y1I3Z0pjR1E5NlZqenMwZzdmbGloTlpTZzF5UnlTUlJiaXlIYTlENEw5SXdJY0hFLXVVdTYta2EzZV85WVZNRmo0Q1BqQmhMbnFjVVFHN2xoZ2tKQWxENEp2Z0xNektzLWNiZnFVemlLRFdfSTNzbzJfcmpEMlA0Mm16VWtiVjFmQmZwMFNXdy00NVlxZGdZUm5nVkV4SjR3SllJV1NIeE1NUXdxLU4xNWtVZjNJ?oc=5"
     },
     {
-      "titulo": "Riesgo país en 830 puntos y fuerte rebote de acciones argentinas",
+      "titulo": "La inflación de Argentina sigue al alza en octubre, por segundo mes consecutivo",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Diario El Norte - San Nicolás",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYlU3RWZBWmFucTJIMF8wSFU2Y3BOR1NwTFkwY1RmZFhEMVFKaW1zZWZfLVJHSzQwQmJVZHNTYnBLeWZhMlE2elFtZ0tLeDM4dHp1ZDEwemJBX1hzVVIxekhmLWZZdFdHSUsydHAwRDByV052dVpmbVBiVWxfR1FneEpzU0NWT3ZvMEZNOUJmUkhqa1VXclZnd0t3?oc=5"
+      "fuente": "Yahoo Finanzas",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUnNxcVAxUzJTVk1zMmczbE5KSzA5RFdyTUw3RzROd1NrUU1wY2hGMFFRQlg2V1lPV3pQd1pQQkdTUWcwcHNvanJOTU0wbWVyQU1NNkhYUnFGc0Z5Rko0U21MMzFzOU9Tdmd5MXpmZ0dXd1Z6QUw1eENscTJlOEpfbHVyS21rY1h5bmoxZFU3RTlWeTJFUGV3aTVkdms2VWc?oc=5"
     },
     {
-      "titulo": "Dólar, inversiones y elecciones: las alertas de la economía argentina para 2027",
+      "titulo": "Argentina, otra vez entre los países con mayor inflación de América Latina: que lugar ocupó",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "MDZ Online",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMWxWcnh1MFF0a3dmSHMwM3BWZm9fakhJWmRXVVZuNVMwb1RUOF9NTXQ4SFZzSzljRndyTUcwUDltRWlMM3dQRVE0SzhYRkpMMXFFbTFTOEluaEp3VXBmWkV1ZGd0eGtldGl4M25uZ1ZpM3ZwVU5vOVhJdWVabmhQZGhLVjg4TVEwMDJGZG9IYnVkd29oSDlnV19WYk13akNicXFPeFJtSkxqQWFjUjVsckxqaXhsRDBmdkpHTGVhZDI2c3dzRmI0bHM0RjU?oc=5"
+      "fuente": "El Tribuno",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxON1JXd2VSY1JmMDFYc1E0aVhZU05ubjJWN0pIT1NfNTZZYnljUmNva2VDNzdCUjQxSDVHMUItNzJuWlhzdVNaMWFkQ0R0NmVJd0JYRW15b0FGSXZ4X2V6SlRrVXBvNjExS0ZGVFJoanRKdkVJODFBQXpOUDQ1ZzFvV0EwWU1ob1hYdW5EVm5ta294VWpmbFZMNVY3a1JDQjZzZ2I1YWdubUV2MDlYcTBOb2lyX0JtRzhlWXk0WnVNc1pwbnFCOUZDcFZyT0dFUVh2SklfYUlqSXNJOTlEN1E?oc=5"
     }
   ]
 }
