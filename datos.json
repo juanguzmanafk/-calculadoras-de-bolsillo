@@ -1,32 +1,32 @@
 {
-  "actualizado": "2026-11-15T22:35:37-03:00",
+  "actualizado": "2026-11-16T22:25:08-03:00",
   "dolar": {
     "oficial": {
-      "compra": 1520,
-      "venta": 1570,
+      "compra": 1525,
+      "venta": 1575,
       "fuente": "Banco Nación"
     },
     "blue": {
-      "compra": 1555,
-      "venta": 1575
+      "compra": 1580,
+      "venta": 1600
     },
     "mep": {
-      "venta": 1580.9
+      "venta": 1588.9
     },
     "ccl": {
-      "venta": 1671.9
+      "venta": 1682.9
     },
     "tarjeta": {
-      "venta": 2041
+      "venta": 2047.5
     },
     "mayorista": {
-      "venta": 1543.5
+      "venta": 1551
     },
-    "fuente": "dolarapi.com, 15/11/2026"
+    "fuente": "dolarapi.com, 16/11/2026"
   },
   "riesgoPais": {
     "valor": 830,
-    "fuente": "JP Morgan vía argentinadatos.com, 15/11/2026"
+    "fuente": "JP Morgan vía argentinadatos.com, 16/11/2026"
   },
   "inflacion": {
     "ultimoMes": "Octubre 2026",
@@ -81,7 +81,7 @@
   "plazoFijo": {
     "tnaReferencia": 24,
     "detalle": "Tasa más alta a 30 días que informan los bancos al BCRA (BANCO BICA). Los bancos grandes suelen pagar menos.",
-    "fuente": "BCRA vía argentinadatos.com, 15/11/2026"
+    "fuente": "BCRA vía argentinadatos.com, 16/11/2026"
   },
   "noticias": [
     {
