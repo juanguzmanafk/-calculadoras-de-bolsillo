@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-16T22:25:08-03:00",
+  "actualizado": "2026-11-17T22:29:02-03:00",
   "dolar": {
     "oficial": {
       "compra": 1525,
@@ -7,26 +7,26 @@
       "fuente": "Banco Nación"
     },
     "blue": {
-      "compra": 1580,
-      "venta": 1600
+      "compra": 1585,
+      "venta": 1605
     },
     "mep": {
-      "venta": 1588.9
+      "venta": 1603.3
     },
     "ccl": {
-      "venta": 1682.9
+      "venta": 1697.2
     },
     "tarjeta": {
       "venta": 2047.5
     },
     "mayorista": {
-      "venta": 1551
+      "venta": 1552
     },
-    "fuente": "dolarapi.com, 16/11/2026"
+    "fuente": "dolarapi.com, 17/11/2026"
   },
   "riesgoPais": {
-    "valor": 830,
-    "fuente": "JP Morgan vía argentinadatos.com, 16/11/2026"
+    "valor": 855,
+    "fuente": "JP Morgan vía argentinadatos.com, 17/11/2026"
   },
   "inflacion": {
     "ultimoMes": "Octubre 2026",
@@ -81,50 +81,50 @@
   "plazoFijo": {
     "tnaReferencia": 24,
     "detalle": "Tasa más alta a 30 días que informan los bancos al BCRA (BANCO BICA). Los bancos grandes suelen pagar menos.",
-    "fuente": "BCRA vía argentinadatos.com, 16/11/2026"
+    "fuente": "BCRA vía argentinadatos.com, 17/11/2026"
   },
   "noticias": [
     {
-      "titulo": "JP Morgan estima que Argentina llegará a las elecciones con una inflación aún en torno a 2%",
+      "titulo": "Milei expuso sobre la lucha contra la inflación y el programa económico en las Jornadas Monetarias y Bancarias del Banco Central",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Comercio y Justicia",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNG5Ha0tSRUk3LUltQy16cXdCVXp2MHJqeVFQT2pCYno1QWFEcEFiVlY2UXRYLWQ5aERLWlNCTk9UXzJJUDEzN1lFaDFQc25IcVJTSDZOOUVZdVROU3ZCSXZPNDNfU3dwNXVzYWVvZ3ZWVkRjXzRjOFFyUnhzam5NRDJFNEVveEZGOEs2cUR4QnR6MTE4UHBuOVk3dnFYX2VEaW9DSzh2X0hEdjZTLW42bTN0UmItSTRYY0J4U0U2SnNOYjR2dGJfMHNkUQ?oc=5"
+      "fuente": "Argentina.gob.ar",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMVpESWoyeXgwV0xEcGVMWTY1WWVaanNZOFZEVDNuLURsRkdBR09vVnFQODEyVDhDRU9TZ1dmOXQ0RTREcXlqWVFQZ0JzNnU3VEtQeXBGanp3aW5WSlRpZzBDZ0pJLVZTQWVQeTFtZ3dheTBGdGRPdVBGb193WUlrdjJrXzAzUG42UFJrYjE2X3hXQ3hKbE9SZ2s5Rm1NOFBUbDJoNkpNMWs2b3RiVnBuaUZrcmY0Z0dSamJLN1JXSXV3V3M?oc=5"
     },
     {
-      "titulo": "Siete países en el mundo tienen una inflación superior al 20% anual: cuáles son y cuántos superan a la Argentina",
+      "titulo": "Riesgo país y reservas del BCRA: de dónde saldrán los dólares que necesitará Argentina en 2027",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "Bloomberg Línea",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaWRCQzBDMmM5cDBFZGZTZjVXdmljcURqdXR5QkkyenFRLUh1UHNlU1dZNWhhd0NIYTZ4LUE5cHYzYXlmZ2VBQTdvODJFZGJRLU9QallNMWNaNDRZSDhxdTNfM3I2Z2kxZmFNR3ptXzVtWUI4ZFV2QTQ0SGs1TVF1TlBaOW9BYWtyT0VkWkNSQlBYUGQ5LTJXWmZoRWlWd25MbzRnOW03NmFDN2Y2UHh1QmdvdlNOOXJfT0RkNGNPSGZoU3FMNmpMMGM2bXlLbEVqdmthRlpwVndhRElHZnY4cXhFTdIB9wFBVV95cUxPa29jZ2d0dUlTdndtRVhUd0t2UXFTZ0FUUHM0aVc5ZWJaWVJ1ODBUemNkVy1mZ3ZCa0V2QTdaQktuWjVZRTZzaGFKQ2JsaHlJV1FmSzIzS3o2Nk1veV9IZHZtZWJaVmMtdlgzX1VhX0FvNGVCbUZfRmJSYVA1YjFMN0tXdG9XX01CWGxsU1huSVRpN0tJbUdzUHlqaEZCXzdseHgxZzRoN0hUWXhpRDVwZFFJXzA4bVJzbnZLSklBa01lYmQtYUFzOFBZUzBJLWw4SzVYRzFRajBDVnpjUE51ZnBNM2N0OWwxdWlVclhUVld1eUg3akt3?oc=5"
+    },
+    {
+      "titulo": "Dólar y riesgo país: qué está pasando con la economía argentina y cómo puede afectar al bolsillo | 17 de",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "Hoy Día Córdoba",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMlRPVFdiLXp3QnhEN2kyaWt3bHp0eXlVanNDSGh1YVJJZERRZVg3YmpBTzE0WDRZamY0OTVGU0Jzd2VkaU0xNkREQzA5SGN6emQyYWJFcmZweXNRclFwTXhSRzRhZldPWFMwOGpxeUhWazNhTG9iWmNqbXBrUWQ1OEt4X0FZbmVodUszaUNDcVVkVnYzekhrc2hrN3gyZzlBWnlteGFKaDBMcmsyUDQ1aVpFNnlSbXd2SW5IX20wRWh2dzFvUFHSAcsBQVVfeXFMUFNVZUVieVVtdnJVSFNfb3FqY3ZBRkhEaUR5cW40Zno4MFdQTVAyR3NoTlEwSmd0ZWhQdlVqbUZIcmZQODRITkpQMGpxYVVCcEgzcGRMc3YxTnlqbjM4OGdBWlZuRGRWUlRkdk53eG1ydThyZ19MQ3paZjNnNVZjdDR1aG1xSzhTVmtNSzQtZ19WY2ItdVAzV2lHRjJoekpaQlVDbUlYV2FZZTd3UV94bDZfdzVDRVZMakdaTUJLMFVvemxsYlBiSWxWTmc?oc=5"
+    },
+    {
+      "titulo": "La inflación no retrocede",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "Página|12",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9RVnRrdXJZbXlzbHQ2VHl4Mm9reHZfS2pzYlRJb1d6R2JtMFdTREpLOVg0QWVYRTdUVzQyZFdDdHc5SjhLOHhfQmx5c1MtSHlxb19MWTVCWjdPNHdPLXg0TjZGQUMwekJFRHdtYjEtTjdwMTA?oc=5"
+    },
+    {
+      "titulo": "El vice del BCRA cruzó a los que piden un “plan platita”: “Es muy peligroso aflojar la política monetaria para aumentar la actividad”",
       "resumen": "",
       "bolsillo": "",
       "fuente": "Infobae",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPbnZqYVBpeWU2V2E3ZGF1VjVOSkJvYVQxblFGaUpFa0FPV0o0Smk2bGhDaGRNeHZvWFRobUh4RnpGaUl3dE50bEJEeFpiWnhNUFVvdDJITTY4VkxJRjE2S1JZNFo0alpkX0ZmYXlmVlByeUN6QlJMQUdQb256YXdBUTVHX3JVcG05ck1DQ29sYVIxUEstVzN5emdSVERSbVdVeG9saWs1US1Jd1VRdDQtNWJsWk8tZnJBbHFZdzI2NUh6OXpSWjBrWElRcWo0UUJDZXJOWGJpdW9fZ0RzWi1iNGdkOW1YMmFKd2RvWkdQelV3NjjSAY4CQVVfeXFMT3k1QkNVMkVTWkRUYkx6Z1JEYWxsUkt1aHFxLXFYTFpFZjVWQXY4dWYxNVZJTXp4RHpLMnhYZFRwTUV5QXVXNHA5eTFSMVVZcV94QnNFOVNRX0dZRVJmMndHWnl4NHcwaXB6Vkt2VGxSZDVsSk5pNVZJcXR1MmkwN2dTb25abV9CVVo2b2huVi0wNEE5V1E4VnUxUldWeWs1SFc4YU1uTWpVaHdSSnNDdFNGM1hTR2FxdVo3NjItdXdReFJ1d2E2RV80ZVMtV09oWjlqNUtacTlYZzJJOGJsREh4WHd3NzI2aHVmVk81cEpLRUljcXpwR0J2ZHlRc1RENWsxcUtpdW8ydDUzNW1R?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPaGdzNm00ZXFza1dwcHpxaHFIVDRSQ3VabmlRV2ZneTY2R21haS1nWGJfWmJ6YzBmbWQyY0UwMlpxYXZqelZVX0ZEUlNqYWExTkFhb2luaGhYUTBURXFMeGtlVHI3UkVETWNiSHFMNlZBTmRVSWp3UnlLd2JKYzVfd2kybF9LeG1TVkg5VW1oemg1MHJIMW1mTlZndWxhWnpuSHJDNjBBLW83QXJrc0lCLXRvaHR0ZFRLdF83ODZNUXJzUl9Jc0VYbC1SSm9mMk1Gb3VsSnZiNVNFa3F0a3psamNoMS0taTRpYk5WNEtLZFUtelpicHpRNDFVZ0MzTFkyUDVJ0gGeAkFVX3lxTFBkV3pXZlMtRHlncDE2cmYwSnBVU0hHTVhQeUZRRXJTZ2kwT3Y0ZWxSaFFJc2dScVFwa0xEWlBEdkdrNG1ta1NlZU1JTkNiRWFoSE1KV1RtOG1aU3NudWNtbjVSV0t0QUVlVldqN3RYRzdVNkJheFVVcEljLVJ2VnNIOFJBZjREcEJTa0JjejBhRHl1UWhWWFZEYnJWNDdBZldlWGE1LUppelVHaEw2dXRXaWttZUh5NGp5SjFHN3h1YlM2OUlxcTV0UUJWSnEySDhlQ0t6OGltYW05ZUVScVVxMm1sUmR0eGs2aXNQS2lRaUpMOXUxRnJZeGVteko0MGN0UWdYdkpFa2lZX2c2YmRJamxMZFp6REY2LVBKV3c?oc=5"
     },
     {
-      "titulo": "Argentina, entre los siete países con una inflación anual superior al 20%",
+      "titulo": "Inflación mayorista en Argentina sube 1,6% mensual en octubre",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Filo News",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMm1PZnNEemtzLWlWeVN0bWdQSG16ZzgweUNnQXljYXgteHFwYUdyUnREU0N4aFUtb25UQ3RuX0dwamRKUkRxSEZsdXhXZ3dsdjRjenMtdVE1VzQ0R0QwYUYtSG15Qm85RXF4emtpaXZqY1V0WWFRZEwwSjRXV290aUM0LXFuRGJOY3phVnd6amF2M0xjcmlDUWNzS2xzbm0tb2JNMzE2MjBWZ0xPbzdscGVR?oc=5"
-    },
-    {
-      "titulo": "Argentina quedó entre los cinco países con más inflación del mundo: qué lugar ocupa",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "Diario El Sol Mendoza",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSktPWnY0bDBwSmNuRW94cXAxZGRTV1JxWFNuWE5mTlJHOWx6N3pFV1h5Nk1uNlQxR3NiVXctRTNwQm05a3BqTjItQnhzOENyZjY0bnFWdmhrR0lIV3o2dUJrVS0yUm12TkQtdUJBRG5mZ0VldDVGMDVOZmVMeHlfZmR5VmRHTE9vUl9GM0FMeFFtRUZ2blhGZUlOdkt4Y2VkSGQzak4zTll5QWJ5X1FxMjZiNFpZLWs?oc=5"
-    },
-    {
-      "titulo": "Argentina ocupa el quinto lugar entre los países con mayor inflación anual del mundo",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "Radio LV11",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd3lEaXluQkp0d3VhVGRsaGFDUG44eDBLZFNEUnlQOUpIVnZfXzhROUpEdXgyZEdIUGpIVnMxMUxXNFlXcmVLbkNfZk9XYi1hZFZDRjRYZVBDazNsN1dwN2Q4dU1TUm54UkROYXluTmkxT2lHbG4xdEJ0ZWlsSDlCLVM2TEV6ZnJaNVYwWkxUWGlDRmRmSmpWZXlnam1JOWN5SDJaeG5QT1lDMXNYdnduei1zNV9tZDV3c2pMYXFB?oc=5"
-    },
-    {
-      "titulo": "Argentina en los primeros puestos del ranking de inflación en América Latina",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "La Reforma, General Pico",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQkZzQWpLbnQtcFk5ZmIxOHdHQUdaNEdEb05DTVhiSkFWUkhad2EzM1JzQ3g0WVBzZjlLZ3VCNkNLWHFxTTRwWmlhd2drdXVfSXNWQkRZRVRwckhaeHVUZnhQWWxhOHZsd2QzSTg0YU40X2FyUE9Ia0VfeUV5eF92b1V1OTdhTFlzMVdTVGd0a2ZGX3dnak15aERYRnhual90U0l1RlY4dUwwQVJPOEhnSWlBTE5LYkNvY3hlRDVn?oc=5"
+      "fuente": "safras.com.br",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ISGFRSU9CS2RpcU1td2FNMnMwOHZ3amx4MzVzN1FycHZvMFRMYndCdlpYVHJGZnpsRFF4LUxUSHBxZjAzZ0kySmZEUTNXR0o0WnNybThmdGIxeUR2aE0ySUpaOTBQTERGRXNSbjRKNUZpZW1acFVxTA?oc=5"
     }
   ]
 }
