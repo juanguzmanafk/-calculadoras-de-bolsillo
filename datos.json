@@ -1,32 +1,32 @@
 {
-  "actualizado": "2026-11-17T22:29:02-03:00",
+  "actualizado": "2026-11-18T22:26:05-03:00",
   "dolar": {
     "oficial": {
-      "compra": 1525,
-      "venta": 1575,
+      "compra": 1530,
+      "venta": 1580,
       "fuente": "Banco Nación"
     },
     "blue": {
-      "compra": 1585,
-      "venta": 1605
+      "compra": 1610,
+      "venta": 1630
     },
     "mep": {
-      "venta": 1603.3
+      "venta": 1628.8
     },
     "ccl": {
-      "venta": 1697.2
+      "venta": 1724.1
     },
     "tarjeta": {
-      "venta": 2047.5
+      "venta": 2054
     },
     "mayorista": {
-      "venta": 1552
+      "venta": 1559.5
     },
-    "fuente": "dolarapi.com, 17/11/2026"
+    "fuente": "dolarapi.com, 18/11/2026"
   },
   "riesgoPais": {
-    "valor": 855,
-    "fuente": "JP Morgan vía argentinadatos.com, 17/11/2026"
+    "valor": 854,
+    "fuente": "JP Morgan vía argentinadatos.com, 18/11/2026"
   },
   "inflacion": {
     "ultimoMes": "Octubre 2026",
@@ -81,50 +81,50 @@
   "plazoFijo": {
     "tnaReferencia": 24,
     "detalle": "Tasa más alta a 30 días que informan los bancos al BCRA (BANCO BICA). Los bancos grandes suelen pagar menos.",
-    "fuente": "BCRA vía argentinadatos.com, 17/11/2026"
+    "fuente": "BCRA vía argentinadatos.com, 18/11/2026"
   },
   "noticias": [
     {
-      "titulo": "Milei expuso sobre la lucha contra la inflación y el programa económico en las Jornadas Monetarias y Bancarias del Banco Central",
+      "titulo": "Riesgo país de Argentina se mantiene en torno a 850 puntos, dudas por deuda pública",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Argentina.gob.ar",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMVpESWoyeXgwV0xEcGVMWTY1WWVaanNZOFZEVDNuLURsRkdBR09vVnFQODEyVDhDRU9TZ1dmOXQ0RTREcXlqWVFQZ0JzNnU3VEtQeXBGanp3aW5WSlRpZzBDZ0pJLVZTQWVQeTFtZ3dheTBGdGRPdVBGb193WUlrdjJrXzAzUG42UFJrYjE2X3hXQ3hKbE9SZ2s5Rm1NOFBUbDJoNkpNMWs2b3RiVnBuaUZrcmY0Z0dSamJLN1JXSXV3V3M?oc=5"
+      "fuente": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5RTXJlNTMtRTJtMFRvTERIajFuNkdxRkJqZjAtUWpIYi1qTFlBMGZ2SDFUSnhmYTFFaTJ1NmQxdElNdXRUX1lDOEV2N0ZTUU43QW40RXJfQm4xcnU2VjRjV2RtdURtRjRzeU5mVFd6YjZDeXdEekhB?oc=5"
     },
     {
-      "titulo": "Riesgo país y reservas del BCRA: de dónde saldrán los dólares que necesitará Argentina en 2027",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "Bloomberg Línea",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaWRCQzBDMmM5cDBFZGZTZjVXdmljcURqdXR5QkkyenFRLUh1UHNlU1dZNWhhd0NIYTZ4LUE5cHYzYXlmZ2VBQTdvODJFZGJRLU9QallNMWNaNDRZSDhxdTNfM3I2Z2kxZmFNR3ptXzVtWUI4ZFV2QTQ0SGs1TVF1TlBaOW9BYWtyT0VkWkNSQlBYUGQ5LTJXWmZoRWlWd25MbzRnOW03NmFDN2Y2UHh1QmdvdlNOOXJfT0RkNGNPSGZoU3FMNmpMMGM2bXlLbEVqdmthRlpwVndhRElHZnY4cXhFTdIB9wFBVV95cUxPa29jZ2d0dUlTdndtRVhUd0t2UXFTZ0FUUHM0aVc5ZWJaWVJ1ODBUemNkVy1mZ3ZCa0V2QTdaQktuWjVZRTZzaGFKQ2JsaHlJV1FmSzIzS3o2Nk1veV9IZHZtZWJaVmMtdlgzX1VhX0FvNGVCbUZfRmJSYVA1YjFMN0tXdG9XX01CWGxsU1huSVRpN0tJbUdzUHlqaEZCXzdseHgxZzRoN0hUWXhpRDVwZFFJXzA4bVJzbnZLSklBa01lYmQtYUFzOFBZUzBJLWw4SzVYRzFRajBDVnpjUE51ZnBNM2N0OWwxdWlVclhUVld1eUg3akt3?oc=5"
-    },
-    {
-      "titulo": "Dólar y riesgo país: qué está pasando con la economía argentina y cómo puede afectar al bolsillo | 17 de",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "Hoy Día Córdoba",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMlRPVFdiLXp3QnhEN2kyaWt3bHp0eXlVanNDSGh1YVJJZERRZVg3YmpBTzE0WDRZamY0OTVGU0Jzd2VkaU0xNkREQzA5SGN6emQyYWJFcmZweXNRclFwTXhSRzRhZldPWFMwOGpxeUhWazNhTG9iWmNqbXBrUWQ1OEt4X0FZbmVodUszaUNDcVVkVnYzekhrc2hrN3gyZzlBWnlteGFKaDBMcmsyUDQ1aVpFNnlSbXd2SW5IX20wRWh2dzFvUFHSAcsBQVVfeXFMUFNVZUVieVVtdnJVSFNfb3FqY3ZBRkhEaUR5cW40Zno4MFdQTVAyR3NoTlEwSmd0ZWhQdlVqbUZIcmZQODRITkpQMGpxYVVCcEgzcGRMc3YxTnlqbjM4OGdBWlZuRGRWUlRkdk53eG1ydThyZ19MQ3paZjNnNVZjdDR1aG1xSzhTVmtNSzQtZ19WY2ItdVAzV2lHRjJoekpaQlVDbUlYV2FZZTd3UV94bDZfdzVDRVZMakdaTUJLMFVvemxsYlBiSWxWTmc?oc=5"
-    },
-    {
-      "titulo": "La inflación no retrocede",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "Página|12",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9RVnRrdXJZbXlzbHQ2VHl4Mm9reHZfS2pzYlRJb1d6R2JtMFdTREpLOVg0QWVYRTdUVzQyZFdDdHc5SjhLOHhfQmx5c1MtSHlxb19MWTVCWjdPNHdPLXg0TjZGQUMwekJFRHdtYjEtTjdwMTA?oc=5"
-    },
-    {
-      "titulo": "El vice del BCRA cruzó a los que piden un “plan platita”: “Es muy peligroso aflojar la política monetaria para aumentar la actividad”",
+      "titulo": "El dólar volvió a subir, las acciones cayeron por el contagio externo y el riesgo país perforó los 850 puntos",
       "resumen": "",
       "bolsillo": "",
       "fuente": "Infobae",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPaGdzNm00ZXFza1dwcHpxaHFIVDRSQ3VabmlRV2ZneTY2R21haS1nWGJfWmJ6YzBmbWQyY0UwMlpxYXZqelZVX0ZEUlNqYWExTkFhb2luaGhYUTBURXFMeGtlVHI3UkVETWNiSHFMNlZBTmRVSWp3UnlLd2JKYzVfd2kybF9LeG1TVkg5VW1oemg1MHJIMW1mTlZndWxhWnpuSHJDNjBBLW83QXJrc0lCLXRvaHR0ZFRLdF83ODZNUXJzUl9Jc0VYbC1SSm9mMk1Gb3VsSnZiNVNFa3F0a3psamNoMS0taTRpYk5WNEtLZFUtelpicHpRNDFVZ0MzTFkyUDVJ0gGeAkFVX3lxTFBkV3pXZlMtRHlncDE2cmYwSnBVU0hHTVhQeUZRRXJTZ2kwT3Y0ZWxSaFFJc2dScVFwa0xEWlBEdkdrNG1ta1NlZU1JTkNiRWFoSE1KV1RtOG1aU3NudWNtbjVSV0t0QUVlVldqN3RYRzdVNkJheFVVcEljLVJ2VnNIOFJBZjREcEJTa0JjejBhRHl1UWhWWFZEYnJWNDdBZldlWGE1LUppelVHaEw2dXRXaWttZUh5NGp5SjFHN3h1YlM2OUlxcTV0UUJWSnEySDhlQ0t6OGltYW05ZUVScVVxMm1sUmR0eGs2aXNQS2lRaUpMOXUxRnJZeGVteko0MGN0UWdYdkpFa2lZX2c2YmRJamxMZFp6REY2LVBKV3c?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPR3NoZDBjNzh0N1dVYWFJWFVXcWgwY1ZrMFV3SFkxU05PVW9ld01yUjdYMVB6cVZhVWhwbWU3eG4ySWUtZW12c0FhSVNuQkp5ZzMwVXV4cUNvSUZVWTk4cGZOdHA3YldBb3Uydlo2SXBzdkJvcU1reXIzaUVKTGJnY01hRmgzbXNoNldZbzBJeFYxVWhnQ0lLVFZWaVVyZGc3MVFoNDBjYk9qeGZJWGNMU1Fpd0pLcUdtVVJNRjFSZUxkdjZERm9RTTFUZEZ2eUk0dV9BYWdOMV9FQlhfb3lyeFFjUXYybWZm0gGDAkFVX3lxTE93bzZ4RTFoeXBfUmdjNFJtZU5PWHczYnJZa051YXFlclFINHI2NnFhMnJuX0MtOTVoUnhxNFNnV1B4MXlmUFdfU2ZoY2kzYWo1dUhtUDg4S3l6NXZYNzdzdDZuWFBWSkpaU0F6UHUxc3JCRVJRM0gtbkRKaFB3Zy1LblJBTGEyYWlWYkhocFJOOHFpQWZxQUp2Q3Roelp5dmhDM2VQNGg1SXB1VE5MQy1sQVFDWnJMcUkyX1NsSzZ5bVI1c01ZXzJuVTJsNFlWeXUwOVJ0c3h3MWR2N2pCMmxuM0FFYWJHUjVaZVpPT0ZYX19XbEdQQ3NidWRLSnNXdkF3UDg?oc=5"
     },
     {
-      "titulo": "Inflación mayorista en Argentina sube 1,6% mensual en octubre",
+      "titulo": "El dólar blue subió $25 y cerró a $1.630, mientras el oficial alcanzó un nuevo récord nominal",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "safras.com.br",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ISGFRSU9CS2RpcU1td2FNMnMwOHZ3amx4MzVzN1FycHZvMFRMYndCdlpYVHJGZnpsRFF4LUxUSHBxZjAzZ0kySmZEUTNXR0o0WnNybThmdGIxeUR2aE0ySUpaOTBQTERGRXNSbjRKNUZpZW1acFVxTA?oc=5"
+      "fuente": "Sol Play 91.5",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWE1aNFNGVmFRSzFXY3NCZmw3Mk1KVjlCS0JtNzFoc09USVNBbkQ5ZG1sbmthbUdCQkxfOWRUX29XX1FHeDBHSGhTeVpFNlllOV93NjRTSTVFUDBoQlFMX01BbHhQUi11NWUtd3o0RUgtTVhyU2ZmeE15bDV5ZzFKVWxpa3pnLTBpbG1sWTBtQkNpN1dEMmhaTHFjV1RSQXIzS2tLZlM1SUZ1cG9PY1JZNUIwTVVIcTRu?oc=5"
+    },
+    {
+      "titulo": "La brecha entre el dólar oficial y paralelos roza el 10%, un récord desde las legislativas: qué proyectan analistas",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "Bloomberg Línea",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQcXd4TnZiQlp3VG9MZGRVMDgzRXZ6bjdFSmEtb3dyc0Y4MXdJdklsRDljN2FmV1dnMXJoRGY5MHF1c1NNcVRxWnFkdzc0dkhjQUlaeUpiMEV4ZXNmd2FWNV9WbzJxZWdxRFVGOUhfeHN3Ynhld2t2dDdVcFJPckJBTDFsSGhqZEdBbWVyZ1ZUUWtXcl9qM0Q3THdZS0VRUGtNb1MwcnNzQzFHcFBMalVxdGVWRGUxTjg2RmhfWkNmVzVzX3dudndYX1FEVkZGaXhXNXE2R3dmQkxWOHhSWDhGQlliR3RGOVhYbmFJajI1TmFzRlcwN2UtdGVJelfSAZACQVVfeXFMTzZOMnhkRTl6c2lpTjR6ZUVGVWo2TmZnZ1dvTGJvRmNWckhaVmVMdUJja3d0S0ozNHVUaGxCcjg0Rm1QNGJBcHgtaHVpZzJUSHNWbWhUVHFSeFh2cXY1OFR6a1VQS2NuUjdhSzZBTndwUy1pakw0M3h2aklwR3RvVEE5VHB3WXFaU3JRTmF2U25OR0tqdko4X1pDSDNJa1dXOUZFQXhXam9aMjh0Zm9hUmk1UWdEbkcwQThPSUo2QVphSl9Rbm1qRXZEOGo1ajh0QzcyUXdEZTJBRHJRMEVBVHpWSXp6NGowTENoUUJoSnY4V3RFTzJwWWJHUWVaaGp4RWFCUVJlVVEydUZPNGtzcU4?oc=5"
+    },
+    {
+      "titulo": "Argentina: brecha entre dólar oficial y CCL roza el 10%",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "El Ecosistema Startup",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMlAzVWRuTllPZTFWcTZ3S2hZSVhLYktrWklPWHhkZXpnOTNudUxuUE9Ma3NuZ2dvejZKZEZJcmJqSkhtTEFlY1Y0SUl2aXhrSzZYaFpvTFhKQUd6anNPRkx5c1czREZKT3ZzMThhSGlJZmV1RWlWU2k2eDFyeWptbHlrY19FRXBlSUxMZA?oc=5"
+    },
+    {
+      "titulo": "La Argentina tiene la inflación en dólares más alta del planeta y se encareció casi un 90% en la era Milei",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "Versión Rosario",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVFVuZjIyOFZ1eDBnd1l3ay1pZVhXTkIzVExMdG1yTmg4U0dFXy1wVE9ud2RxYURaaDR2a0E5bWs3MDV2T2FNSmVVMDBjaGVMX21sWktrMHg1SDl1eWItcUZsM2xJeWdyeURzWmZxLW4wV2daZHR2OGNjd2IzbTd1QjFIZkR1ellZVHB5dHNtMGMxZVY2SFhJQ3h1MExGU1dwUjlXMlF1Vi1tR3VNNTl4ZHJWSnlTTHpMX2Jfb3VubkpCU1cwYVFOd1BzcTQ3Nno4ZHVmdUZMNNIB3AFBVV95cUxQZGEzSVIyUTMxQjB0QnVrT01wX09iUFFRcGVGQmo5eU1SWi1JcTFGSVYxV2NQdnNZN2lyMGtGSDNJbWUzUW9BSWpqeXo5ODFvVnpuaWJsWlJ2UWdnd2lqYXNWZXhncmpWSTQ1dEoxSUpvcm9HdnpOUmNuUTUtc2wyUnpQWkZXZ0VNMXpaQmdHMl9nMkx6aXNWUmlkOFlhR3FnQWFWR1JpVVFBb1JDaThKbWx4a24xbE1ONjFJZ1E1NVdGTEE5b3FrUmdlOEtvVjFHSDl1UVdKUFc2aDc3?oc=5"
     }
   ]
 }
