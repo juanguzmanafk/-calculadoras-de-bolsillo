@@ -1,32 +1,32 @@
 {
-  "actualizado": "2026-11-18T22:26:05-03:00",
+  "actualizado": "2026-11-19T22:21:15-03:00",
   "dolar": {
     "oficial": {
-      "compra": 1530,
-      "venta": 1580,
+      "compra": 1535,
+      "venta": 1585,
       "fuente": "Banco Nación"
     },
     "blue": {
-      "compra": 1610,
-      "venta": 1630
+      "compra": 1620,
+      "venta": 1640
     },
     "mep": {
-      "venta": 1628.8
+      "venta": 1649.8
     },
     "ccl": {
-      "venta": 1724.1
+      "venta": 1748.2
     },
     "tarjeta": {
-      "venta": 2054
+      "venta": 2060.5
     },
     "mayorista": {
-      "venta": 1559.5
+      "venta": 1565
     },
-    "fuente": "dolarapi.com, 18/11/2026"
+    "fuente": "dolarapi.com, 19/11/2026"
   },
   "riesgoPais": {
-    "valor": 854,
-    "fuente": "JP Morgan vía argentinadatos.com, 18/11/2026"
+    "valor": 848,
+    "fuente": "JP Morgan vía argentinadatos.com, 19/11/2026"
   },
   "inflacion": {
     "ultimoMes": "Octubre 2026",
@@ -81,50 +81,50 @@
   "plazoFijo": {
     "tnaReferencia": 24,
     "detalle": "Tasa más alta a 30 días que informan los bancos al BCRA (BANCO BICA). Los bancos grandes suelen pagar menos.",
-    "fuente": "BCRA vía argentinadatos.com, 18/11/2026"
+    "fuente": "BCRA vía argentinadatos.com, 19/11/2026"
   },
   "noticias": [
     {
-      "titulo": "Riesgo país de Argentina se mantiene en torno a 850 puntos, dudas por deuda pública",
+      "titulo": "¿Cómo bajar rápidamente la inflación y el riesgo país?",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5RTXJlNTMtRTJtMFRvTERIajFuNkdxRkJqZjAtUWpIYi1qTFlBMGZ2SDFUSnhmYTFFaTJ1NmQxdElNdXRUX1lDOEV2N0ZTUU43QW40RXJfQm4xcnU2VjRjV2RtdURtRjRzeU5mVFd6YjZDeXdEekhB?oc=5"
+      "fuente": "Clarin.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWVZ3cW0yTHo2TnJKNmNWTkdTbHdZN1FXSjVoYU15TU15NVI2eE9zN3hTUkpTVGxyR0pJeHVXWGNGSGluMHNlRnA3bTdKdERNU29vRXN3ZU5FVUliblNjdzk2X3g5d3lEVFp5VDA3U0RvT2ZOSUVlanBZQjNHYWg0ek1HT2E3bm13dkJUX0xPdWJEMzQ?oc=5"
     },
     {
-      "titulo": "El dólar volvió a subir, las acciones cayeron por el contagio externo y el riesgo país perforó los 850 puntos",
+      "titulo": "El riesgo país de la Argentina cerró la jornada en 931 puntos básicos",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "Agencia Noticias Argentinas",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSHJxV0hOVTlrMjh2b29NdDlMcS1EY2g2OXFiLWN0VUdiRXpoLV9SVDNWRDEwWk1TczNLei01SUMxT0pESXpEQUFFVHdlb09zdmR6el94djQ0dXdCVjJTNlpqUWNZTVRFal9fbDhlTm9Ga0d2Y2ZUcFV0dHphX2QteC1kQkFQb2kwdVYxakdqbEVKakg4YkpsdjFYb0d4bFM4eVNPbnFrMHFPQzdkVDNxM29aampwT2FNZ2hVenlpeXNkbXFkMkFEaFpIRkEtNk9a0gHfAUFVX3lxTE1ncmZHdU5ZdHFsNEVSdFpCbDdhZFpteTI2WWw5Vm9MUkVHclhNQ18yRDcyclRKa2g3MXpvVnNHUlczSUt1dkQzT0lxRUlySWZSNURJZHJjUVI3UmFoRFdSVEVWcjdWb2RZVFpqRURFbWlYQmJsV3lHMDg0NEloVXgyUHp5YlVnWWRZT3pGZFhVYlZ6SUJaSnNoMHZjaGpnM25JeExqaG5zUEhfcVcwMWM4Q2tQU3Z2Ri1hU09WZW9xS2FtRGFnalBZdHFjeGtpSi1RSlVtU3J2RjFMYTJsUHc?oc=5"
+    },
+    {
+      "titulo": "Las acciones y los bonos argentinos volvieron a caer muy fuerte y el riesgo país superó los 900 puntos básicos",
       "resumen": "",
       "bolsillo": "",
       "fuente": "Infobae",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPR3NoZDBjNzh0N1dVYWFJWFVXcWgwY1ZrMFV3SFkxU05PVW9ld01yUjdYMVB6cVZhVWhwbWU3eG4ySWUtZW12c0FhSVNuQkp5ZzMwVXV4cUNvSUZVWTk4cGZOdHA3YldBb3Uydlo2SXBzdkJvcU1reXIzaUVKTGJnY01hRmgzbXNoNldZbzBJeFYxVWhnQ0lLVFZWaVVyZGc3MVFoNDBjYk9qeGZJWGNMU1Fpd0pLcUdtVVJNRjFSZUxkdjZERm9RTTFUZEZ2eUk0dV9BYWdOMV9FQlhfb3lyeFFjUXYybWZm0gGDAkFVX3lxTE93bzZ4RTFoeXBfUmdjNFJtZU5PWHczYnJZa051YXFlclFINHI2NnFhMnJuX0MtOTVoUnhxNFNnV1B4MXlmUFdfU2ZoY2kzYWo1dUhtUDg4S3l6NXZYNzdzdDZuWFBWSkpaU0F6UHUxc3JCRVJRM0gtbkRKaFB3Zy1LblJBTGEyYWlWYkhocFJOOHFpQWZxQUp2Q3Roelp5dmhDM2VQNGg1SXB1VE5MQy1sQVFDWnJMcUkyX1NsSzZ5bVI1c01ZXzJuVTJsNFlWeXUwOVJ0c3h3MWR2N2pCMmxuM0FFYWJHUjVaZVpPT0ZYX19XbEdQQ3NidWRLSnNXdkF3UDg?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTzYwdFZZQURwY0RuOFZXMGQxV3VtVDEzZFM1OFNEZW5qRlpoZHlveE42THRhVmFvZjVVUkdrX0Y2bzFPQUdNYWxEdVNWOVZ2cXZWblh6aHloWXFYN3dMMVJBeEZEZEpnQjRIa3Q3dk51N0RGRVUwX0VYWVBCd0lrRjlnX1pFQTBSRUswUGc3U01pSEI4RkI4WWJtVXN0S1MyLVh6V2NyeWdnZWRtRnZVemF0Z3dZNHpjU3B4c2FhX1oxU05KSDFsS3RNd1DSAecBQVVfeXFMTko1a3dBd2tWSlB1bHhmR3FRUzhDTUpmVTBZTnlFQVh6RHYycGwtWVFKY25XX2lMMUxtRXdWR08xV1NDR0pyV0w5V2NGd09iTzNDcXF5NjBENUhoUEZEcGYxX0JOZkhrQlhPejl4b2NOUE9fRElQRUtQcDlCNTFMdGFmeGlILW9fZnVhTXhpcElrbVpfQVdiYVFzSXYyNzdXX1pmeXY4bmU0c216aURlaDZsZ2JNbWRjclZTLU5UUDhSa1N6MHdjZmFUTkVwWk1rbXdMUW1sZHNfRGZsSnFkSVN6RTlha1Fr?oc=5"
     },
     {
-      "titulo": "El dólar blue subió $25 y cerró a $1.630, mientras el oficial alcanzó un nuevo récord nominal",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "Sol Play 91.5",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWE1aNFNGVmFRSzFXY3NCZmw3Mk1KVjlCS0JtNzFoc09USVNBbkQ5ZG1sbmthbUdCQkxfOWRUX29XX1FHeDBHSGhTeVpFNlllOV93NjRTSTVFUDBoQlFMX01BbHhQUi11NWUtd3o0RUgtTVhyU2ZmeE15bDV5ZzFKVWxpa3pnLTBpbG1sWTBtQkNpN1dEMmhaTHFjV1RSQXIzS2tLZlM1SUZ1cG9PY1JZNUIwTVVIcTRu?oc=5"
-    },
-    {
-      "titulo": "La brecha entre el dólar oficial y paralelos roza el 10%, un récord desde las legislativas: qué proyectan analistas",
+      "titulo": "Analistas señalan que el Gobierno habría intervenido para contener al dólar en Argentina",
       "resumen": "",
       "bolsillo": "",
       "fuente": "Bloomberg Línea",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQcXd4TnZiQlp3VG9MZGRVMDgzRXZ6bjdFSmEtb3dyc0Y4MXdJdklsRDljN2FmV1dnMXJoRGY5MHF1c1NNcVRxWnFkdzc0dkhjQUlaeUpiMEV4ZXNmd2FWNV9WbzJxZWdxRFVGOUhfeHN3Ynhld2t2dDdVcFJPckJBTDFsSGhqZEdBbWVyZ1ZUUWtXcl9qM0Q3THdZS0VRUGtNb1MwcnNzQzFHcFBMalVxdGVWRGUxTjg2RmhfWkNmVzVzX3dudndYX1FEVkZGaXhXNXE2R3dmQkxWOHhSWDhGQlliR3RGOVhYbmFJajI1TmFzRlcwN2UtdGVJelfSAZACQVVfeXFMTzZOMnhkRTl6c2lpTjR6ZUVGVWo2TmZnZ1dvTGJvRmNWckhaVmVMdUJja3d0S0ozNHVUaGxCcjg0Rm1QNGJBcHgtaHVpZzJUSHNWbWhUVHFSeFh2cXY1OFR6a1VQS2NuUjdhSzZBTndwUy1pakw0M3h2aklwR3RvVEE5VHB3WXFaU3JRTmF2U25OR0tqdko4X1pDSDNJa1dXOUZFQXhXam9aMjh0Zm9hUmk1UWdEbkcwQThPSUo2QVphSl9Rbm1qRXZEOGo1ajh0QzcyUXdEZTJBRHJRMEVBVHpWSXp6NGowTENoUUJoSnY4V3RFTzJwWWJHUWVaaGp4RWFCUVJlVVEydUZPNGtzcU4?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcjZJd0lXanNOekFoejlVZGVubDdDTUwwbGtZLXNlN3JZdEt4aWJ3TmFTMS1ucTk3OXM0MklNR1BQT1FSdFBaVFI4RldGaW5lMUVoVmVMeVNWX2YzLXEyVTF5dGJ3d0s2cUp6TjZUQ24wYTRoNDVFUm82dDRMbTJQdlg5UW1JN2ZidmpTMjFLWmV4ZnZpTjFGTWptMmwzaFViQ28xY1h1RTR2dExxSW81SDhyLUVzb2p6UnJaNl95a0pPU294aG1ha1g5YXBkRWxLZExrU2syNnJlbVQx0gHwAUFVX3lxTFA4SkJEQWZ1c3pFR3FJUGZSNGhfcTRkNFRvS2xrMVQyQk5UUXMxRHc0bzZMQW1sLUtqd2JlUWN0R3I3ejZyX3dZc1pEZmdXY3Bic3pGUEFoZnQtamNfcFl5cmZSZ09tWEJXMFRST3dQUFpTOWRBOFRQSlFjOWZZSXVYRXpwS3JXQmhJQkZQMU1IWVRsaVpKdkFFeWd6VWcxLW5XYXRuYUJVWGtxcmx1dFIyRFhLY0syaVl0X3pUSndHRmZ0TnpTdnRlMlFkdWFvU2NucDhkUklSdmtnNmZ5a1JWMGVwMFFwd0ZzZlVSTjgzTw?oc=5"
     },
     {
-      "titulo": "Argentina: brecha entre dólar oficial y CCL roza el 10%",
+      "titulo": "El riesgo país salta a 931 puntos y golpea a bonos y dólar",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "El Ecosistema Startup",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMlAzVWRuTllPZTFWcTZ3S2hZSVhLYktrWklPWHhkZXpnOTNudUxuUE9Ma3NuZ2dvejZKZEZJcmJqSkhtTEFlY1Y0SUl2aXhrSzZYaFpvTFhKQUd6anNPRkx5c1czREZKT3ZzMThhSGlJZmV1RWlWU2k2eDFyeWptbHlrY19FRXBlSUxMZA?oc=5"
+      "fuente": "Diario El Norte - San Nicolás",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTW9FdjAxREVaWm5PNUFfVV9fc2dTaU1iRFJYZU5tMVRXWEdPUzJsVlBDLWFDeEdXM0lyZE1qR0RPLTlqWE40V0VkQmV0QlcwU0pFc2NmTVBqam1rR3hYbk9veTVvZWh5Yzh5YUR5VzZmMGZRM3RsY1lISW5rZ09LQzd1cUZBY3JWR0RhMzUwVzkzdw?oc=5"
     },
     {
-      "titulo": "La Argentina tiene la inflación en dólares más alta del planeta y se encareció casi un 90% en la era Milei",
+      "titulo": "Explotó el riesgo país, superó los 930 puntos y se acerca a la zona de default",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Versión Rosario",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVFVuZjIyOFZ1eDBnd1l3ay1pZVhXTkIzVExMdG1yTmg4U0dFXy1wVE9ud2RxYURaaDR2a0E5bWs3MDV2T2FNSmVVMDBjaGVMX21sWktrMHg1SDl1eWItcUZsM2xJeWdyeURzWmZxLW4wV2daZHR2OGNjd2IzbTd1QjFIZkR1ellZVHB5dHNtMGMxZVY2SFhJQ3h1MExGU1dwUjlXMlF1Vi1tR3VNNTl4ZHJWSnlTTHpMX2Jfb3VubkpCU1cwYVFOd1BzcTQ3Nno4ZHVmdUZMNNIB3AFBVV95cUxQZGEzSVIyUTMxQjB0QnVrT01wX09iUFFRcGVGQmo5eU1SWi1JcTFGSVYxV2NQdnNZN2lyMGtGSDNJbWUzUW9BSWpqeXo5ODFvVnpuaWJsWlJ2UWdnd2lqYXNWZXhncmpWSTQ1dEoxSUpvcm9HdnpOUmNuUTUtc2wyUnpQWkZXZ0VNMXpaQmdHMl9nMkx6aXNWUmlkOFlhR3FnQWFWR1JpVVFBb1JDaThKbWx4a24xbE1ONjFJZ1E1NVdGTEE5b3FrUmdlOEtvVjFHSDl1UVdKUFc2aDc3?oc=5"
+      "fuente": "La Política Online",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb1hqLVhPOXpLNmhCNzU5VDMxTnVTanl3c2hYazQ4Zi1LY1NRRGxmbVJWV0RFQVoxcUdqUllXbnhESnhUWWpNQ00wZVh3YjFza3V6T2pLTEpPc2lHQkZNSkhQRXU5SVNxM1M3cHVBUkFFcFZNUVZfdzQ4cFV0TWhMUW96ZUZkWjhIenhLX0VscWM5Vno2aGRUYTlEZHdvSzRJRjFoRTZqZzJBOEZjWnRMZDhyclRHUlJianc4TNIBvwFBVV95cUxQaldWallocDdMQ2NvSWNzS1M5UUZYNHVmSF9MUVpEQkJmM014dklaWk9kX1M3dVRvYXlTeDdJejV2eUhiZXVHb0Y2QmYxbG8tdU1tY2tvMG93b29YU3RqQXdjSUJWUlVvbmtOd3h3Q1NuNUVvVWt3TExIUVY1enJ0eV93ZWtZUzBOREZEeWlrRFZad0dTU2xvMTRqY2pxX2J4WkhJWGx3TzMyRmJFMEUzaWxvU0VmLXZYQ3p6R0ZDWQ?oc=5"
     }
   ]
 }
