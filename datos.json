@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-20T22:25:21-03:00",
+  "actualizado": "2026-11-21T22:22:05-03:00",
   "dolar": {
     "oficial": {
       "compra": 1550,
@@ -22,11 +22,11 @@
     "mayorista": {
       "venta": 1580
     },
-    "fuente": "dolarapi.com, 20/11/2026"
+    "fuente": "dolarapi.com, 21/11/2026"
   },
   "riesgoPais": {
-    "valor": 931,
-    "fuente": "JP Morgan vía argentinadatos.com, 20/11/2026"
+    "valor": 1070,
+    "fuente": "JP Morgan vía argentinadatos.com, 21/11/2026"
   },
   "inflacion": {
     "ultimoMes": "Octubre 2026",
@@ -81,50 +81,50 @@
   "plazoFijo": {
     "tnaReferencia": 24,
     "detalle": "Tasa más alta a 30 días que informan los bancos al BCRA (BANCO BICA). Los bancos grandes suelen pagar menos.",
-    "fuente": "BCRA vía argentinadatos.com, 20/11/2026"
+    "fuente": "BCRA vía argentinadatos.com, 21/11/2026"
   },
   "noticias": [
     {
-      "titulo": "Cuáles son las consecuencias para la economía Argentina de un riesgo país de más de 1.000 puntos",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "Infobae",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQ0lJSTBEbFdqU0lRTkx0Z0txMk1qZmtsVkR6Y3J3Wm1IYkZKTTFyel9HTGdtSG85Z2NFc1R1Y1RqSjFpSEhMTUIxZU9JRnU3SzdDdGRuT3JXVWtPNXV3LXZXTGZSZzBnSjlWN2JseFhoSDJIQ3gzZEhKcmNaLUhyNlMtT1lqcERjTENjQ29va1cwVUpjaTlld1dNZFJvS0dfRU1nTE9TWTlwWVpVenNtTlc2M2JSRml0bGxmcURCSkF5VlZ6MHFhQVlCcU1ZRmFtanowazBTUdIB8gFBVV95cUxOck8wOEp3Y3U5RmFvWXN2aWZBc3JQTTR4dkpVdjdOb1RVNmthSFFYRDlMdTZETGNvZ1FsekRVU2FJT1QwVTNUWUxqdE9XYzFXbjkxZnlyS01rWjBVaE5ONmhMV1BYdXFScDFfSUVVaUlPQkdIRHlDMnViYjNvWjFOU3JJYV9wNmdvaGtoSGhNek4ybUEteDJwMVdRLWFSTlAtZzRsMWc0bjI5QUhqUWFvN01CZXl3TTVzaV9Kckl2ZWJYUThhV3l5bnNDYzZQVEMtVWloRFV4Z3ZXdWJPUDYycC1LdjZDYTJ4Wm0xS3ZvSmF5UQ?oc=5"
-    },
-    {
-      "titulo": "Firmeza de riesgo país de Argentina golpea mercados, con derrumbe de activos",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "Yahoo Finanzas",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOTdINzhodzhKdGhFZ3FXSGdBamY0elEtNXU1QTJRS1lMYk9VNXBYQWpONGxFRnV1Ylo1TVdWUkdteDRFdk9kSzVIeWQyUTVOVnVJUHV4NUdtWm9UUVJhaTlJc2JUR1NRNVg0QXVPRGJRUFBNRVJHWUFvTS1qT0lzTGYtR1ZzT05kTW13cHZzYmVCZzFXdUtfdlY4Q2pzTGs?oc=5"
-    },
-    {
-      "titulo": "DÓLAR RÉCORD, BONOS EN PICADA Y RIESGO PAÍS ARRIBA DE 1.000: qué consecuencias anticipan los economistas",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "El Economista - Últimas noticias económicas y financieras",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOU5YUHdBNnV4Qi1BZERJYy11TmNscHQzeUZkTFMwalRZcXFyWXc4QjE0VjVVUG14ZEU2QXRxLS1NQkZ4N2pRYXpjdWpSZXJqbXZmMk8tTEdtSnJTdUtiTm1iMVNpdzJrbHV2MDBpdU4tdlZvM1VBT0FmTEVNcWZqR0N6UldrSWJnMFJvTnpqYTZVOVZJVXRSby1fRi1vUDRfT3JaZjFzWWNGRkdvVnl4NEYtT3NoWFBwN0l0RTJGMnc0RDE4c0dqTtIBzgFBVV95cUxOMDBaOFpjMHB6Rmx1d3ktN2lSbzJLLXFYd0xLOHJULTdTNWE0ajJDQnVBZG91ODVGQmttbVlMZktDMGoyRW5ZTG91UWJuZmdoRlhzQnFjMHdDcXhqWEk0X2ZsSXRaR2VlUVpJR25uV0p1dVFvVUQ4SDdrODFTcWowc2VwSWVLeHJRclhNSTVTa1hxUkV1Xzc1TVpDZHMxcDBBUmNTZUpXNWhZejFfekwyLWUyeFpoamt0TkhIaGpMYk9jTHBSZDgxaTNDRUpBZw?oc=5"
-    },
-    {
-      "titulo": "Mercados. Cimbronazo financiero: el riesgo país se disparó a 1.070 puntos y el dólar llegó a $ 1.600",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "La Voz del Interior",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUGwzYnNFZUMxQVpFR2FpbHJxM2ZwMEVKVi1ZRTM5LXhxWlRVMXcxdHBvT0ZjQkExaW9nYkpWQk5fQS1OVlZscV9MMTlpUjdwNjBadXg2MnQ4SFVDZE1MSkhCZGVQWGlzX0RhZ0hIcTlaZU03ODdaLXI1STZqY2tRVVRTQ2JrQmhaTDNzOFljQWViTDY2Y1BnMmpyUXpfU0NBd2I5bHFpU0g5c29wUUZJcU4tMlZmaFZsb1I2VjNLT0g?oc=5"
-    },
-    {
-      "titulo": "Marcelo Bonelli analizó el alza del riesgo país en Argentina: “Sube muy por encima del resto de los países de la región”",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "Radio Mitre",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSGlvMUV0RTBFbV9yamxsVWpqaVBTeDFZQldFMVlXTG1xSnJnZ2xDcUdTeXFfcnFlTFV3YkdQakpMWF9oQkZzYU1JdFRZcFJ4c1c4UW5VR2t4X1NLdmxCbVdjOUxudFhvd3pLMy1IeHlZdEU4M3lTemZHOGkxdHktYTdmY2dlV1B3aVdhc2pmcDJOeENGZUhDR0hYRnMzTnZaTXBWVk9XRnEtWlJXX2ctYmVUWlJwZ0hBdU5xaGZTbjlfbzhKUkJnLXBrckdxTkpERE10aTROdzNVRTVHeWctWlZQa1JRME5YU2gxQkRwdVF3SGc?oc=5"
-    },
-    {
-      "titulo": "El dólar subió por tercera rueda consecutiva y el riesgo país superó los 1000 puntos",
+      "titulo": "Por qué subió el dólar: las causas detrás del salto de las cotizaciones esta semana y el impacto del riesgo país",
       "resumen": "",
       "bolsillo": "",
       "fuente": "La Nación",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbWMzRzdjQzBZUTYzS29NUUxuUk9KZHVTUWdlRFRsV09DSDltbFh4ZlZtVVUxd2tQUlhXWHlzZ2dIYlAxbHhqY0VkWExFdUtyMVRYdmw5dG4wT2pIMF9YcFpONVNmc3FwT191a3gyN1h4bkYwa3RiNFJKQ05IRE5wQ1ZCSlZ2U2pxTTNkd2xTWFdlV2VESWZ3dURONk5WQ2szMkJoRG13R1hzN1ZKMXFoamZrUWNNQWhpRVE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNbjRHU3ZVTm9YVmp1dHdia0I0aWZHNlJwaXBMQnBTNDRXNzlBYWtwZUFfdTVQNlExNmZGVE9RUFhwQW5FR1dEbXU0MTFHTFEwVDA2LTlQcVh6dVpiUWdrQkVOLUl4NjgyZ05QdDhwZVVkYUZzZzlwNjB0T2ludXVCTFNNSjllVHpLUDI4cWFpMm9Qczg4YXJMNVZXQjVETk54YnNaV0djYmxhV09rR0pqbmRkWm0yOTdoSmN1RWFkQ0ZPSUNyWDdXQzVuQml3dkwwUGVkMTJzSURBcThRaWhIMi1rcE5LWlI5ZUE?oc=5"
+    },
+    {
+      "titulo": "Análisis de Alberto Ades sobre el alza del dólar en Argentina",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "laGacetaOnline",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdXlHcUxLdDEyelp3Nzd6dF9vcXVUdlVIbWYwa3NCcWlfU0hHM09QMFJZZ3FES2ZGbU9BUm9Rb1hBRjZxVXNKSzI2Nk5rbmdpTktvbnZNMnpCQ1ZEYks4d00zUnRpeVRkdEhlbk1rQ0VJNWgyMlZmaFhwZXBYaUdaLWMzZWVPbVBWZ1ZhOW9JVW9fUHZrLUtiUHhjZlRJeUpRR0QzVDhja1VjTzc5VGZF?oc=5"
+    },
+    {
+      "titulo": "El Gobierno tiene fe en la reactivación, pero el mercado quiere ver señales que le permitan creer",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "El Litoral",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOamY3YjRZSExXUjAxQ2RrR0R6RHNIV3E5WHFZX2hNOUtKZjBMaFlzZXUyMEtlekJCNlF0cFpZc0NFVzVfZlNZcVoxTm9IMjhfZUJNRldPdkhRaFJkcU51RkIzcDl6Y21DejlvLVlRR0g2YzZpa0JfeUIwYTRITzlETDdIVjN6M1M2YVF0VWRGS2YwMUg1cEptRS1lN3RfMUxzRkxpZlVnOTBRSGdIRW9GUTBmVm9oMWMwdzNrdEdjSEc5ejVCZUlXbk5OMjMwcmJFSjhr?oc=5"
+    },
+    {
+      "titulo": "Ades: el dólar fuerte pega más en los emergentes y la Argentina no escapa",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "El Argentino Diario",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNc05zZWpyeTMwM01sUm9xVVRLZC1NVjBRSHNScWV5b1BEQ0tZZTdTdm1fWl9pQ3pwQVYyQmFsUjFacThSTG5yUGtnQVlvU0RaZ3Z0bDRZcklvWngyVnljS1pwby15MF9YUExnNnAtNGpseXhrRlJmT09wQWhjWWxQcW9sLWRXREpRU1dyMVVLek9YWkhfc0h6aTZWMnJNQUNnY3l6eHhzUjJIcXZ4dktlZHBVMGFEWmtvU2dqT3VzVkF2TFY3Q3BReUNTMU0?oc=5"
+    },
+    {
+      "titulo": "Reapareció Alberto Ades, habló de Riesgo País y evitó las críticas al plan de Caputo",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "Perfil",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTXNEQ2ZkZDZIYnY2d1ZDVGsyTWx1TllkZkRQNFhlVXdvWWVTZDBUWk1nZ3hHTXJ4dlBkMFJCdi1IamlCaUpvY0JtUmtEN2J0UGZvaG50MWxCTnJyYmxWVi1hWV9QZDdDZy12aTJXYktuSE1abmNvU0duV2JOZXlwS0c4alRieTgwbkozTFJ0a3lBdnhrQ2JpVlFiSEo5M0lFQ0JDdWlUXzMxZmFFOC1Ud0lfNGNLSzU2WXlyWEVBb2JaQjFjOVpB?oc=5"
+    },
+    {
+      "titulo": "Apreciación global del dólar y el impacto sobre la Argentina",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "Diario El Norte - San Nicolás",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdGcxSC14RkZuLUY2dXNXemMyZjUtX2VxMlQ2Y2oxM1FseTRqcWZNbnZuN2NSQkQybkYzN3dyNlR4VXY3SmtoeFpLNHhZMGlobnRBaHF1OERkeG9GbF8xWXF5azZySHVfQVM0elRuNWVrNS1ncTJjZWhiU3RZMjZUdzM3WlZ4WmhQNDBoRnZOLXZoMDNu?oc=5"
     }
   ]
 }
