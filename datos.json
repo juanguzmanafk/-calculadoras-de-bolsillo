@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-21T22:22:05-03:00",
+  "actualizado": "2026-11-22T22:27:31-03:00",
   "dolar": {
     "oficial": {
       "compra": 1550,
@@ -22,11 +22,11 @@
     "mayorista": {
       "venta": 1580
     },
-    "fuente": "dolarapi.com, 21/11/2026"
+    "fuente": "dolarapi.com, 22/11/2026"
   },
   "riesgoPais": {
     "valor": 1070,
-    "fuente": "JP Morgan vía argentinadatos.com, 21/11/2026"
+    "fuente": "JP Morgan vía argentinadatos.com, 22/11/2026"
   },
   "inflacion": {
     "ultimoMes": "Octubre 2026",
@@ -81,50 +81,50 @@
   "plazoFijo": {
     "tnaReferencia": 24,
     "detalle": "Tasa más alta a 30 días que informan los bancos al BCRA (BANCO BICA). Los bancos grandes suelen pagar menos.",
-    "fuente": "BCRA vía argentinadatos.com, 21/11/2026"
+    "fuente": "BCRA vía argentinadatos.com, 22/11/2026"
   },
   "noticias": [
     {
-      "titulo": "Por qué subió el dólar: las causas detrás del salto de las cotizaciones esta semana y el impacto del riesgo país",
+      "titulo": "Alertaron por el riesgo país y las dificultades de Argentina para afrontar los vencimientos de deuda",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "La Nación",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNbjRHU3ZVTm9YVmp1dHdia0I0aWZHNlJwaXBMQnBTNDRXNzlBYWtwZUFfdTVQNlExNmZGVE9RUFhwQW5FR1dEbXU0MTFHTFEwVDA2LTlQcVh6dVpiUWdrQkVOLUl4NjgyZ05QdDhwZVVkYUZzZzlwNjB0T2ludXVCTFNNSjllVHpLUDI4cWFpMm9Qczg4YXJMNVZXQjVETk54YnNaV0djYmxhV09rR0pqbmRkWm0yOTdoSmN1RWFkQ0ZPSUNyWDdXQzVuQml3dkwwUGVkMTJzSURBcThRaWhIMi1rcE5LWlI5ZUE?oc=5"
+      "fuente": "Diario Mendoza",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWTZxV3lVSUdtazFqcnRJeXppbWFfNW05aUthYWszVnBpLURFdkljX0o5M0ltRUs2djNVZWxRVGdvTmVFckpkUTlfM2NqdW5tLVZOdURJOTlhTGZWNjJtLVU0cEQ1OWNweVFacE1QNkxlLXBZRmRrZU5POTl0bFZINEdOcFhIdXJqNlRCWmFlN19HRWRtaHV4eXVqTzJnUGo2b3Nxb2tHdUdCUFBsYVlNV2FCRl9RNy10RXVreU1LTdIBxAFBVV95cUxPTDYyUEJDOURVRmlucVZoRDlHdU9VRzhtUWxBRE9DTHVKRklUNlE2alM2bVdiQ0VFc1BLczR0S1pQaDBPaFByV1dpNDFGNkNaSC1xbVlSLU1NZjdtZ1lRcDVESU5CVjVmTXgwX2xia3VteHBNN3FhaXBCTTRzaFVVSktRS1MwcmVaRVhEZF9qSnotTWkzYzhVMXNtOVhrcU00QmRLNXNiWjNQT3NWQXFEM1Jsa1NBekpVZC1lLWV1Ri1XcUkw?oc=5"
     },
     {
-      "titulo": "Análisis de Alberto Ades sobre el alza del dólar en Argentina",
+      "titulo": "Financial Times duda de la economía argentina: riesgo país, financiamiento e imagen Milei",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "laGacetaOnline",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdXlHcUxLdDEyelp3Nzd6dF9vcXVUdlVIbWYwa3NCcWlfU0hHM09QMFJZZ3FES2ZGbU9BUm9Rb1hBRjZxVXNKSzI2Nk5rbmdpTktvbnZNMnpCQ1ZEYks4d00zUnRpeVRkdEhlbk1rQ0VJNWgyMlZmaFhwZXBYaUdaLWMzZWVPbVBWZ1ZhOW9JVW9fUHZrLUtiUHhjZlRJeUpRR0QzVDhja1VjTzc5VGZF?oc=5"
+      "fuente": "iProfesional",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdnBBeVhCVTVoVFcyRS0tWE9GVDdLd1ZnbUNIR0ZnVnpFWUlGR29pMlFWWEpsSTllYldJWXZUUjVySHkxUmlFN1RRNUl5WE90SWM1bzRjUk1yMHZnbGZBRVNQR1IzT3luYmhFWkVPT2tFci0wTThUa21yWlFaNlhSM1ZvcGtNQmVNVkpXU29iYzVFMjk5SGJvSlFlRWFQYjFNZWFhWGN6UHlRTV85M3pXV3pPVHNSQmRRTVRHMFg4NzVFZmpZTERCcnhBX1HSAdIBQVVfeXFMTzBFRGN6OG5GNm1TVXI0WHljVUlab1JGdlFIbFVqRFp0LXJUWmhLOUszSGwtNDQxRk9UaTFYdW5fMDByN2VBRkt0MkZyTEpYUG1YTS02bjZFRTR0Skxia0prMkVqdk5EX29HdzVXSlBTdmxBX0J0clpmRm05cG4tbWxjalhVVVFjNVlXdzNYQjJQY1BGVDB4RGlHWWpoV2dGUFJBSWpXbmstYXI4Q1pHcFpWeXlfZ25Qamlud0FRaDZEWi1MWU1RUEQ4SGEwSkpqOTd3?oc=5"
     },
     {
-      "titulo": "El Gobierno tiene fe en la reactivación, pero el mercado quiere ver señales que le permitan creer",
+      "titulo": "Financial Times advirtió por la suba del riesgo país y las dudas de financiamiento en Argentina",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "El Litoral",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOamY3YjRZSExXUjAxQ2RrR0R6RHNIV3E5WHFZX2hNOUtKZjBMaFlzZXUyMEtlekJCNlF0cFpZc0NFVzVfZlNZcVoxTm9IMjhfZUJNRldPdkhRaFJkcU51RkIzcDl6Y21DejlvLVlRR0g2YzZpa0JfeUIwYTRITzlETDdIVjN6M1M2YVF0VWRGS2YwMUg1cEptRS1lN3RfMUxzRkxpZlVnOTBRSGdIRW9GUTBmVm9oMWMwdzNrdEdjSEc5ejVCZUlXbk5OMjMwcmJFSjhr?oc=5"
+      "fuente": "Canal26",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNR3E1NFVtUjd1Um1nSkd6V3BpTUF1V1BTaU9ndk5kaW81YTZ1aXAyT1VOVzg4dGlHYVMwU0pjOEF4VkFlRmExTWRwZmhjTGNHOXBWVXR5T2F2MVVKRTVHeVA4dk9OeFhPZ295aENhMlI1cFlabVNEUjVSRGFjenh6eUJnQUlVRTFleDJLdW9veVZWNHFUT1hQcDdubV8zWWJUWHJpVFNZUHFGOTFHODhWZVJ3V2lhN3ZSWHpDRi1sVWk3U1BqR01ZLU9MR0V0cjdkb1hENXNJUQ?oc=5"
     },
     {
-      "titulo": "Ades: el dólar fuerte pega más en los emergentes y la Argentina no escapa",
+      "titulo": "The Financial Times advirtió que la suba del riesgo país “complicaría” la deuda externa Argentina: los motivos",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "El Argentino Diario",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNc05zZWpyeTMwM01sUm9xVVRLZC1NVjBRSHNScWV5b1BEQ0tZZTdTdm1fWl9pQ3pwQVYyQmFsUjFacThSTG5yUGtnQVlvU0RaZ3Z0bDRZcklvWngyVnljS1pwby15MF9YUExnNnAtNGpseXhrRlJmT09wQWhjWWxQcW9sLWRXREpRU1dyMVVLek9YWkhfc0h6aTZWMnJNQUNnY3l6eHhzUjJIcXZ4dktlZHBVMGFEWmtvU2dqT3VzVkF2TFY3Q3BReUNTMU0?oc=5"
+      "fuente": "Diario Río Negro",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPV3BLOHIxNm1wa1ZieE1GeTYtRDBaeE1SMVN0N2RiU21mZzVvQzVmaHo0NF9PV0dIQWdaV0JST01hODhEc1prR0NjTTVENG8wRmFXem55bmY5Z2tPdmRFYnJEMnVSb2dqTlRoZVRUZXk4eTF0WE1YS0t0SzhiUjRTNGVNU3BKVWRxd1c5LVdfVzhHSUJuYkhmZzl1OFZSbVhUZndXVVFGbVBzRTZ4RU5RbWx6MWFrN3V4Z09EWmNSazluT3praG5iQ3FXTFBpaV9iTzJ6b3BWMHRQU1ZTTGp3V1J1RzduNHUx0gHwAUFVX3lxTFB6LXpqTWZxLWZtcER2Mk1Xdjg5Z3lNZTI0OU1qTEdLdURoeV9JZUxZZ1dFaGNTay05Y0EtUURuTldtRkJLYm9tZkpNN0gyaGdVTFdKS0VTZHcxbFlOOTRTYU1aZmVXUFlrM293VFR1ZExVOTdRVWlXQ2ttU2ZCZU01Wmlqb0FGLTlQcldoRTUyZ0NLam5yeFJyZnNEVkYtSkUxODBmNUtENV8yNE9YdG85UExpUzRCdVhuLWo0cm5IS2ZNU0hxOENEZDUwbzBtaWkyb05VXzFnaExrVXBUYjkyekFfM0txYUxUZUR6dU1EdA?oc=5"
     },
     {
-      "titulo": "Reapareció Alberto Ades, habló de Riesgo País y evitó las críticas al plan de Caputo",
+      "titulo": "El Financial Times alertó por el riesgo país en Argentina y puso en duda el financiamiento de la deuda de 2027",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Perfil",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTXNEQ2ZkZDZIYnY2d1ZDVGsyTWx1TllkZkRQNFhlVXdvWWVTZDBUWk1nZ3hHTXJ4dlBkMFJCdi1IamlCaUpvY0JtUmtEN2J0UGZvaG50MWxCTnJyYmxWVi1hWV9QZDdDZy12aTJXYktuSE1abmNvU0duV2JOZXlwS0c4alRieTgwbkozTFJ0a3lBdnhrQ2JpVlFiSEo5M0lFQ0JDdWlUXzMxZmFFOC1Ud0lfNGNLSzU2WXlyWEVBb2JaQjFjOVpB?oc=5"
+      "fuente": "El Liberal",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMUJ0a1JlUnd3VlJzMTZNbEgtWXl5OV93VU9BTjdYSlhGVXFyWEROMmRMV0VHamI0WFhZZ09WNGhSVmRmbFRfR2pweFM5Tzg4eGxTZWxiMjUtX2NndTZ3Sm93Y3B2RFBIQi1oYW92STQ2S0VIN2JBYUktdVQtLW1Kb2VocVBpdXUwZkZZWV8zV0lYZ25iOXpKcEtuWm1BcmdFR3ROeFFvb2liLVAxRUxfaVJxOUdvWkt3ZUk3YTYzY2FJSzJfa2o5TkR1ZVVOT2ZIYi1XTVJXWHhyWEhmaEx3QVB5NTEtZU5NQWdGZzFma9IB-AFBVV95cUxNT3NYSENfSWxTTFJxR0J3VzhEdnZXYmZkcG1Fdk1pU2VHcnVlNnI2ZHNYbWoyT0JDMEM3TFF4R2RWNDFrSTN1Q19oX1pvTUhWdTE1ZDhXaDd6UmdNQnR4NTNKNFRmZnRXODdQSkhrR19NV3BhWElZbXZDWUl4b1RubTlLb0UwY0hndXdHS25ncHZtc1h4Skg3bnhJYlIxRjg5UHE0OUhpUmxfSWtaMVM5cnFUMU84WksydmVwOEVnUy0xQVpzdkhZenl6ZktMTkVUR2VzYWdaVlktWU1TOGdOelN0RUwzbTd2YmhTc0U3SVcwWVZWd1YyZg?oc=5"
     },
     {
-      "titulo": "Apreciación global del dólar y el impacto sobre la Argentina",
+      "titulo": "Cuáles son las consecuencias para la economía Argentina de un riesgo país de más de 1.000 puntos",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Diario El Norte - San Nicolás",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdGcxSC14RkZuLUY2dXNXemMyZjUtX2VxMlQ2Y2oxM1FseTRqcWZNbnZuN2NSQkQybkYzN3dyNlR4VXY3SmtoeFpLNHhZMGlobnRBaHF1OERkeG9GbF8xWXF5azZySHVfQVM0elRuNWVrNS1ncTJjZWhiU3RZMjZUdzM3WlZ4WmhQNDBoRnZOLXZoMDNu?oc=5"
+      "fuente": "Jujuy al día",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNemY1a2NjamJ6RTFLQzg4VjBWdjZIMURkNmtORndPcE01S1JnQ1lYV1ZtRUxLc21OOFRNbnZBalFtM2pTNE84YWItSDNRSWdPRllLbGVmY1FuUHFsZWQ1MlRSX1JCSHBqbEg3RUtFNlE1ZGxsQlZ4LXNlMkg2bTV1MFF2LWZFaVJqa1JOcG9oN1ZLYy1QSVJfN2RsQU9FNnVteWpFSzJQOGFpbmJGamhxYkwzME5pblZrM3RrcHlWSDlHdzJYUkxfaWtmRTZodjhwZDJ4Tw?oc=5"
     }
   ]
 }
