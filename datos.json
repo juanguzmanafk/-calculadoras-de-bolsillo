@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-22T22:27:31-03:00",
+  "actualizado": "2026-11-23T22:26:05-03:00",
   "dolar": {
     "oficial": {
       "compra": 1550,
@@ -22,11 +22,11 @@
     "mayorista": {
       "venta": 1580
     },
-    "fuente": "dolarapi.com, 22/11/2026"
+    "fuente": "dolarapi.com, 23/11/2026"
   },
   "riesgoPais": {
     "valor": 1070,
-    "fuente": "JP Morgan vía argentinadatos.com, 22/11/2026"
+    "fuente": "JP Morgan vía argentinadatos.com, 23/11/2026"
   },
   "inflacion": {
     "ultimoMes": "Octubre 2026",
@@ -81,50 +81,50 @@
   "plazoFijo": {
     "tnaReferencia": 24,
     "detalle": "Tasa más alta a 30 días que informan los bancos al BCRA (BANCO BICA). Los bancos grandes suelen pagar menos.",
-    "fuente": "BCRA vía argentinadatos.com, 22/11/2026"
+    "fuente": "BCRA vía argentinadatos.com, 23/11/2026"
   },
   "noticias": [
     {
-      "titulo": "Alertaron por el riesgo país y las dificultades de Argentina para afrontar los vencimientos de deuda",
+      "titulo": "Argentina: se dispara el riesgo país",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Diario Mendoza",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWTZxV3lVSUdtazFqcnRJeXppbWFfNW05aUthYWszVnBpLURFdkljX0o5M0ltRUs2djNVZWxRVGdvTmVFckpkUTlfM2NqdW5tLVZOdURJOTlhTGZWNjJtLVU0cEQ1OWNweVFacE1QNkxlLXBZRmRrZU5POTl0bFZINEdOcFhIdXJqNlRCWmFlN19HRWRtaHV4eXVqTzJnUGo2b3Nxb2tHdUdCUFBsYVlNV2FCRl9RNy10RXVreU1LTdIBxAFBVV95cUxPTDYyUEJDOURVRmlucVZoRDlHdU9VRzhtUWxBRE9DTHVKRklUNlE2alM2bVdiQ0VFc1BLczR0S1pQaDBPaFByV1dpNDFGNkNaSC1xbVlSLU1NZjdtZ1lRcDVESU5CVjVmTXgwX2xia3VteHBNN3FhaXBCTTRzaFVVSktRS1MwcmVaRVhEZF9qSnotTWkzYzhVMXNtOVhrcU00QmRLNXNiWjNQT3NWQXFEM1Jsa1NBekpVZC1lLWV1Ri1XcUkw?oc=5"
+      "fuente": "DW.com",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNajhJNlhYZkhxekRoclVMYzJ1RHBTM01XdjRrSTVPb2xpMVk5aU5MOVVwdDR0TlVPd3E2eXNfVm53TnppRjFMYjdWVTRDUHh2blZ6OHhTZHNLVU9meU16d2tHQlNSbFFva0llNjNDNk5ZVFdjRFJGNGFGZjdubzdqNGVWbw?oc=5"
     },
     {
-      "titulo": "Financial Times duda de la economía argentina: riesgo país, financiamiento e imagen Milei",
+      "titulo": "Dólar blue: a cuánto cotizan hoy en Mendoza 23 noviembre 2026",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "iProfesional",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdnBBeVhCVTVoVFcyRS0tWE9GVDdLd1ZnbUNIR0ZnVnpFWUlGR29pMlFWWEpsSTllYldJWXZUUjVySHkxUmlFN1RRNUl5WE90SWM1bzRjUk1yMHZnbGZBRVNQR1IzT3luYmhFWkVPT2tFci0wTThUa21yWlFaNlhSM1ZvcGtNQmVNVkpXU29iYzVFMjk5SGJvSlFlRWFQYjFNZWFhWGN6UHlRTV85M3pXV3pPVHNSQmRRTVRHMFg4NzVFZmpZTERCcnhBX1HSAdIBQVVfeXFMTzBFRGN6OG5GNm1TVXI0WHljVUlab1JGdlFIbFVqRFp0LXJUWmhLOUszSGwtNDQxRk9UaTFYdW5fMDByN2VBRkt0MkZyTEpYUG1YTS02bjZFRTR0Skxia0prMkVqdk5EX29HdzVXSlBTdmxBX0J0clpmRm05cG4tbWxjalhVVVFjNVlXdzNYQjJQY1BGVDB4RGlHWWpoV2dGUFJBSWpXbmstYXI4Q1pHcFpWeXlfZ25Qamlud0FRaDZEWi1MWU1RUEQ4SGEwSkpqOTd3?oc=5"
+      "fuente": "Infocampo",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPS3pNcU5kVE14MnJWUFpnWS1yUzYzNE93Vk1Fb053eGk3Smc3ZkUtZEJpaU9pcWsyWjgxbGZoX0lJSE1XMEthM25iQkp5V3JmaE16T0pVV19rR2stWXV1MjN0U1pJZWFZQWVlV0xVWG1sbUZzakthQ2o4Nm5fZE5McU45WEVrLWFTb2FWbmRMbmVwcms?oc=5"
     },
     {
-      "titulo": "Financial Times advirtió por la suba del riesgo país y las dudas de financiamiento en Argentina",
+      "titulo": "Cayó el riesgo país: Wall Street rebotó con fuerza y contagió a las acciones argentinas que cotizan en Nueva York",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Canal26",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNR3E1NFVtUjd1Um1nSkd6V3BpTUF1V1BTaU9ndk5kaW81YTZ1aXAyT1VOVzg4dGlHYVMwU0pjOEF4VkFlRmExTWRwZmhjTGNHOXBWVXR5T2F2MVVKRTVHeVA4dk9OeFhPZ295aENhMlI1cFlabVNEUjVSRGFjenh6eUJnQUlVRTFleDJLdW9veVZWNHFUT1hQcDdubV8zWWJUWHJpVFNZUHFGOTFHODhWZVJ3V2lhN3ZSWHpDRi1sVWk3U1BqR01ZLU9MR0V0cjdkb1hENXNJUQ?oc=5"
+      "fuente": "La Nación",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQjI2SUw4ZHRkV2FBV2RKZ1BkY2pOZlMxZGNJSS1JaEZjckdrMW12cGZoZG5xY0hRN1ZSLWNmUHpLR2NZM0JrZEthNnc2N3RSbTF1RWhxUTJoT0JjMVRYTVVhOFM5dzR4aklseWR6T0VuaGFzUDlrU2NtXzdPb2FDTFZpcWpZeW1qTXctbTRrVU1BQXpEUHk3UGV0dm5ZbkFkVG82V3NSMW44VjM4T1RUQmdoYnRiZGxEbksyQ21WQkhrR1R3VU50d3ZOQTVMZWpMTmU0b2lkWmotY3NMQTBaMll6d0RkUDRCNVZpbw?oc=5"
     },
     {
-      "titulo": "The Financial Times advirtió que la suba del riesgo país “complicaría” la deuda externa Argentina: los motivos",
+      "titulo": "Riesgo país en alza: por qué volvió a dispararse y qué mira el mercado",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Diario Río Negro",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPV3BLOHIxNm1wa1ZieE1GeTYtRDBaeE1SMVN0N2RiU21mZzVvQzVmaHo0NF9PV0dIQWdaV0JST01hODhEc1prR0NjTTVENG8wRmFXem55bmY5Z2tPdmRFYnJEMnVSb2dqTlRoZVRUZXk4eTF0WE1YS0t0SzhiUjRTNGVNU3BKVWRxd1c5LVdfVzhHSUJuYkhmZzl1OFZSbVhUZndXVVFGbVBzRTZ4RU5RbWx6MWFrN3V4Z09EWmNSazluT3praG5iQ3FXTFBpaV9iTzJ6b3BWMHRQU1ZTTGp3V1J1RzduNHUx0gHwAUFVX3lxTFB6LXpqTWZxLWZtcER2Mk1Xdjg5Z3lNZTI0OU1qTEdLdURoeV9JZUxZZ1dFaGNTay05Y0EtUURuTldtRkJLYm9tZkpNN0gyaGdVTFdKS0VTZHcxbFlOOTRTYU1aZmVXUFlrM293VFR1ZExVOTdRVWlXQ2ttU2ZCZU01Wmlqb0FGLTlQcldoRTUyZ0NLam5yeFJyZnNEVkYtSkUxODBmNUtENV8yNE9YdG85UExpUzRCdVhuLWo0cm5IS2ZNU0hxOENEZDUwbzBtaWkyb05VXzFnaExrVXBUYjkyekFfM0txYUxUZUR6dU1EdA?oc=5"
+      "fuente": "Identidad Correntina",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZ3JfNUR6UlY2VTRvMlkwOERJY3l2STc0bVBkajJiLVhqRUFOcXRnTy0wOXJUY3Z4WkRpVkFxS1FsSlpodW1LVFFfQ01NV0kzaUZ0TkMzNzJzejJhM3ByVWtTZHpfZjJiOFNUbV9Ic1V0NnRGZlR4SzEyUFN3RDRFRS1YLVB1VGpFRlgwZGtIQVAzcmRRbWhPYWkzN1BPeUFxTUp5REx6SERnb2IwUjBpcXkyMXMybGlFNXRCSXhpdw?oc=5"
     },
     {
-      "titulo": "El Financial Times alertó por el riesgo país en Argentina y puso en duda el financiamiento de la deuda de 2027",
+      "titulo": "Un funcionario de Caputo atribuyó la suba del riesgo país al contexto global y negó que el aumento del dólar impacte en la inflación",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "El Liberal",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMUJ0a1JlUnd3VlJzMTZNbEgtWXl5OV93VU9BTjdYSlhGVXFyWEROMmRMV0VHamI0WFhZZ09WNGhSVmRmbFRfR2pweFM5Tzg4eGxTZWxiMjUtX2NndTZ3Sm93Y3B2RFBIQi1oYW92STQ2S0VIN2JBYUktdVQtLW1Kb2VocVBpdXUwZkZZWV8zV0lYZ25iOXpKcEtuWm1BcmdFR3ROeFFvb2liLVAxRUxfaVJxOUdvWkt3ZUk3YTYzY2FJSzJfa2o5TkR1ZVVOT2ZIYi1XTVJXWHhyWEhmaEx3QVB5NTEtZU5NQWdGZzFma9IB-AFBVV95cUxNT3NYSENfSWxTTFJxR0J3VzhEdnZXYmZkcG1Fdk1pU2VHcnVlNnI2ZHNYbWoyT0JDMEM3TFF4R2RWNDFrSTN1Q19oX1pvTUhWdTE1ZDhXaDd6UmdNQnR4NTNKNFRmZnRXODdQSkhrR19NV3BhWElZbXZDWUl4b1RubTlLb0UwY0hndXdHS25ncHZtc1h4Skg3bnhJYlIxRjg5UHE0OUhpUmxfSWtaMVM5cnFUMU84WksydmVwOEVnUy0xQVpzdkhZenl6ZktMTkVUR2VzYWdaVlktWU1TOGdOelN0RUwzbTd2YmhTc0U3SVcwWVZWd1YyZg?oc=5"
+      "fuente": "Infobae",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNcmZ6RkhQcW80Y0VVVktoU2Myal81ekpTdDRoRmpJQ0x4SzhqWjJmdGF3Q1pfSTlsZ0hfWmxUSXJ0ZlVRbDBKaTIxLWtTMzFVX1dVcFdlV2V6T2RxSnN1aUJTOWxqSVVocW1PS1EyeHE4ZGdjc2hLMDVlYmh1MzVxOGl3QTBMZlptbVpCMGNhSHlaTW13VHN6Z0czX29neXFjd1h2b1BpaDREZmpXZ3l6UHFuSndZbjRpUWFGTUFUUG5lUm1yeFFJZ0dNbUJZZXFCTXZ6NXJEQ0p0RTIzNVhGZ3BHa0JsOXh3WnNzN0RPVlJ6aEFjNlNfZGxqX3NRVEM3OVNnV0VSUy3SAaMCQVVfeXFMUFE5SnpJa29QTmlHTzMxZUNQQl95MWljc2pmWjdZWUU1OE53QXp1NnRIcktzcFNwN0ZPdmQ3RDN6TEctYl9sQVNSN2pSdkpKWURuSklRaEwtcFF4NUZILTlPNkZCNmVCQ0pVUzF6amtOSnVXTzN5MlZVYUdka3F1NkNKUkxnakctTlNhcDA3azRmQmNjamI2R216N1dxcGNNX2h3dkphZ2czRzZROHNCbWxlSHhtVDRmZmQtUHRZLTg0NnlWOFRJcUhtdTUySm4tZ1BnQ09KOXpPdXJ3eXhUeTI3S3czUU5YNzR0LTBwbmY0TjJBZ1dDUW5rTURCVnBCVlBycXVaOUVBYlJoNElsUW5XWnYtU0hmTTFSNmNFaXdUd2tN?oc=5"
     },
     {
-      "titulo": "Cuáles son las consecuencias para la economía Argentina de un riesgo país de más de 1.000 puntos",
+      "titulo": "El Gobierno relativizó la suba del riesgo país y descartó que el dólar impacte en la inflación",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Jujuy al día",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNemY1a2NjamJ6RTFLQzg4VjBWdjZIMURkNmtORndPcE01S1JnQ1lYV1ZtRUxLc21OOFRNbnZBalFtM2pTNE84YWItSDNRSWdPRllLbGVmY1FuUHFsZWQ1MlRSX1JCSHBqbEg3RUtFNlE1ZGxsQlZ4LXNlMkg2bTV1MFF2LWZFaVJqa1JOcG9oN1ZLYy1QSVJfN2RsQU9FNnVteWpFSzJQOGFpbmJGamhxYkwzME5pblZrM3RrcHlWSDlHdzJYUkxfaWtmRTZodjhwZDJ4Tw?oc=5"
+      "fuente": "Cadena 3 Argentina",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPOXNtYjBSUGRrOVUzOHVySm5zRU9tenNzOXRyYTVpUXh1SEI0OG9vVk10WGJWaHNWcFRMS21nQ2E3WDdMQzJQeld1bUdiV19abF9HTEJ0S2JicXpkVzNNOGRLQzc1T1ZqZW1PckprUWtPQ3NTREpPX1Zhc196Y1g3aTVDSEdYZWVqZy1zMDFhRVlVNUVULXF2V0ZxbE1MdTZxd2V3NVFHMy1Lb0xyb3JvLUQ1NmlvbFpIZUlJcW9Gb0l1dkg0Y1BjUHdGMk5nNHlzc3dxRWU3RTBUZXp2eEFMY0pNYjd3WmhE0gHuAUFVX3lxTE9YVlVCUldNalJrNWVTbVhTNm1KTGhaSTN5emlrckpFazFVeXU3SWt6eDBiYUVxZDdFOXV6VUNTY1NoOHktRkNKSFpua3c0OWhGWjFpWUNPdk5pMTNtd04waXdXRjluTjlpQzV5UlNjc3lWVHoxRzlpeEVvN21uWTk4RVlFZDJmdFdLcHZraE1ITENqbE9VXzJiMXhGTmoxVWYtVTB0VUtMSTZnUzh0cW5IckVzZWNKcXNSOUp0NExqUmZEYWpSR3RjUmpBc0Z5U3NGeFR0aUt5aURjd1Y2OVotdEQ2dUp5Sm9VbG5JUnc?oc=5"
     }
   ]
 }
