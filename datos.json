@@ -1,32 +1,32 @@
 {
-  "actualizado": "2026-11-23T22:26:05-03:00",
+  "actualizado": "2026-11-24T22:29:59-03:00",
   "dolar": {
     "oficial": {
-      "compra": 1550,
-      "venta": 1600,
+      "compra": 1565,
+      "venta": 1615,
       "fuente": "Banco Nación"
     },
     "blue": {
-      "compra": 1655,
-      "venta": 1675
+      "compra": 1680,
+      "venta": 1700
     },
     "mep": {
-      "venta": 1743.1
+      "venta": 1695.1
     },
     "ccl": {
-      "venta": 1806.2
+      "venta": 1797.1
     },
     "tarjeta": {
-      "venta": 2080
+      "venta": 2099.5
     },
     "mayorista": {
-      "venta": 1580
+      "venta": 1593
     },
-    "fuente": "dolarapi.com, 23/11/2026"
+    "fuente": "dolarapi.com, 24/11/2026"
   },
   "riesgoPais": {
-    "valor": 1070,
-    "fuente": "JP Morgan vía argentinadatos.com, 23/11/2026"
+    "valor": 1035,
+    "fuente": "JP Morgan vía argentinadatos.com, 24/11/2026"
   },
   "inflacion": {
     "ultimoMes": "Octubre 2026",
@@ -81,50 +81,50 @@
   "plazoFijo": {
     "tnaReferencia": 24,
     "detalle": "Tasa más alta a 30 días que informan los bancos al BCRA (BANCO BICA). Los bancos grandes suelen pagar menos.",
-    "fuente": "BCRA vía argentinadatos.com, 23/11/2026"
+    "fuente": "BCRA vía argentinadatos.com, 24/11/2026"
   },
   "noticias": [
     {
-      "titulo": "Argentina: se dispara el riesgo país",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "DW.com",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNajhJNlhYZkhxekRoclVMYzJ1RHBTM01XdjRrSTVPb2xpMVk5aU5MOVVwdDR0TlVPd3E2eXNfVm53TnppRjFMYjdWVTRDUHh2blZ6OHhTZHNLVU9meU16d2tHQlNSbFFva0llNjNDNk5ZVFdjRFJGNGFGZjdubzdqNGVWbw?oc=5"
-    },
-    {
-      "titulo": "Dólar blue: a cuánto cotizan hoy en Mendoza 23 noviembre 2026",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "Infocampo",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPS3pNcU5kVE14MnJWUFpnWS1yUzYzNE93Vk1Fb053eGk3Smc3ZkUtZEJpaU9pcWsyWjgxbGZoX0lJSE1XMEthM25iQkp5V3JmaE16T0pVV19rR2stWXV1MjN0U1pJZWFZQWVlV0xVWG1sbUZzakthQ2o4Nm5fZE5McU45WEVrLWFTb2FWbmRMbmVwcms?oc=5"
-    },
-    {
-      "titulo": "Cayó el riesgo país: Wall Street rebotó con fuerza y contagió a las acciones argentinas que cotizan en Nueva York",
+      "titulo": "Los efectos de la suba del dólar en la Argentina y en Brasil: uno por uno, los principales impactos",
       "resumen": "",
       "bolsillo": "",
       "fuente": "La Nación",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQjI2SUw4ZHRkV2FBV2RKZ1BkY2pOZlMxZGNJSS1JaEZjckdrMW12cGZoZG5xY0hRN1ZSLWNmUHpLR2NZM0JrZEthNnc2N3RSbTF1RWhxUTJoT0JjMVRYTVVhOFM5dzR4aklseWR6T0VuaGFzUDlrU2NtXzdPb2FDTFZpcWpZeW1qTXctbTRrVU1BQXpEUHk3UGV0dm5ZbkFkVG82V3NSMW44VjM4T1RUQmdoYnRiZGxEbksyQ21WQkhrR1R3VU50d3ZOQTVMZWpMTmU0b2lkWmotY3NMQTBaMll6d0RkUDRCNVZpbw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORE1UVHY1d1dyNEM0N0xvMTJ1dG04R00wSWhuMFlpYjVwTTFNTC1oaDU2bWlNMGlXTHNud05aRTRjLUtTNkppZHpKcEtvSzB4bzF6VjNvTG1ycWZ4STF4QXZUT0FvdUdJNFBXOHNFT3BwUGR2OXhvQ1o3cWt4SmE3Vl91eUZxemotT0tQaEFiaW1zVDVoU1JqbWZsbmJhM01VSkJhMThsSzAyblhydTVUYndmazBOTFNYYUVUMGlDNTVpM0tXbGRqbDlsY1hfYWJwZUVISlEzbWhlZTFJYVJ2UA?oc=5"
     },
     {
-      "titulo": "Riesgo país en alza: por qué volvió a dispararse y qué mira el mercado",
+      "titulo": "Argentina, en recesión técnica; combustibles suman mil por ciento de inflación",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Identidad Correntina",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZ3JfNUR6UlY2VTRvMlkwOERJY3l2STc0bVBkajJiLVhqRUFOcXRnTy0wOXJUY3Z4WkRpVkFxS1FsSlpodW1LVFFfQ01NV0kzaUZ0TkMzNzJzejJhM3ByVWtTZHpfZjJiOFNUbV9Ic1V0NnRGZlR4SzEyUFN3RDRFRS1YLVB1VGpFRlgwZGtIQVAzcmRRbWhPYWkzN1BPeUFxTUp5REx6SERnb2IwUjBpcXkyMXMybGlFNXRCSXhpdw?oc=5"
+      "fuente": "Sistema Mexiquense",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd2F1bjRmQ2lqaUlFOVhza2E2a2ZfNDJxRW1xb1FINU43ZXQxQm5HZlpnYS1tYU1OUkZWajFhTWVzOHFsMjlDa3YzRmowVFpKLXlQZ1dkOXNVR2FOQWloUTBUV1VoU2pSd2lzMmhmUlBDX2hxd2tzc1JwNGJDMU5RaDlXbERnZC1Ddm1OejlaN3JqUm80Nl9laUJnNXNpNFJwZ2g0VkF1b1NWYnFMTkQtbC1BaGpvcHNqLWI1OVJiTktjcHFkbnpCNV8xRGQyTm5KMkdIQ1hn?oc=5"
     },
     {
-      "titulo": "Un funcionario de Caputo atribuyó la suba del riesgo país al contexto global y negó que el aumento del dólar impacte en la inflación",
+      "titulo": "¿Por qué sube el dólar?: los 8 factores que impulsaron la cotización oficial a un nuevo récord",
       "resumen": "",
       "bolsillo": "",
       "fuente": "Infobae",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNcmZ6RkhQcW80Y0VVVktoU2Myal81ekpTdDRoRmpJQ0x4SzhqWjJmdGF3Q1pfSTlsZ0hfWmxUSXJ0ZlVRbDBKaTIxLWtTMzFVX1dVcFdlV2V6T2RxSnN1aUJTOWxqSVVocW1PS1EyeHE4ZGdjc2hLMDVlYmh1MzVxOGl3QTBMZlptbVpCMGNhSHlaTW13VHN6Z0czX29neXFjd1h2b1BpaDREZmpXZ3l6UHFuSndZbjRpUWFGTUFUUG5lUm1yeFFJZ0dNbUJZZXFCTXZ6NXJEQ0p0RTIzNVhGZ3BHa0JsOXh3WnNzN0RPVlJ6aEFjNlNfZGxqX3NRVEM3OVNnV0VSUy3SAaMCQVVfeXFMUFE5SnpJa29QTmlHTzMxZUNQQl95MWljc2pmWjdZWUU1OE53QXp1NnRIcktzcFNwN0ZPdmQ3RDN6TEctYl9sQVNSN2pSdkpKWURuSklRaEwtcFF4NUZILTlPNkZCNmVCQ0pVUzF6amtOSnVXTzN5MlZVYUdka3F1NkNKUkxnakctTlNhcDA3azRmQmNjamI2R216N1dxcGNNX2h3dkphZ2czRzZROHNCbWxlSHhtVDRmZmQtUHRZLTg0NnlWOFRJcUhtdTUySm4tZ1BnQ09KOXpPdXJ3eXhUeTI3S3czUU5YNzR0LTBwbmY0TjJBZ1dDUW5rTURCVnBCVlBycXVaOUVBYlJoNElsUW5XWnYtU0hmTTFSNmNFaXdUd2tN?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTV84SHMyU0VFdTlkZ2t5Qm1KVHFyVENPSjc0a3hpa2syN0lXSjZwVjh1UGRIYXpLcWxhSGlpWS1HWEJEQ041T2xySkZqbTd4b3NjQXFNbF9aUXFFck5SSjdRM3ZVZXhvUHNsbXVMQ0dCNW1HbWVnMDJIV09DcHVRMjVKUmJwSG1SVFJVaXRzcjl3T2toTTFya0VGb3F3RTlzbzFicTVrdTNqejlhSXR0ZXMybFozNDByZzRodWhQa1RHN2ZtS29MazZmeUFzeGFwSkHSAewBQVVfeXFMUFVpYVVUNWtpT09fNk9wOFV1YmstMUQtNzNIbEdUQl9OSk8zS2Z3YnR0M3YxVzBSQXFzaDg4VU01NEMwaWhodjdnc1BjeUhLYmtEQUFfYkVCVkZDLS1fTDE5dU4tN2ZnUVEyVDRSWGFQdXNxaC1PWHR0Q2pQWjVodHV4VzhFZzBBUnQyemxOOWpnVkhSWlIta1EtV0VaSGxvblJrUEJSTW56N01Ka09hMmYzR0ZLWWNSRl90SWZOd0NCU2x4OFZPMV9RNXk3cGtuQzVjcXoxSDE1T2hwZ2JJXzZPOUZPTkw3SzMyQWc?oc=5"
     },
     {
-      "titulo": "El Gobierno relativizó la suba del riesgo país y descartó que el dólar impacte en la inflación",
+      "titulo": "Salvador Di Stéfano en El Cronista Stream: “Si tenemos un dólar de $ 1650, no pasa absolutamente nada”",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Cadena 3 Argentina",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPOXNtYjBSUGRrOVUzOHVySm5zRU9tenNzOXRyYTVpUXh1SEI0OG9vVk10WGJWaHNWcFRMS21nQ2E3WDdMQzJQeld1bUdiV19abF9HTEJ0S2JicXpkVzNNOGRLQzc1T1ZqZW1PckprUWtPQ3NTREpPX1Zhc196Y1g3aTVDSEdYZWVqZy1zMDFhRVlVNUVULXF2V0ZxbE1MdTZxd2V3NVFHMy1Lb0xyb3JvLUQ1NmlvbFpIZUlJcW9Gb0l1dkg0Y1BjUHdGMk5nNHlzc3dxRWU3RTBUZXp2eEFMY0pNYjd3WmhE0gHuAUFVX3lxTE9YVlVCUldNalJrNWVTbVhTNm1KTGhaSTN5emlrckpFazFVeXU3SWt6eDBiYUVxZDdFOXV6VUNTY1NoOHktRkNKSFpua3c0OWhGWjFpWUNPdk5pMTNtd04waXdXRjluTjlpQzV5UlNjc3lWVHoxRzlpeEVvN21uWTk4RVlFZDJmdFdLcHZraE1ITENqbE9VXzJiMXhGTmoxVWYtVTB0VUtMSTZnUzh0cW5IckVzZWNKcXNSOUp0NExqUmZEYWpSR3RjUmpBc0Z5U3NGeFR0aUt5aURjd1Y2OVotdEQ2dUp5Sm9VbG5JUnc?oc=5"
+      "fuente": "El Cronista",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTmEtaTllUWU5RWZsRUVvWWNBYmRINjZ0cVZEaEJpQWZmY2c3OUp3YktpX244cWIzc2J6RDVybk5IM0c5MjBwS2s0QU1RMUYxWTVrdjQxOWJEcW1FVnNjbVk2em5NanVlR3lQYlNtREtQU0RuVVVRX2FmZ3I2VkxNck8zOXUwU0VuM2k3cVltZWFfS1hXY2FiQi11NEpCZ3pXNkNzbmZaT1hZdFRQZlZISDF2TDdOWXNKaTNYdWVWaDhNcFRCcGxkc3JZWkpITW0wN2owaGJyc9IB8gFBVV95cUxNWFFYend6VDcxQ2R2T1hVWUM0dlh2X0JESHNjMmhyV1UzNzZNZ2E5ZmZJSldnaVJsUmprSTdUa1MtZ2lvdFZ0cUMzNXQ3ZkhVV3pkb19ZNGd2SS10WDM2YU5EMG8zbl9NT1NSMlBJNUNCbnZtYTd0Y2hpc3JJeGpmdmJEQkxGZldfUmlzVlhSOXdSVllNMGdHOHJZZ2Vpb1RJY3RhV2QzenQyOHhBMjFibGt6Yk9FUE9Qd3dSUlFMNFA2YXk3Q3FFMHc2bmNqWGd1MEstUE5MT3g1OV9wTF8tb0pOSHAwTDBGcFVod3ByQ1kzZw?oc=5"
+    },
+    {
+      "titulo": "Alarmas en rojo por el riesgo país",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "Página|12",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQaDdLcFI5aUplZG5EbkhvdGVuVjk5T1U2ZXE1UDNFOG1Ic3J3T2JYVDlVZC1BYlU0Sy1jN1FadnhCbHFFdXVZNUwtdmJJMUpSV25ic2JObUh2UEpNaGRqSE5XaG11QmNHUmhEOHlIcjB5bVFIOUFyRUc2b0RjOUk?oc=5"
+    },
+    {
+      "titulo": "Dólar en Argentina: el CCL trepa otro escalón y amplía la brecha con el mayorista al 13%",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "Bloomberg Línea",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWUpsQ0ppOUZsYVAwNnZIYnJiT0t4ODBkY2oxLWZZUVhMcEVPTGlpWmx4bEJ2dEUzUW1pYzBGU2V3a285UGJxc0hMM1dHZnVJUnlrdzFzNlR0b3FXUnRQTTlkMndsVmh6RFNPMk1faERYZjJNaUxrY1dzNjVvcGEwd2hJZkJZZDJZaWhIdjA4UVV5OVFSekV3TFVnOEZ2cHpfcVhxTzBlOVQ1b3Z0MDZZWl9GQWRIamdRbm44aktoVHRtUmJ2SGZTTEVPVmVfdXNRTjBGeEdSZGlOd9IB7gFBVV95cUxQZ1RWZHVQeHdmMlU5VFRZLUFaZ01uTjgtdXozNnVTRzhUNzhpRzJVZHlJc1hZdW5JUGZVZ1llNjNFX05NZkdGYWZWbm82X1BkSUdrQnNQWWNzN0RsdlliaURVRnBSVTFtQ05YTXVHT2piTUVwR0p2R3ZDdF9vZjRTeXJ5cFFpNlVyQ2RsalFBX2NtdW1Ed0h6X0doNkVUODJ0bDRhMDFpWW1aV09taGNwNHA2U3ZTNFd6UmR6U1p2VmFEeXk4bjNBTW03VWZob2dnWU4xTE80Nk9uTDRKLVpPb21RR0xra3BBNERSYV93?oc=5"
     }
   ]
 }
