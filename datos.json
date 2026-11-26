@@ -1,32 +1,32 @@
 {
-  "actualizado": "2026-11-24T22:29:59-03:00",
+  "actualizado": "2026-11-25T22:30:11-03:00",
   "dolar": {
     "oficial": {
-      "compra": 1565,
-      "venta": 1615,
+      "compra": 1580,
+      "venta": 1630,
       "fuente": "Banco Nación"
     },
     "blue": {
-      "compra": 1680,
-      "venta": 1700
+      "compra": 1690,
+      "venta": 1710
     },
     "mep": {
-      "venta": 1695.1
+      "venta": 1688.7
     },
     "ccl": {
-      "venta": 1797.1
+      "venta": 1767.9
     },
     "tarjeta": {
-      "venta": 2099.5
+      "venta": 2119
     },
     "mayorista": {
-      "venta": 1593
+      "venta": 1604
     },
-    "fuente": "dolarapi.com, 24/11/2026"
+    "fuente": "dolarapi.com, 25/11/2026"
   },
   "riesgoPais": {
-    "valor": 1035,
-    "fuente": "JP Morgan vía argentinadatos.com, 24/11/2026"
+    "valor": 1094,
+    "fuente": "JP Morgan vía argentinadatos.com, 25/11/2026"
   },
   "inflacion": {
     "ultimoMes": "Octubre 2026",
@@ -81,50 +81,50 @@
   "plazoFijo": {
     "tnaReferencia": 24,
     "detalle": "Tasa más alta a 30 días que informan los bancos al BCRA (BANCO BICA). Los bancos grandes suelen pagar menos.",
-    "fuente": "BCRA vía argentinadatos.com, 24/11/2026"
+    "fuente": "BCRA vía argentinadatos.com, 25/11/2026"
   },
   "noticias": [
     {
-      "titulo": "Los efectos de la suba del dólar en la Argentina y en Brasil: uno por uno, los principales impactos",
+      "titulo": "El riesgo país de la Argentina cerró en 1.067 puntos básicos tras un rebote de los bonos",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "La Nación",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORE1UVHY1d1dyNEM0N0xvMTJ1dG04R00wSWhuMFlpYjVwTTFNTC1oaDU2bWlNMGlXTHNud05aRTRjLUtTNkppZHpKcEtvSzB4bzF6VjNvTG1ycWZ4STF4QXZUT0FvdUdJNFBXOHNFT3BwUGR2OXhvQ1o3cWt4SmE3Vl91eUZxemotT0tQaEFiaW1zVDVoU1JqbWZsbmJhM01VSkJhMThsSzAyblhydTVUYndmazBOTFNYYUVUMGlDNTVpM0tXbGRqbDlsY1hfYWJwZUVISlEzbWhlZTFJYVJ2UA?oc=5"
+      "fuente": "Agencia Noticias Argentinas",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQaUVNTEhqWHZoc1l5cnlNM2t6aEYyLUJUeklrNlZHeS0zQlg1cFhVNDRUa094a1Zscm56OHB4YTZJTTdObEpLVTFOS25xTVhOanBjRFlDU0JuV016MzZDdUlLWll2LU92ZjJZaTN6aUFPZXYtOUlXSEh4YXVTTHFIWVBveHRlX1g5a3lzcGpfbTVtWTV5bElEcFNreFhFalNJYVNpY3ZEODY2cG1nQnpiNy1Yd05QMERyakNtN2ROSEdRai1BM1d3emEwcGdJd3I3d1VSSXNsaUJFWEdYQ3NtTjU1OTZOUmNpWUHSAfgBQVVfeXFMUEZBejBXbnQ4Z1JramZXNFJZREZiRHU5ZXB3bDlPX3J4SFk2QkNNdjNtaHhtdHBMd2FGdktBZk11a25iUVRUSWF2SGpTaDJCZlFaMzY5ZDN2RnhQX25pS3NEYVc4N0pHQWZTMjBDMTdzWmdtcFQ3NnZKM1VYMk4zN3MtNUh6bTJTbks1aVdQTTR3NXFDZHNwLXBfaDRsUy1rZ2FYdWtMMjdWN19rbkpwTmgzSDBMYS0yZGhINEN3SUxCMnV5UThsbEhyWGZhMXJ1cV91eGlwTlFhMDZTMjVreW1QQU9jbWtmMnJ6YTVfNHhEQ2x0Y0hxVU8?oc=5"
     },
     {
-      "titulo": "Argentina, en recesión técnica; combustibles suman mil por ciento de inflación",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "Sistema Mexiquense",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNd2F1bjRmQ2lqaUlFOVhza2E2a2ZfNDJxRW1xb1FINU43ZXQxQm5HZlpnYS1tYU1OUkZWajFhTWVzOHFsMjlDa3YzRmowVFpKLXlQZ1dkOXNVR2FOQWloUTBUV1VoU2pSd2lzMmhmUlBDX2hxd2tzc1JwNGJDMU5RaDlXbERnZC1Ddm1OejlaN3JqUm80Nl9laUJnNXNpNFJwZ2g0VkF1b1NWYnFMTkQtbC1BaGpvcHNqLWI1OVJiTktjcHFkbnpCNV8xRGQyTm5KMkdIQ1hn?oc=5"
-    },
-    {
-      "titulo": "¿Por qué sube el dólar?: los 8 factores que impulsaron la cotización oficial a un nuevo récord",
+      "titulo": "Jornada financiera: el dólar subió por séptimo día consecutivo, cayó el riesgo país y las acciones recuperaron terreno",
       "resumen": "",
       "bolsillo": "",
       "fuente": "Infobae",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTV84SHMyU0VFdTlkZ2t5Qm1KVHFyVENPSjc0a3hpa2syN0lXSjZwVjh1UGRIYXpLcWxhSGlpWS1HWEJEQ041T2xySkZqbTd4b3NjQXFNbF9aUXFFck5SSjdRM3ZVZXhvUHNsbXVMQ0dCNW1HbWVnMDJIV09DcHVRMjVKUmJwSG1SVFJVaXRzcjl3T2toTTFya0VGb3F3RTlzbzFicTVrdTNqejlhSXR0ZXMybFozNDByZzRodWhQa1RHN2ZtS29MazZmeUFzeGFwSkHSAewBQVVfeXFMUFVpYVVUNWtpT09fNk9wOFV1YmstMUQtNzNIbEdUQl9OSk8zS2Z3YnR0M3YxVzBSQXFzaDg4VU01NEMwaWhodjdnc1BjeUhLYmtEQUFfYkVCVkZDLS1fTDE5dU4tN2ZnUVEyVDRSWGFQdXNxaC1PWHR0Q2pQWjVodHV4VzhFZzBBUnQyemxOOWpnVkhSWlIta1EtV0VaSGxvblJrUEJSTW56N01Ka09hMmYzR0ZLWWNSRl90SWZOd0NCU2x4OFZPMV9RNXk3cGtuQzVjcXoxSDE1T2hwZ2JJXzZPOUZPTkw3SzMyQWc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNXFodTVUM09LTUEyUEFFbDJLenpRY0JYMVJ0Nm80M1prRDNOLVJmUXA0WjRodTBza3Jkekw1emF3dDdwcFlqMFQzYUlYVm5aS19VZnd0UjY5TVVhSE5Kd1hwcjZncWRUakMweFY4Z1ItcE1xb3V0ZmdRRmhHSUFEaE1iMHhVY0JPM1BXTDlNQ3Jub2N1d1hjd2ZkQmZiNm9ORTRQbTNKazZyY05mLTNTSUk2bkhiRlVaaDhKcW5PbUFBWER5TlRuTGp1Z2FIN2t5UW9WR2huQmxZQkNpWGE5cWQ1UUhnbU1iSWpid0VlOGpkZkHSAY4CQVVfeXFMTm0zWU9wR1p3T0NTVlhFTy1ZUWljVDM4YkY0QVZzSjk3Rjd6S1puV0NPMXFsNE1xQTV3RmFDVC1uOGEyWDBTc3d4RzMzYjlnN1BrdE8wMEhYT1g0Qlc4X2lxN1NBbDZHbzVPM1Q1RHBSLTJPOUpYSHRjZW0wVDRsczVFdEIxM0o3dHdPRGZsVFlobDhRY0RzUkVNdm5iQTRiTlBTMEJMZ1VBQmRtZkZkcWIwZjFZSWRJRUtIcXpQam9aWGdjRktFSEczbFJXOHRYbHRQbHM4OElJY241Tk5XU2hmSXpmeHdTTXZZeV9aSGRibFRIUzVhWmtvOWk0Uk5hb0I2bDlpU0xVN2hnT1Jn?oc=5"
     },
     {
-      "titulo": "Salvador Di Stéfano en El Cronista Stream: “Si tenemos un dólar de $ 1650, no pasa absolutamente nada”",
+      "titulo": "Argentina en recesión: el riesgo país cerró en 1.067 puntos básicos, tras alcanzar los 1.131",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "El Cronista",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTmEtaTllUWU5RWZsRUVvWWNBYmRINjZ0cVZEaEJpQWZmY2c3OUp3YktpX244cWIzc2J6RDVybk5IM0c5MjBwS2s0QU1RMUYxWTVrdjQxOWJEcW1FVnNjbVk2em5NanVlR3lQYlNtREtQU0RuVVVRX2FmZ3I2VkxNck8zOXUwU0VuM2k3cVltZWFfS1hXY2FiQi11NEpCZ3pXNkNzbmZaT1hZdFRQZlZISDF2TDdOWXNKaTNYdWVWaDhNcFRCcGxkc3JZWkpITW0wN2owaGJyc9IB8gFBVV95cUxNWFFYend6VDcxQ2R2T1hVWUM0dlh2X0JESHNjMmhyV1UzNzZNZ2E5ZmZJSldnaVJsUmprSTdUa1MtZ2lvdFZ0cUMzNXQ3ZkhVV3pkb19ZNGd2SS10WDM2YU5EMG8zbl9NT1NSMlBJNUNCbnZtYTd0Y2hpc3JJeGpmdmJEQkxGZldfUmlzVlhSOXdSVllNMGdHOHJZZ2Vpb1RJY3RhV2QzenQyOHhBMjFibGt6Yk9FUE9Qd3dSUlFMNFA2YXk3Q3FFMHc2bmNqWGd1MEstUE5MT3g1OV9wTF8tb0pOSHAwTDBGcFVod3ByQ1kzZw?oc=5"
+      "fuente": "La Nueva Mañana",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQjdhTVRCN3ZoZGd2SHpXY1RKWE14Z0M5azdjOHBQTkR2TmxzclpQbkgwbzlYRUp1ekRVS2VqTllGRU9PekNaaDVWbll6YTZYb09ZamRUaDN3XzhrclhHWDFHUmJzY2g4NHF2Ujc0eHZTRi1UVGc5MVNOYXhRdWNkeGgtOXlKQzRMTUF4TG5hUThvSmwzdTZnc1JERWNkaXBkTktSQ3dZNDF1VkQ0V18wVXN6eDfSAbQBQVVfeXFMT0I3YU1UQjd2aGRndkh6V2NUSlhNeGdDOWs3YzhwUE5Edk5sc3JaUG5IMG85WEVKdXpEVUtlak5ZRkVPT3pDWmg1Vm5ZemE2WG9PWWpkVGgzd184a3JYR1gxR1Jic2NoODRxdlI3NHh2U0YtVFRnOTFTTmF4UXVjZHhoLTl5SkM0TE1BeExuYVE4b0psM3U2Z3NSREVjZGlwZE5LUkN3WTQxdVZENFdfMFVzeng3?oc=5"
     },
     {
-      "titulo": "Alarmas en rojo por el riesgo país",
+      "titulo": "Rolando Graña: “Argentina tiene más riesgo país que Ucrania, que está en guerra”",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "Radio del Plata",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTEtEREhfUXl0eVlKOGlJNUlRUDdOblp4SENkZV9pbEFCUUg4TUc0N3gwbkloaDdnMGc1aFJUby1KMXVIOTVhMkNsOG9aZ3FWdEpNcjZnWVlJbTRCNFBtcmp4djZUbHBVV09ZQi1vckpZQ1dFQzBtd05LVDNxZmRtQm5JNnFWcjZkb21tb2pfM0F1REoybnB3ZVpNWEdtVGtZT3c?oc=5"
+    },
+    {
+      "titulo": "Argentina en recesión: el riesgo país supera los 1.100 puntos y el dólar quiebra su récord nominal",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "Canal Doce Misiones",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNNDhkVVE1bnVOc2FrMHdzemhCYmtLR0JBRjlWWElpUk0taEU5SGM2TjNjcUFQczAzTEx6THE4QkVmeWVXQXFJc0R6SU5sUWFTdVREdkRXMkFIaXNDME5XUEFpYWMwTzZodVY3bzhKajU2QmU4LUxNZUpGaExHcURBeU1WTzBUb1ZpOFVJMGZVNnhIcnRia25rbWJKbFB6SjFMeHFhNmlpRHR2QzNHV3VPWkZ0WmMyNFFNbFE3UlhsZHhxMWtnNXB2S19DcEduVWprVlJUZENFUXYzZnFKaGJkVnYzcmkwSmFiX3ZyYkNOTQ?oc=5"
+    },
+    {
+      "titulo": "Habló Caputo y el riesgo país volvió a subir",
       "resumen": "",
       "bolsillo": "",
       "fuente": "Página|12",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQaDdLcFI5aUplZG5EbkhvdGVuVjk5T1U2ZXE1UDNFOG1Ic3J3T2JYVDlVZC1BYlU0Sy1jN1FadnhCbHFFdXVZNUwtdmJJMUpSV25ic2JObUh2UEpNaGRqSE5XaG11QmNHUmhEOHlIcjB5bVFIOUFyRUc2b0RjOUk?oc=5"
-    },
-    {
-      "titulo": "Dólar en Argentina: el CCL trepa otro escalón y amplía la brecha con el mayorista al 13%",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "Bloomberg Línea",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWUpsQ0ppOUZsYVAwNnZIYnJiT0t4ODBkY2oxLWZZUVhMcEVPTGlpWmx4bEJ2dEUzUW1pYzBGU2V3a285UGJxc0hMM1dHZnVJUnlrdzFzNlR0b3FXUnRQTTlkMndsVmh6RFNPMk1faERYZjJNaUxrY1dzNjVvcGEwd2hJZkJZZDJZaWhIdjA4UVV5OVFSekV3TFVnOEZ2cHpfcVhxTzBlOVQ1b3Z0MDZZWl9GQWRIamdRbm44aktoVHRtUmJ2SGZTTEVPVmVfdXNRTjBGeEdSZGlOd9IB7gFBVV95cUxQZ1RWZHVQeHdmMlU5VFRZLUFaZ01uTjgtdXozNnVTRzhUNzhpRzJVZHlJc1hZdW5JUGZVZ1llNjNFX05NZkdGYWZWbm82X1BkSUdrQnNQWWNzN0RsdlliaURVRnBSVTFtQ05YTXVHT2piTUVwR0p2R3ZDdF9vZjRTeXJ5cFFpNlVyQ2RsalFBX2NtdW1Ed0h6X0doNkVUODJ0bDRhMDFpWW1aV09taGNwNHA2U3ZTNFd6UmR6U1p2VmFEeXk4bjNBTW03VWZob2dnWU4xTE80Nk9uTDRKLVpPb21RR0xra3BBNERSYV93?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdTJxV3lnZUI0RDN0UDk2NXExcFg1cENROE9mOUhEUnZWdzZlWUdiaXJqblRvYTdKRERDTGhVMzR1QzNTaDhqNGVUekRaSUJzSmZPQ2cyd2Rubm1RQ3BUUW9iYTFualduc2JjdVdtbDhTVm83RTI3MU1HQWNRaDlVZlJCZ3ZWV1pKWmxFTw?oc=5"
     }
   ]
 }
