@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-25T22:30:11-03:00",
+  "actualizado": "2026-11-26T22:32:35-03:00",
   "dolar": {
     "oficial": {
-      "compra": 1580,
-      "venta": 1630,
+      "compra": 1575,
+      "venta": 1625,
       "fuente": "Banco Nación"
     },
     "blue": {
@@ -11,22 +11,22 @@
       "venta": 1710
     },
     "mep": {
-      "venta": 1688.7
+      "venta": 1666.4
     },
     "ccl": {
       "venta": 1767.9
     },
     "tarjeta": {
-      "venta": 2119
+      "venta": 2112.5
     },
     "mayorista": {
-      "venta": 1604
+      "venta": 1601.5
     },
-    "fuente": "dolarapi.com, 25/11/2026"
+    "fuente": "dolarapi.com, 26/11/2026"
   },
   "riesgoPais": {
-    "valor": 1094,
-    "fuente": "JP Morgan vía argentinadatos.com, 25/11/2026"
+    "valor": 1067,
+    "fuente": "JP Morgan vía argentinadatos.com, 26/11/2026"
   },
   "inflacion": {
     "ultimoMes": "Octubre 2026",
@@ -81,50 +81,50 @@
   "plazoFijo": {
     "tnaReferencia": 24,
     "detalle": "Tasa más alta a 30 días que informan los bancos al BCRA (BANCO BICA). Los bancos grandes suelen pagar menos.",
-    "fuente": "BCRA vía argentinadatos.com, 25/11/2026"
+    "fuente": "BCRA vía argentinadatos.com, 26/11/2026"
   },
   "noticias": [
     {
-      "titulo": "El riesgo país de la Argentina cerró en 1.067 puntos básicos tras un rebote de los bonos",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "Agencia Noticias Argentinas",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQaUVNTEhqWHZoc1l5cnlNM2t6aEYyLUJUeklrNlZHeS0zQlg1cFhVNDRUa094a1Zscm56OHB4YTZJTTdObEpLVTFOS25xTVhOanBjRFlDU0JuV016MzZDdUlLWll2LU92ZjJZaTN6aUFPZXYtOUlXSEh4YXVTTHFIWVBveHRlX1g5a3lzcGpfbTVtWTV5bElEcFNreFhFalNJYVNpY3ZEODY2cG1nQnpiNy1Yd05QMERyakNtN2ROSEdRai1BM1d3emEwcGdJd3I3d1VSSXNsaUJFWEdYQ3NtTjU1OTZOUmNpWUHSAfgBQVVfeXFMUEZBejBXbnQ4Z1JramZXNFJZREZiRHU5ZXB3bDlPX3J4SFk2QkNNdjNtaHhtdHBMd2FGdktBZk11a25iUVRUSWF2SGpTaDJCZlFaMzY5ZDN2RnhQX25pS3NEYVc4N0pHQWZTMjBDMTdzWmdtcFQ3NnZKM1VYMk4zN3MtNUh6bTJTbks1aVdQTTR3NXFDZHNwLXBfaDRsUy1rZ2FYdWtMMjdWN19rbkpwTmgzSDBMYS0yZGhINEN3SUxCMnV5UThsbEhyWGZhMXJ1cV91eGlwTlFhMDZTMjVreW1QQU9jbWtmMnJ6YTVfNHhEQ2x0Y0hxVU8?oc=5"
-    },
-    {
-      "titulo": "Jornada financiera: el dólar subió por séptimo día consecutivo, cayó el riesgo país y las acciones recuperaron terreno",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "Infobae",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNXFodTVUM09LTUEyUEFFbDJLenpRY0JYMVJ0Nm80M1prRDNOLVJmUXA0WjRodTBza3Jkekw1emF3dDdwcFlqMFQzYUlYVm5aS19VZnd0UjY5TVVhSE5Kd1hwcjZncWRUakMweFY4Z1ItcE1xb3V0ZmdRRmhHSUFEaE1iMHhVY0JPM1BXTDlNQ3Jub2N1d1hjd2ZkQmZiNm9ORTRQbTNKazZyY05mLTNTSUk2bkhiRlVaaDhKcW5PbUFBWER5TlRuTGp1Z2FIN2t5UW9WR2huQmxZQkNpWGE5cWQ1UUhnbU1iSWpid0VlOGpkZkHSAY4CQVVfeXFMTm0zWU9wR1p3T0NTVlhFTy1ZUWljVDM4YkY0QVZzSjk3Rjd6S1puV0NPMXFsNE1xQTV3RmFDVC1uOGEyWDBTc3d4RzMzYjlnN1BrdE8wMEhYT1g0Qlc4X2lxN1NBbDZHbzVPM1Q1RHBSLTJPOUpYSHRjZW0wVDRsczVFdEIxM0o3dHdPRGZsVFlobDhRY0RzUkVNdm5iQTRiTlBTMEJMZ1VBQmRtZkZkcWIwZjFZSWRJRUtIcXpQam9aWGdjRktFSEczbFJXOHRYbHRQbHM4OElJY241Tk5XU2hmSXpmeHdTTXZZeV9aSGRibFRIUzVhWmtvOWk0Uk5hb0I2bDlpU0xVN2hnT1Jn?oc=5"
-    },
-    {
-      "titulo": "Argentina en recesión: el riesgo país cerró en 1.067 puntos básicos, tras alcanzar los 1.131",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "La Nueva Mañana",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQjdhTVRCN3ZoZGd2SHpXY1RKWE14Z0M5azdjOHBQTkR2TmxzclpQbkgwbzlYRUp1ekRVS2VqTllGRU9PekNaaDVWbll6YTZYb09ZamRUaDN3XzhrclhHWDFHUmJzY2g4NHF2Ujc0eHZTRi1UVGc5MVNOYXhRdWNkeGgtOXlKQzRMTUF4TG5hUThvSmwzdTZnc1JERWNkaXBkTktSQ3dZNDF1VkQ0V18wVXN6eDfSAbQBQVVfeXFMT0I3YU1UQjd2aGRndkh6V2NUSlhNeGdDOWs3YzhwUE5Edk5sc3JaUG5IMG85WEVKdXpEVUtlak5ZRkVPT3pDWmg1Vm5ZemE2WG9PWWpkVGgzd184a3JYR1gxR1Jic2NoODRxdlI3NHh2U0YtVFRnOTFTTmF4UXVjZHhoLTl5SkM0TE1BeExuYVE4b0psM3U2Z3NSREVjZGlwZE5LUkN3WTQxdVZENFdfMFVzeng3?oc=5"
-    },
-    {
-      "titulo": "Rolando Graña: “Argentina tiene más riesgo país que Ucrania, que está en guerra”",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "Radio del Plata",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTEtEREhfUXl0eVlKOGlJNUlRUDdOblp4SENkZV9pbEFCUUg4TUc0N3gwbkloaDdnMGc1aFJUby1KMXVIOTVhMkNsOG9aZ3FWdEpNcjZnWVlJbTRCNFBtcmp4djZUbHBVV09ZQi1vckpZQ1dFQzBtd05LVDNxZmRtQm5JNnFWcjZkb21tb2pfM0F1REoybnB3ZVpNWEdtVGtZT3c?oc=5"
-    },
-    {
-      "titulo": "Argentina en recesión: el riesgo país supera los 1.100 puntos y el dólar quiebra su récord nominal",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "Canal Doce Misiones",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNNDhkVVE1bnVOc2FrMHdzemhCYmtLR0JBRjlWWElpUk0taEU5SGM2TjNjcUFQczAzTEx6THE4QkVmeWVXQXFJc0R6SU5sUWFTdVREdkRXMkFIaXNDME5XUEFpYWMwTzZodVY3bzhKajU2QmU4LUxNZUpGaExHcURBeU1WTzBUb1ZpOFVJMGZVNnhIcnRia25rbWJKbFB6SjFMeHFhNmlpRHR2QzNHV3VPWkZ0WmMyNFFNbFE3UlhsZHhxMWtnNXB2S19DcEduVWprVlJUZENFUXYzZnFKaGJkVnYzcmkwSmFiX3ZyYkNOTQ?oc=5"
-    },
-    {
-      "titulo": "Habló Caputo y el riesgo país volvió a subir",
+      "titulo": "Diputados aprobó la reforma del BCRA con cambios y abstención del PJ",
       "resumen": "",
       "bolsillo": "",
       "fuente": "Página|12",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdTJxV3lnZUI0RDN0UDk2NXExcFg1cENROE9mOUhEUnZWdzZlWUdiaXJqblRvYTdKRERDTGhVMzR1QzNTaDhqNGVUekRaSUJzSmZPQ2cyd2Rubm1RQ3BUUW9iYTFualduc2JjdVdtbDhTVm83RTI3MU1HQWNRaDlVZlJCZ3ZWV1pKWmxFTw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbWVsVXFRblNxYnlYLUo1aEtsOU11b1c4cnZEMXg3OFNmNHNmQzQxTFE4a3V0SlYzd016alVydGhwc1pmXzQ5YnJBS1pENEhSRXIwT0RvS2dUMk9hQ2xkV1hsZDR0Ql9fVnBYUzJNWmliMTJUMWNYNmZ5cHl4OVMyWDFDUjlIV0RsRkxJVk5TaUJWVDNhQ001Q0VjVkxHa3FuZDVyRktqYlpfMkV1?oc=5"
+    },
+    {
+      "titulo": "Sigue la polémica por el oro: según la AGN, el BCRA envió 1.000 barras al Banco de Inglaterra y fundió 115 lingotes",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "Infobae",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMkRKc3dFYnB6dXZHRXdRd1haSWFMRkhPTFJWWGVLVVhPZUxjWEFLZTlVUGdNdWdrSm5qblQ2cFdHeGx0UTJheXNLbU5PZlJsU25tSVd0ZG5XUWhndkM5TjNCeU9UR2xLMFkzc0o5RFJqT2VNWVVtOXQ3cGxacW01YVA2emRLWEN0WHRsUU4wNGkyT3AzbDdDaHJVaU1Pb21ObFdKeE1UcDJQOEhvOTlCQXNwUVNacGxjWGdvb3RfZzJtVURYczFzMHQyeF9lMWND0gHrAUFVX3lxTE1FTzk5c1Z0V2h1cFNzeGtpOXFPbEZDOUs4bVdlendQRXBxa01ZRFZxandGWjVvTmdpSWJyZ0VlZzZPSFo1SnlRYU1zeFM1SFNTU0duNzQyeG9FYTh5YllPN2JiTGNOYk5vNjA1cVdQYkJVTVhIM2hKd2dqUy1KZWRsdFlwb2pNbUdTUG15U2VId1I1dWM2YktfNjRkSE8zamFrSW4zcWtwR0dYLTVJMVJiN0tubVcyQjJPY2VQWWlnc2F6NEtrTTh2cnpqUjRsTU1kVFNHbElYdzFoLV9vRmVOLUo5ZnNYNUU1WWM?oc=5"
+    },
+    {
+      "titulo": "5 datos para entender la incertidumbre económica actual",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "Chequeado",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeU5EZHRPNzFOYlRDbVhuaUNjdDJhVkY3LW9GbndwSzVjRjZ2YUFjYmx3NURMYTM3czA0djBrQTBESnVGQXc3VGc3VFg3MnkwTU1WaXZXZzd5VTVlV0Rfdll5eklSOEZvLTVFYlIzMmhBUUtZYW9PZ0toSW9Xcm9kRkxTOG1KVkJXSmFQamtiYjdFWUppaTBB?oc=5"
+    },
+    {
+      "titulo": "¿Puede Argentina evitar otra crisis cambiaria? Eduardo Jacobs analiza dólar, riesgo país y crecimiento",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "Agrositio",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOOWlWWjdZVlF3Qmw5MjNVczVOWDZfTUtRVHk3Um81bDlfZjdQX3VSQXA4Znc0cWRVWFdNR3BDa1JpNnJkZm90dG45ck9XQ0Vzd0dDN3diaTg0bEptLXluS0xQbURtWHJDRGMxQkdJc3dYXzhVTjVMWWpubUstUXRnYktIOEt3aC1INEN5bWpFeGNpaDE2dVE5Ny1hOGZ4VVFQYXRpV0FfN1RZWDMxR1ZUX2NyTFhTQU5CX01KZWVKRzBUTDcwYkpCeFY2bldtd1lRd2h6aU1KbXE3YUJ2QW81WFRrWjVNeGw2N3BVdGdqVU02dDlaWXc?oc=5"
+    },
+    {
+      "titulo": "Orlando Ferreres pronostica hasta dónde puede moverse el dólar y advierte por la falta de inversiones",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "Plan M",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPTFBMR0ZLdUg4OTVhbnBOcnlhSWhCTnFiLWFQSW83Y2ZkbjdsN2owMFpveDJYSi0wczI0c2hka0w0TV81UThsQ0JNYVQtT0ZDMmd5Unp4R2x0V0JxVS1OaFBqSThmb3NCcDZyMDJmYURQR1JfYm5UZmhmdFY0djVxREZ1RVNwa3pxQjhwQTl0OWZUb0wwaEFvQ3J0YktJdTBPeWM1WlVLOXItODBfSDNFVXpCbEI0QVNadC1HcVhCV1Mweko2VVh4NHRzX1lrMFdkWDBuYWxneTdrcDFtOVRtdURtekhCT01QR3FITA?oc=5"
+    },
+    {
+      "titulo": "Milei celebró la reforma de la Carta Orgánica del BCRA asegurando que pondrá fin a 90 años “de estafa”",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "Bloomberg Línea",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYzRvZFVWYzZIUkl1YTg2NE9LNVFxMlB4bTI0Q0RqbDhHSFlkcFI4bkM0VG9FRC1qVUtzMVZsN1Z2WVMxcnoxc1RRZEhoWTYzWHpfVE9RbnBuU3k5aGdwOXVNM092NllLSWVJck96ckZBX2RpOWZBQWZ5VVYybUdQQW8xQVhrOFRSeFBCZ3Rib0dtcEkteHZMQWdadU1CMXA0WTNkd25MZzVPX0dCMXFnb0FydUVsZ0tvQkppSDcxbUEtamVtWmQxb3IxRjdNeU9weGd3Y2ZFSzNQMXM0SmxmczQ2UE7SAfgBQVVfeXFMTWkxUlkyX2tOYXJKblFrUlljZ285Ym9tZmtwN3dYWTRqQ1JfdEFrZGdrazdqbnNLWEJEU1hIVEd4N1FhcWs1ekwxWmxsMFRGSHZQc0p2R3ZKMFp0MGlXcEdtN0xMQ1ZnSWd6d3V4U3d5b3ctYjJ2RmFXcG1XckZST0hPaUFka1JEWDEybk15YzdtaTI0ZDNNTXJwMml0SU9nUEwzNENaQnMwdTVPTjgzNnlFZDh6ZENjVkNvUExIU0FCdE9iZmtnczVRaW9vX0pwTlpWc2M5bEROWnVNR1dUX09Pb3dIYUJuZTl0ZHl5Y1IwWDhWaWJBTDU?oc=5"
     }
   ]
 }
