@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-26T22:32:35-03:00",
+  "actualizado": "2026-11-27T22:28:23-03:00",
   "dolar": {
     "oficial": {
       "compra": 1575,
@@ -7,26 +7,26 @@
       "fuente": "Banco Nación"
     },
     "blue": {
-      "compra": 1690,
-      "venta": 1710
+      "compra": 1675,
+      "venta": 1695
     },
     "mep": {
-      "venta": 1666.4
+      "venta": 1661.9
     },
     "ccl": {
-      "venta": 1767.9
+      "venta": 1751.3
     },
     "tarjeta": {
       "venta": 2112.5
     },
     "mayorista": {
-      "venta": 1601.5
+      "venta": 1605
     },
-    "fuente": "dolarapi.com, 26/11/2026"
+    "fuente": "dolarapi.com, 27/11/2026"
   },
   "riesgoPais": {
     "valor": 1067,
-    "fuente": "JP Morgan vía argentinadatos.com, 26/11/2026"
+    "fuente": "JP Morgan vía argentinadatos.com, 27/11/2026"
   },
   "inflacion": {
     "ultimoMes": "Octubre 2026",
@@ -81,50 +81,50 @@
   "plazoFijo": {
     "tnaReferencia": 24,
     "detalle": "Tasa más alta a 30 días que informan los bancos al BCRA (BANCO BICA). Los bancos grandes suelen pagar menos.",
-    "fuente": "BCRA vía argentinadatos.com, 26/11/2026"
+    "fuente": "BCRA vía argentinadatos.com, 27/11/2026"
   },
   "noticias": [
     {
-      "titulo": "Diputados aprobó la reforma del BCRA con cambios y abstención del PJ",
-      "resumen": "",
-      "bolsillo": "",
-      "fuente": "Página|12",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbWVsVXFRblNxYnlYLUo1aEtsOU11b1c4cnZEMXg3OFNmNHNmQzQxTFE4a3V0SlYzd016alVydGhwc1pmXzQ5YnJBS1pENEhSRXIwT0RvS2dUMk9hQ2xkV1hsZDR0Ql9fVnBYUzJNWmliMTJUMWNYNmZ5cHl4OVMyWDFDUjlIV0RsRkxJVk5TaUJWVDNhQ001Q0VjVkxHa3FuZDVyRktqYlpfMkV1?oc=5"
-    },
-    {
-      "titulo": "Sigue la polémica por el oro: según la AGN, el BCRA envió 1.000 barras al Banco de Inglaterra y fundió 115 lingotes",
+      "titulo": "Cayó fuerte el riesgo país de la Argentina y se acomodó debajo de los 1.000 puntos",
       "resumen": "",
       "bolsillo": "",
       "fuente": "Infobae",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMkRKc3dFYnB6dXZHRXdRd1haSWFMRkhPTFJWWGVLVVhPZUxjWEFLZTlVUGdNdWdrSm5qblQ2cFdHeGx0UTJheXNLbU5PZlJsU25tSVd0ZG5XUWhndkM5TjNCeU9UR2xLMFkzc0o5RFJqT2VNWVVtOXQ3cGxacW01YVA2emRLWEN0WHRsUU4wNGkyT3AzbDdDaHJVaU1Pb21ObFdKeE1UcDJQOEhvOTlCQXNwUVNacGxjWGdvb3RfZzJtVURYczFzMHQyeF9lMWND0gHrAUFVX3lxTE1FTzk5c1Z0V2h1cFNzeGtpOXFPbEZDOUs4bVdlendQRXBxa01ZRFZxandGWjVvTmdpSWJyZ0VlZzZPSFo1SnlRYU1zeFM1SFNTU0duNzQyeG9FYTh5YllPN2JiTGNOYk5vNjA1cVdQYkJVTVhIM2hKd2dqUy1KZWRsdFlwb2pNbUdTUG15U2VId1I1dWM2YktfNjRkSE8zamFrSW4zcWtwR0dYLTVJMVJiN0tubVcyQjJPY2VQWWlnc2F6NEtrTTh2cnpqUjRsTU1kVFNHbElYdzFoLV9vRmVOLUo5ZnNYNUU1WWM?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMUxNRzdua2tpNnBlMnFrM3A3ZW9iQk5VcWJwY1ZSZmhJUHI4bW1HRU00bHJzT0RmNHAybXVQUVh0MURfZ1V3WUFHdDBJR1ZMTWlhdWRKTHdTeFFvX19Ia2tETFE2ZDZ1NUg5OTFiMlRUOWhQNThYejJMclppdnZZMUlac2tDSUxLUmpsMi1jenIzNmJyUUpkeTVmdVZDRGxKOFBtNVcxelhNekxlZ2x6RzRKbW82NnhrbW43Nld2M2YyRFnSAd4BQVVfeXFMTVVlY2tRN0hPTGFiUkxkd1RaRVFiNkNKQ1VFV2poR1VkUTk5MUtzVHVPMWxsZmZjUVVleGxKSjJKRUhGaWxsU242NUlQOERUYkJBczlnaUM4UlY3R0U0enhIWUhlaUhBTXhBX3gteVdoRTdDa3IwUV9mcEliMjROOFFpUnhZR285aDVDNS1tS202Um9XMVZ0RWVfUmpjVEdtTExqeUdBWWR2T3VyMkZJbnlQdE9waFVVQlh6SEZPN0lpcWhQQ05jd0VvWXlnODFGcV9TOGlUbFRJeXI5bmlR?oc=5"
     },
     {
-      "titulo": "5 datos para entender la incertidumbre económica actual",
+      "titulo": "RDEco: qué alternativas tiene la Argentina ante la falta de financiamiento externo",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Chequeado",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeU5EZHRPNzFOYlRDbVhuaUNjdDJhVkY3LW9GbndwSzVjRjZ2YUFjYmx3NURMYTM3czA0djBrQTBESnVGQXc3VGc3VFg3MnkwTU1WaXZXZzd5VTVlV0Rfdll5eklSOEZvLTVFYlIzMmhBUUtZYW9PZ0toSW9Xcm9kRkxTOG1KVkJXSmFQamtiYjdFWUppaTBB?oc=5"
+      "fuente": "Perfil",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcUJsSVJVTlZ0SHBRYmVqZElOOTFYX0d3TTVxTklwcFhwTTFtSDAxZEVpajVLcXNtWENjU2hhT3FmcTNwdjVKLUFXam45LXJjZnFQMVNVYmxteXpXMElvd0EwWWJob0gzTW5zVEdvN1Jxbi0wdGptUndNcC1SUUQwMThydUdBWTFOYWc5UF9Mb2s5YUhDV1o0WjRZV250OU5mRTVPbnRUWGpxenU1dWtOS1NTWUlrM1FZdHdsaGxmTm1GN3hyNERB?oc=5"
     },
     {
-      "titulo": "¿Puede Argentina evitar otra crisis cambiaria? Eduardo Jacobs analiza dólar, riesgo país y crecimiento",
+      "titulo": "Cierre de semana para los mercados: cayó el riesgo país y el dólar se mantuvo",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Agrositio",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOOWlWWjdZVlF3Qmw5MjNVczVOWDZfTUtRVHk3Um81bDlfZjdQX3VSQXA4Znc0cWRVWFdNR3BDa1JpNnJkZm90dG45ck9XQ0Vzd0dDN3diaTg0bEptLXluS0xQbURtWHJDRGMxQkdJc3dYXzhVTjVMWWpubUstUXRnYktIOEt3aC1INEN5bWpFeGNpaDE2dVE5Ny1hOGZ4VVFQYXRpV0FfN1RZWDMxR1ZUX2NyTFhTQU5CX01KZWVKRzBUTDcwYkpCeFY2bldtd1lRd2h6aU1KbXE3YUJ2QW81WFRrWjVNeGw2N3BVdGdqVU02dDlaWXc?oc=5"
+      "fuente": "Diario El Día de La Plata",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdmc3SFlmeklleDRyaHRoWWhhMHNMQVpDM0tieXczRHhuTWdRZVB5cVRSTnp4bHc0SG5mVF9mcFVfZm5POFpjNmx3ckEzZ0hjUG9ZdWdQZWZXUENwWnZQUU8tVzZLbUdyYXcyU3hZblphV3hsZ19vdFBFdmZyV2N6NldybVBrOFVUTUdmMEZCcnhaRmtXYUpTVy1HYS1tRUFDM3lFb0hSbVdrMEFDN2VCSGhKcjNkTWNjaU9ib0Q3a1JhM1pPWlE?oc=5"
     },
     {
-      "titulo": "Orlando Ferreres pronostica hasta dónde puede moverse el dólar y advierte por la falta de inversiones",
+      "titulo": "Dólar oficial, blue, MEP y CCL: a cuánto cerró cada cotización en el cierre semanal",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Plan M",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPTFBMR0ZLdUg4OTVhbnBOcnlhSWhCTnFiLWFQSW83Y2ZkbjdsN2owMFpveDJYSi0wczI0c2hka0w0TV81UThsQ0JNYVQtT0ZDMmd5Unp4R2x0V0JxVS1OaFBqSThmb3NCcDZyMDJmYURQR1JfYm5UZmhmdFY0djVxREZ1RVNwa3pxQjhwQTl0OWZUb0wwaEFvQ3J0YktJdTBPeWM1WlVLOXItODBfSDNFVXpCbEI0QVNadC1HcVhCV1Mweko2VVh4NHRzX1lrMFdkWDBuYWxneTdrcDFtOVRtdURtekhCT01QR3FITA?oc=5"
+      "fuente": "Diario Río Negro",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVExSTVNPNkYxcXhxbjUxdV9EWVFpT0FfUGpBeV9wVWJHb1B5dUxFMFZHeWQtQ0RNaUZGdzBlZVRySGRLUFNPX3Jnc0Q2ZmhQaXZmSVdIWWxCOUc5bTJZNVpsUG12VkZiYmphMUV5Z0hoV3Fwb3dwZHc4UXpaYUlpbGlBckVxVHp2eGdoVkxDNGxxMDJFVjA2RnFjWE1hbFVFRmh0b3pRRzdlcWhEc0FvelRDaFPSAbwBQVVfeXFMT3QwS205UEluRXAxYWZOcDVmZGZnLUJndHktUEx0aUgwZkNOWDNhLTFaRHFTOVNOTzM2S3ZFWDd3Um9ZNC0wZzQ3VFZUSDRpZXdkbzVEb1VEX1N6RXRxZ0tyVmNvRVh0ZEVfZzhOdE9UbFctSjZRNTZBZi14U2JHYWlBQWdEazdBcjRBaTZVeWo0UTdtYTE0UDRSd1ctdXA5YUZ2bl8zb2x4NlZsMnlOUTNOakphalU5SWw5eWo?oc=5"
     },
     {
-      "titulo": "Milei celebró la reforma de la Carta Orgánica del BCRA asegurando que pondrá fin a 90 años “de estafa”",
+      "titulo": "Fuerte rebote de bonos y el riesgo país volvió a tres dígitos",
       "resumen": "",
       "bolsillo": "",
-      "fuente": "Bloomberg Línea",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYzRvZFVWYzZIUkl1YTg2NE9LNVFxMlB4bTI0Q0RqbDhHSFlkcFI4bkM0VG9FRC1qVUtzMVZsN1Z2WVMxcnoxc1RRZEhoWTYzWHpfVE9RbnBuU3k5aGdwOXVNM092NllLSWVJck96ckZBX2RpOWZBQWZ5VVYybUdQQW8xQVhrOFRSeFBCZ3Rib0dtcEkteHZMQWdadU1CMXA0WTNkd25MZzVPX0dCMXFnb0FydUVsZ0tvQkppSDcxbUEtamVtWmQxb3IxRjdNeU9weGd3Y2ZFSzNQMXM0SmxmczQ2UE7SAfgBQVVfeXFMTWkxUlkyX2tOYXJKblFrUlljZ285Ym9tZmtwN3dYWTRqQ1JfdEFrZGdrazdqbnNLWEJEU1hIVEd4N1FhcWs1ekwxWmxsMFRGSHZQc0p2R3ZKMFp0MGlXcEdtN0xMQ1ZnSWd6d3V4U3d5b3ctYjJ2RmFXcG1XckZST0hPaUFka1JEWDEybk15YzdtaTI0ZDNNTXJwMml0SU9nUEwzNENaQnMwdTVPTjgzNnlFZDh6ZENjVkNvUExIU0FCdE9iZmtnczVRaW9vX0pwTlpWc2M5bEROWnVNR1dUX09Pb3dIYUJuZTl0ZHl5Y1IwWDhWaWJBTDU?oc=5"
+      "fuente": "Diario El Norte - San Nicolás",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVFc3VkZXcGNlb0dzZzBGNUZfT3praTBLSkMybXhKMl95OGlQNUk5bzAzOGJDcW5HX1R3WEZjeDJueWcwdDRrNjJlQXZYM0dwQldldjJ1WWZTZXl0RXVCZTV5QkRna2NjWEs2RXVCaDI4YTJhTmthaFV4RDNfN3AtTm1xOGlJZU9QeWNvMkJpMmNaazlLTXc?oc=5"
+    },
+    {
+      "titulo": "Cae el riesgo país de Argentina y se ubica debajo de los 1.000 puntos",
+      "resumen": "",
+      "bolsillo": "",
+      "fuente": "ANSA Latina",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNZ0dEM3piX21ORTJZUm9kaENzVlZBUnVjMXdrYlRnQzZlVzBBVHdkSGNER2tsOFliY24xZGlrYVpyOW8zTVlwV3BDRmFrZ2sxRHRCNDVBekpnVjR5dGtfeUpKSGFjVjlWdzZCRjQ2bjl6MmVDQ2ZDXzdSU0Y3QzN3Mk1SWnZWRVlORVdIaWZOYUJVei1rLWJQRUpCdFhBZDVRQVNaeWs4UTE0T3JBQjE1ZVFmZjM3NnA0dVNsRmQyT3Z2a0QycjhYRE1icTlESHVwTmRnWjRqQTYxdGRlWHFXd1NLZHJWUkNmOGZSOFJiRW05NkcwQk1xclpkSGRYcS1GRkl3WEQxa0JxOWlWdHZFN2MyS2x3MDJz0gGYAkFVX3lxTE1nR0QzemJfbU5FMllSb2RoQ3NWVkFSdWMxd2tiVGdDNmVXMEFUd2RIY0RHa2w4WWJjbjFkaWthWnI5bzNNWXBXcENGYWtnazFEdEI0NUF6SmdWNHl0a195SkpIYWNWOVZ3NkJGNDZuOXoyZUNDZkNfN1JTRjdDM3cyTVJadlZFWU5FV0hpZk5hQlV6LWstYlBFSkJ0WEFkNVFBU1p5azhRMTRPckFCMTVlUWZmMzc2cDR1U2xGZDJPdnZrRDJyOFhETWJxOURIdXBOZGdaNGpBNjF0ZGVYcVd3U0tkclZSQ2Y4ZlI4UmJFbTk2RzBCTXFyWmRIZFhxLUZGSXdYRDFrQnE5aVZ0dkU3YzJLbHcwMnM?oc=5"
     }
   ]
 }
